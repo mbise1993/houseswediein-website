@@ -1,4 +1,3 @@
-/* CSS reset */
 * {
   margin: 0;
 }
@@ -9,6 +8,15 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 ol,
 ul,
 li {
@@ -16,7 +24,11 @@ li {
   padding: 0;
 }
 
-/* Global styles */
+html {
+  font-family: monospace;
+  font-size: 110%;
+}
+
 body {
   display: grid;
   grid:
@@ -27,11 +39,20 @@ body {
   height: 100vh;
   width: 100vw;
   background-color: black;
-  background-image: url(/backgrounds/trippy-background.gif);
+  background-image: url(/backgrounds/trippy-rainbow.gif);
   color: white;
 }
 
-/* Utilities */
+@media (max-width: 720px) {
+  body {
+    grid:
+      'header' auto
+      'main' 1fr
+      'footer' auto
+      / 1fr;
+  }
+}
+
 .reversed {
   transform: rotateY(180deg);
 }

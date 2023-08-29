@@ -20,17 +20,20 @@
   background-color: black;
 }
 
-.main-nav {
+.nav {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  justify-content: space-evenly;
+  gap: 1rem;
+  flex-wrap: wrap;
   padding: 1rem 2rem;
   border: 2px solid cyan;
 }
 
-.main-nav > a {
-  text-decoration: none;
+.nav-item {
+  padding: 0 0.5rem;
   color: white;
+  font-size: 1.2rem;
 }
 
 .side-container {
@@ -49,6 +52,45 @@
   grid-area: right;
 }
 
-.lavalamp {
+.lava-lamp-img {
   height: 85px;
+  transition: 1s;
+}
+
+.lava-lamp-img:hover {
+  animation: spin 1s linear infinite;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.footer-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.hit-counter {
+  color: lime;
+  background-color: black;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 720px) {
+  .side-container {
+    display: none;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
