@@ -1,27 +1,37 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* CSS reset */
+* {
+  margin: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
+ol,
+ul,
+li {
+  list-style: none;
+  padding: 0;
+}
+
+/* Global styles */
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  display: grid;
+  grid:
+    'left header right' auto
+    'left main right' 1fr
+    'left footer right' auto
+    / 1fr 720px 1fr;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  background-image: url(/backgrounds/trippy-background.gif);
+  color: white;
+}
+
+/* Utilities */
+.reversed {
+  transform: rotateY(180deg);
 }
