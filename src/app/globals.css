@@ -39,7 +39,7 @@ body {
   height: 100vh;
   width: 100vw;
   background-color: black;
-  background-image: url(backgrounds/trippy-rainbow.gif);
+  background-image: url(/backgrounds/trippy-rainbow.gif);
   color: white;
 }
 
