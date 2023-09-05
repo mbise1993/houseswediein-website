@@ -2,59 +2,61 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 import './globals.css';
-import styles from './layout.module.css';
-import { cn } from '@/util/cn';
 
 export const metadata: Metadata = {
-  title: 'band name',
-  description: 'Website for band name',
+  title: 'Houses We Die In',
+  description: 'Houses We Die In - Austin, TX metalcore',
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+interface NavItemProps {
+  href: string;
+  children: React.ReactNode;
+}
+
+export const NavItem = ({ href, children }: NavItemProps) => {
+  return (
+    <Link className="px-2 text-xl font-bold md:text-2xl" href={href}>
+      {children}
+    </Link>
+  );
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <body>
-        <div className={cn(styles['left-container'], styles['side-container'])}>
-          <img className={styles['lava-lamp-img']} src="/images/lava-lamp.gif" alt="lava lamp" />
-          <img src="/images/black-cat.gif" alt="black cat" />
-        </div>
-
-        <div className={styles['header-container']}>
-          <div className={styles['header-logo']}>band name</div>
-        </div>
-        <main className={styles['main-container']}>
-          <nav className={styles['nav']}>
-            <Link className={styles['nav-item']} href="/">
-              Home
-            </Link>
-            <Link className={styles['nav-item']} href="/live">
-              Live
-            </Link>
-            <Link className={styles['nav-item']} href="/links">
-              Links
-            </Link>
-            <Link className={styles['nav-item']} href="/lyrics">
-              Lyrics
-            </Link>
-            <Link className={styles['nav-item']} href="/tabs">
-              Tabs
-            </Link>
-          </nav>
-          {children}
-        </main>
-        <div className={styles['footer-container']}>
-          <div className={styles['footer-buttons']}>
-            <img src="/images/bookmark-button.gif" alt="bookmark" />
-            <Link href="/very-important">
-              <img src="/images/click-here-button.gif" alt="click here" />
-            </Link>
+        <div className="mx-auto w-full max-w-[768px] overflow-hidden py-8">
+          <div className="paper-bg flex -rotate-[4deg] items-center justify-center p-8">
+            <h1 className="whitespace-nowrap text-5xl">houseswediein</h1>
           </div>
-          <div className={styles['hit-counter']}>HIT COUNTER</div>
-        </div>
-
-        <div className={cn(styles['right-container'], styles['side-container'])}>
-          <img className={styles['lava-lamp-img']} src="/images/lava-lamp.gif" alt="lava lamp" />
-          <img className="reversed" src="/images/black-cat.gif" alt="black cat" />
+          <main className="mt-4 flex min-h-[600px] flex-col bg-orange-50 pb-8">
+            <nav className="flex flex-wrap items-center justify-evenly gap-4 bg-orange-50 px-8 py-6">
+              <NavItem href="/">Home</NavItem>
+              <NavItem href="/live">Live</NavItem>
+              <NavItem href="/lyrics">Lyrics</NavItem>
+              <NavItem href="/tabs">Tabs</NavItem>
+            </nav>
+            {children}
+          </main>
+          <div className="flex items-center justify-center gap-4 p-8">
+            <div className="flex flex-col">
+              <Link href="/very-important">
+                <img src="/images/click-here-button.gif" alt="click here" />
+              </Link>
+            </div>
+            <a href="https://www.free-website-hit-counter.com">
+              <img
+                src="https://www.free-website-hit-counter.com/c.php?d=6&id=155129&s=1"
+                alt="Free Website Hit Counter"
+              />
+            </a>
+            <br />
+            {/* <div className="bg-black text-2xl text-[lime]">HIT COUNTER</div> */}
+          </div>
         </div>
       </body>
     </html>
