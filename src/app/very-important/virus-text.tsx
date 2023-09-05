@@ -32,7 +32,13 @@ export const VirusText = ({ className, children }: VirusTextProps) => {
   * http://www.mf2fm.com/rv  *
   * DON'T EDIT BELOW THIS BOX *
   \***************************/
-    let colours = new Array('#090', '#0f0', '#6f6', '#cfc', 'transparent');
+    let colors = new Array(
+      '#d97706',
+      '#dc2626',
+      '#c2410c',
+      '#991b1b',
+      'transparent',
+    );
     let elems = new Array();
     let chars = new Array();
     let elmax = 0;
@@ -65,10 +71,14 @@ export const VirusText = ({ className, children }: VirusTextProps) => {
       let t: number;
       for (let i = 0; i < chmax; i++) {
         t = 1000 * (delay + seconds * Math.random());
-        for (let j = 0; j < colours.length; j++) {
-          setTimeout(() => {
-            chars[i].style.backgroundColor = colours[j];
-          }, t + 100 * j);
+        for (let j = 0; j < colors.length; j++) {
+          const colorIdx = j;
+          setTimeout(
+            () => {
+              chars[i].style.backgroundColor = colors[colorIdx];
+            },
+            t + 100 * j,
+          );
         }
 
         setTimeout(() => {
@@ -76,17 +86,20 @@ export const VirusText = ({ className, children }: VirusTextProps) => {
         }, t + 100);
       }
 
-      setTimeout(() => {
-        rootEl.style.cursor = 'pointer';
-        rootEl.addEventListener('click', () => {
-          router.replace('/');
-        });
-        end();
-      }, 1000 * (delay + seconds));
+      setTimeout(
+        () => {
+          rootEl.style.cursor = 'pointer';
+          rootEl.addEventListener('click', () => {
+            router.replace('/');
+          });
+          end();
+        },
+        1000 * (delay + seconds),
+      );
     }
 
     function end() {
-      rootEl.style.backgroundColor = colours[(elmax = ++elmax % colours.length)];
+      rootEl.style.backgroundColor = colors[(elmax = ++elmax % colors.length)];
       setTimeout(end, 100);
     }
 

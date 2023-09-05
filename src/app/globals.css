@@ -1,58 +1,32 @@
-* {
-  margin: 0;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+@layer base {
+  a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+  }
 
-a {
-  text-decoration: none;
-  -webkit-tap-highlight-color: transparent;
-}
+  a:hover {
+    text-decoration: underline;
+  }
 
-a:hover {
-  text-decoration: underline;
-}
+  html {
+    font-family: monospace;
+    font-size: 110%;
+  }
 
-ol,
-ul,
-li {
-  list-style: none;
-  padding: 0;
-}
-
-html {
-  font-family: monospace;
-  font-size: 110%;
-}
-
-body {
-  display: grid;
-  grid:
-    'left header right' auto
-    'left main right' 1fr
-    'left footer right' auto
-    / 1fr 720px 1fr;
-  height: 100vh;
-  width: 100vw;
-  background-color: black;
-  background-image: url(/backgrounds/trippy-rainbow.gif);
-  color: white;
-}
-
-@media (max-width: 720px) {
   body {
-    grid:
-      'header' auto
-      'main' 1fr
-      'footer' auto
-      / 1fr;
+    height: 100vh;
+    width: 100vw;
+    background-color: theme(colors.orange.900);
+    background-image: url(/images/red-paper.jpg);
   }
 }
 
-.reversed {
-  transform: rotateY(180deg);
+@layer components {
+  .paper-bg {
+    background-image: url(/images/yellow-paper-1.jpg);
+  }
 }
