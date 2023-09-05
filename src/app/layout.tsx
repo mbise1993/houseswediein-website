@@ -56,14 +56,6 @@ export default function RootLayout({
                 <img src="/images/click-here-button.gif" alt="click here" />
               </Link>
             </div>
-            {process.env.NODE_ENV === 'production' && (
-              <a href="https://www.free-website-hit-counter.com">
-                <img
-                  src="https://www.free-website-hit-counter.com/c.php?d=6&id=155129&s=1"
-                  alt="Free Website Hit Counter"
-                />
-              </a>
-            )}
           </div>
         </div>
       </body>
