@@ -33,9 +33,13 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <LogMessage />
-        <div className="mx-auto w-full max-w-[768px] overflow-hidden py-8">
-          <div className="paper-bg flex -rotate-[4deg] items-center justify-center p-4 md:p-8">
-            <img alt="Logo" src="/logos/logo-main.svg" />
+        <div className="mx-auto w-full max-w-[768px] overflow-hidden py-8 md:overflow-visible">
+          <div className="paper-bg group flex -rotate-[4deg] items-center justify-center p-4 transition-all hover:scale-105 md:p-8">
+            <img
+              className="transition-all group-hover:scale-125"
+              alt="Logo"
+              src="/logos/logo-main.svg"
+            />
           </div>
           <main className="mt-4 flex min-h-[600px] flex-col bg-orange-50 pb-8">
             <nav className="flex flex-wrap items-center justify-evenly gap-4 bg-orange-50 px-8 py-6">

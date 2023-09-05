@@ -32,13 +32,7 @@ export const VirusText = ({ className, children }: VirusTextProps) => {
   * http://www.mf2fm.com/rv  *
   * DON'T EDIT BELOW THIS BOX *
   \***************************/
-    let colors = new Array(
-      '#d97706',
-      '#dc2626',
-      '#c2410c',
-      '#991b1b',
-      'transparent',
-    );
+    let colors = new Array('#0f0', '#090', '#6f6', '#cfc', 'transparent');
     let elems = new Array();
     let chars = new Array();
     let elmax = 0;

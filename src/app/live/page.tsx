@@ -42,6 +42,9 @@ export default function Page() {
     <div className="px-8">
       <ShowSection heading="UPCOMING" shows={UPCOMING_SHOWS} />
       <ShowSection className="mt-8" heading="PAST" shows={PAST_SHOWS} />
+      <div className="flex justify-center pt-8">
+        <img alt="Globe" src="/images/green-globe.gif" />
+      </div>
     </div>
   );
 }
