@@ -4,12 +4,8 @@
 
 @layer base {
   a {
-    text-decoration: none;
-    -webkit-tap-highlight-color: transparent;
-  }
-
-  a:hover {
     text-decoration: underline;
+    -webkit-tap-highlight-color: transparent;
   }
 
   html {

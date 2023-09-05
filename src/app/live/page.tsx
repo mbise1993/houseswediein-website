@@ -10,7 +10,9 @@ const ShowDetails = ({ show }: ShowDetailsProps) => {
       <a className="text-lg text-red-700" href={show.ticketLink}>
         {show.title}
       </a>
-      <div>WHERE: {show.venueName}</div>
+      <div>
+        WHERE: <a href={show.venueLink}>{show.venueName}</a>
+      </div>
       <div>WHEN: {show.date}</div>
     </li>
   );
@@ -26,7 +28,7 @@ const ShowSection = ({ className, heading, shows }: ShowSectionProps) => {
   return (
     <div className={className}>
       <h2 className="text-3xl font-medium">{heading}</h2>
-      <ul className="flex flex-col gap-4">
+      <ul className="mt-2 flex flex-col gap-4">
         {shows.map((show) => (
           <ShowDetails key={show.date} show={show} />
         ))}
