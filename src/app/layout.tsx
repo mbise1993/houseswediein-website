@@ -48,7 +48,14 @@ export default function RootLayout({
                 <img src="/images/click-here-button.gif" alt="click here" />
               </Link>
             </div>
-            <div className="bg-black text-2xl text-[lime]">HIT COUNTER</div>
+            <a href="https://www.free-website-hit-counter.com">
+              <img
+                src="https://www.free-website-hit-counter.com/c.php?d=6&id=155129&s=1"
+                alt="Free Website Hit Counter"
+              />
+            </a>
+            <br />
+            {/* <div className="bg-black text-2xl text-[lime]">HIT COUNTER</div> */}
           </div>
         </div>
       </body>
