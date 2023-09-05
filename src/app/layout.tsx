@@ -1,5 +1,8 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import React from 'react';
+
+import { LogMessage } from '@/app/log-message';
 
 import './globals.css';
 
@@ -29,9 +32,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <LogMessage />
         <div className="mx-auto w-full max-w-[768px] overflow-hidden py-8">
-          <div className="paper-bg flex -rotate-[4deg] items-center justify-center p-8">
-            <h1 className="whitespace-nowrap text-5xl">houseswediein</h1>
+          <div className="paper-bg flex -rotate-[4deg] items-center justify-center p-4 md:p-8">
+            <img alt="Logo" src="/logos/logo-main.svg" />
           </div>
           <main className="mt-4 flex min-h-[600px] flex-col bg-orange-50 pb-8">
             <nav className="flex flex-wrap items-center justify-evenly gap-4 bg-orange-50 px-8 py-6">
@@ -48,14 +52,14 @@ export default function RootLayout({
                 <img src="/images/click-here-button.gif" alt="click here" />
               </Link>
             </div>
-            <a href="https://www.free-website-hit-counter.com">
-              <img
-                src="https://www.free-website-hit-counter.com/c.php?d=6&id=155129&s=1"
-                alt="Free Website Hit Counter"
-              />
-            </a>
-            <br />
-            {/* <div className="bg-black text-2xl text-[lime]">HIT COUNTER</div> */}
+            {process.env.NODE_ENV === 'production' && (
+              <a href="https://www.free-website-hit-counter.com">
+                <img
+                  src="https://www.free-website-hit-counter.com/c.php?d=6&id=155129&s=1"
+                  alt="Free Website Hit Counter"
+                />
+              </a>
+            )}
           </div>
         </div>
       </body>

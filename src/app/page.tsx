@@ -17,9 +17,8 @@ export default function Page() {
     <div>
       <iframe
         className="aspect-video w-full md:px-4"
-        src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=WrXIyrFA7pBY5MBV"
+        src="https://www.youtube.com/embed/ny-POamiHf0?si=lmVi7DRKVJfZ7VR1"
         title="YouTube video player"
-        frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
       ></iframe>
