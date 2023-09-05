@@ -45,8 +45,8 @@ export default function RootLayout({
             <nav className="flex flex-wrap items-center justify-evenly gap-4 bg-orange-50 px-8 py-6">
               <NavItem href="/">Home</NavItem>
               <NavItem href="/live">Live</NavItem>
-              <NavItem href="/lyrics">Lyrics</NavItem>
-              <NavItem href="/tabs">Tabs</NavItem>
+              <NavItem href="/songs">Songs</NavItem>
+              <NavItem href="/about">About</NavItem>
             </nav>
             {children}
           </main>

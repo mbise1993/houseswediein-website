@@ -11,6 +11,7 @@ interface VirusTextProps {
 export const VirusText = ({ className, children }: VirusTextProps) => {
   const router = useRouter();
   const containerRef = React.useRef<HTMLDivElement>(null);
+  const [isFinished, setIsFinished] = React.useState(false);
 
   React.useEffect(() => {
     if (containerRef.current) {
@@ -86,15 +87,11 @@ export const VirusText = ({ className, children }: VirusTextProps) => {
           rootEl.addEventListener('click', () => {
             router.replace('/');
           });
-          end();
+
+          setIsFinished(true);
         },
         1000 * (delay + seconds),
       );
-    }
-
-    function end() {
-      rootEl.style.backgroundColor = colors[(elmax = ++elmax % colors.length)];
-      setTimeout(end, 100);
     }
 
     function getAllText(el: Node) {
@@ -113,7 +110,19 @@ export const VirusText = ({ className, children }: VirusTextProps) => {
 
   return (
     <div ref={containerRef} className={className}>
-      {children}
+      {isFinished ? (
+        <div className="flex flex-col items-center justify-center gap-8">
+          <img alt="Online now" src="/images/online-now.gif" />
+          <img
+            className="w-[120px]"
+            alt="Dolphin"
+            src="/images/black-cat.gif"
+          />
+          <img className="w-[150px]" alt="Turtle" src="/images/turtle.gif" />
+        </div>
+      ) : (
+        children
+      )}
     </div>
   );
 };
