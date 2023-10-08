@@ -34,11 +34,11 @@ export default function RootLayout({
       <body>
         <LogMessage />
         <div className="mx-auto w-full max-w-[768px] overflow-hidden py-8 md:overflow-visible">
-          <div className="paper-bg group flex -rotate-[4deg] items-center justify-center p-4 transition-all hover:scale-105 md:p-8">
+          <div className="paper-bg group flex -rotate-[4deg] items-center justify-center px-4 pb-2 pt-1 transition-all hover:scale-105 md:px-8 md:pb-4 md:pt-2">
             <img
-              className="transition-all group-hover:scale-125"
+              className="w-[480px] transition-all group-hover:scale-125"
               alt="Logo"
-              src="/logos/logo-main.svg"
+              src="/logos/logo-black.png"
             />
           </div>
           <main className="mt-4 flex min-h-[600px] flex-col bg-orange-50 pb-8">
