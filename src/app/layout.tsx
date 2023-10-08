@@ -9,6 +9,20 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'Houses We Die In',
   description: 'Houses We Die In - Austin, TX metalcore',
+  icons: {
+    icon: [
+      {
+        media: '(prefers-color-scheme: light)',
+        url: '/icons/favicon-black-32x32.png',
+        href: '/icons/favicon-black-32x32.png',
+      },
+      {
+        media: '(prefers-color-scheme: dark)',
+        url: '/icons/favicon-white-32x32.png',
+        href: '/icons/favicon-white-32x32.png',
+      },
+    ],
+  },
 };
 
 interface NavItemProps {
