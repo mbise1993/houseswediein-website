@@ -1,4 +1,10 @@
 import { PAST_SHOWS, Show, UPCOMING_SHOWS } from '@/app/live/shows';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Live | HWDI',
+  description: 'Upcoming and past shows',
+};
 
 interface ShowDetailsProps {
   show: Show;

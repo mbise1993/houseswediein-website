@@ -1,6 +1,13 @@
+import { Metadata } from 'next';
+
 import { Lyrics, SongPage, Video } from '@/app/songs/song-page';
-import { LYRICS } from '@/app/songs/room-409/lyrics';
-import styles from './page.module.css';
+import { LYRICS } from '@/app/songs/test-song/lyrics';
+
+export const metadata: Metadata = {
+  title: 'Test Song | HWDI',
+  description: 'Test Song by Houses We Die In',
+  robots: { index: false, follow: false },
+};
 
 export default function Page() {
   return (
