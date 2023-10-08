@@ -1,4 +1,5 @@
 import { PAST_SHOWS, Show, UPCOMING_SHOWS } from '@/app/live/shows';
+import { SectionHeading } from '@/components/section-heading';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -33,8 +34,8 @@ interface ShowSectionProps {
 const ShowSection = ({ className, heading, shows }: ShowSectionProps) => {
   return (
     <div className={className}>
-      <h2 className="text-3xl font-medium">{heading}</h2>
-      <ul className="mt-2 flex flex-col gap-4">
+      <SectionHeading>{heading}</SectionHeading>
+      <ul className="flex flex-col gap-4">
         {shows.map((show) => (
           <ShowDetails key={show.date} show={show} />
         ))}

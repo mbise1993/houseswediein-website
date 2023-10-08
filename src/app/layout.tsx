@@ -38,7 +38,7 @@ export default function RootLayout({
             <img
               className="w-[480px] transition-all group-hover:scale-110"
               alt="Logo"
-              src="/logos/logo-black.png"
+              src="/assets/logo-black.png"
             />
           </div>
           <main className="mt-4 flex min-h-[600px] flex-col bg-orange-50 pb-8">
