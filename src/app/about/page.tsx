@@ -7,13 +7,14 @@ export const metadata: Metadata = {
   description: 'About the band',
 };
 
-const H2_CLASSES = 'text-3xl font-bold leading-10';
-
 export default function Page() {
   return (
     <div className="prose px-8">
       <SectionHeading>ABOUT</SectionHeading>
-      <p>Metalcore from Austin, TX. Est. 2023.</p>
+      <p>
+        Metalcore from Austin, TX. FFO: Screaming music, At the Gates riffs,
+        panic chords
+      </p>
 
       <SectionHeading className="mt-6">ASSETS</SectionHeading>
       <ul>

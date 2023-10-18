@@ -1,4 +1,4 @@
-import { VirusText } from '@/app/very-important/virus-text';
+import { VirusText } from '@/app/virus/virus-text';
 
 export default function Page() {
   return (

@@ -12,13 +12,26 @@ interface ShowDetailsProps {
 }
 
 const ShowDetails = ({ show }: ShowDetailsProps) => {
+  const titleProps = {
+    className: 'text-lg text-red-700',
+  };
+
   return (
     <li>
-      <a className="text-lg text-red-700" href={show.ticketLink}>
-        {show.title}
-      </a>
+      {show.ticketLink ? (
+        <a {...titleProps} href={show.ticketLink}>
+          {show.title}
+        </a>
+      ) : (
+        <div {...titleProps}>{show.title}</div>
+      )}
       <div>
-        WHERE: <a href={show.venueLink}>{show.venueName}</a>
+        WHERE:{' '}
+        {show.venueLink ? (
+          <a href={show.venueLink}>{show.venueName}</a>
+        ) : (
+          <span>{show.venueName}</span>
+        )}
       </div>
       <div>WHEN: {show.date}</div>
     </li>
@@ -48,7 +61,7 @@ export default function Page() {
   return (
     <div className="px-8">
       <ShowSection heading="UPCOMING" shows={UPCOMING_SHOWS} />
-      <ShowSection className="mt-8" heading="PAST" shows={PAST_SHOWS} />
+      {/* <ShowSection className="mt-8" heading="PAST" shows={PAST_SHOWS} /> */}
       <div className="flex justify-center pt-8">
         <img alt="Globe" src="/images/green-globe.gif" />
       </div>

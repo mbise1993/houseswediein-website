@@ -5,6 +5,7 @@ import React from 'react';
 import { LogMessage } from '@/app/log-message';
 
 import './globals.css';
+import Marquee from 'react-fast-marquee';
 
 export const metadata: Metadata = {
   title: 'Houses We Die In',
@@ -64,13 +65,16 @@ export default function RootLayout({
             </nav>
             {children}
           </main>
-          <div className="flex items-center justify-center gap-4 p-8">
-            <div className="flex flex-col">
-              <Link href="/very-important">
-                <img src="/images/click-here-button.gif" alt="click here" />
-              </Link>
-            </div>
+          <div className="flex items-center justify-center gap-4 p-4">
+            <Link href="/prepare">
+              <img src="/images/click-here-button.gif" alt="click here" />
+            </Link>
           </div>
+        </div>
+        <div className="sticky bottom-0 left-0 w-full">
+          <Marquee className="bg-black py-1 text-[lawngreen]">
+            ALERT: megariff - fireside - zombie veins
+          </Marquee>
         </div>
       </body>
     </html>

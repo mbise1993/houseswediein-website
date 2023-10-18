@@ -14,15 +14,20 @@ const LinkButton = ({ href, src, alt }: LinkButtonProps) => {
 
 export default function Page() {
   return (
-    <div>
+    <div className="px-8">
+      <div className="flex flex-col items-center">
+        <img src="/images/coming-soon.gif" alt="Coming soon" />
+        <img src="/extras/construction-wide.gif" alt="Under construction" />
+        <div className="text-xl">Until then...</div>
+      </div>
       <iframe
-        className="aspect-video w-full md:px-4"
+        className="mt-4 aspect-video w-full"
         src="https://www.youtube.com/embed/ny-POamiHf0?si=lmVi7DRKVJfZ7VR1"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
       ></iframe>
-      <div className="flex flex-col items-center gap-4 pt-8">
+      {/* <div className="flex flex-col items-center gap-4 pt-8">
         <LinkButton
           href="https://spotify.com"
           src="/images/spotify-button.gif"
@@ -43,7 +48,7 @@ export default function Page() {
           src="/images/youtube-button.gif"
           alt="YouTube link"
         />
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -9,13 +9,14 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <div className="px-8">
-      <ul className="list-disc px-8">
+      <div className="text-2xl">SOON™️</div>
+      {/* <ul className="list-disc px-8">
         <li>
           <Link className="text-xl" href="/songs/test-song">
             Test Song
           </Link>
         </li>
-      </ul>
+      </ul> */}
     </div>
   );
 }

@@ -2,6 +2,7 @@
 
 import React from 'react';
 
+// https://patorjk.com/software/taag/#p=display&f=Big%20Money-ne&t=METALCORE
 const MESSAGE = `
  /$$      /$$ /$$$$$$$$ /$$$$$$$$ /$$$$$$  /$$        /$$$$$$   /$$$$$$  /$$$$$$$  /$$$$$$$$
 | $$$    /$$$| $$_____/|__  $$__//$$__  $$| $$       /$$__  $$ /$$__  $$| $$__  $$| $$_____/
