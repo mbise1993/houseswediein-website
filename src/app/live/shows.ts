@@ -1,18 +1,20 @@
 export interface Show {
   title: string;
-  ticketLink: string;
-  venueName: string;
-  venueLink: string;
   date: string;
+  flyerUrl: string;
+  venueName: string;
+  venueLink?: string;
+  ticketLink?: string;
 }
 
 export const UPCOMING_SHOWS: Show[] = [
   {
-    title: 'Coming Soon',
-    venueName: 'TBA',
-    venueLink: '',
+    title:
+      'The High Cost of Playing God and The Vinous w/ Votive & Houses We Die In',
     date: 'Thurs, Nov 30th',
-    ticketLink: '',
+    flyerUrl: '/flyers/2023-11-30.jpg',
+    venueName: 'Inner Chamber',
+    venueLink: 'https://www.instagram.com/innerchamberatx/',
   },
 ];
 

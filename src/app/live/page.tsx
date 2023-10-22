@@ -13,27 +13,36 @@ interface ShowDetailsProps {
 
 const ShowDetails = ({ show }: ShowDetailsProps) => {
   const titleProps = {
-    className: 'text-lg text-red-700',
+    className: 'text-xl text-red-700 leading-snug',
   };
 
   return (
-    <li>
-      {show.ticketLink ? (
-        <a {...titleProps} href={show.ticketLink}>
-          {show.title}
+    <li className="flex flex-col gap-4 md:flex-row">
+      <div className="flex flex-shrink-0 justify-center">
+        <a href={show.flyerUrl}>
+          <img className="h-[400px]" src={show.flyerUrl} alt="Flyer" />
         </a>
-      ) : (
-        <div {...titleProps}>{show.title}</div>
-      )}
-      <div>
-        WHERE:{' '}
-        {show.venueLink ? (
-          <a href={show.venueLink}>{show.venueName}</a>
-        ) : (
-          <span>{show.venueName}</span>
-        )}
       </div>
-      <div>WHEN: {show.date}</div>
+      <div>
+        {show.ticketLink ? (
+          <a {...titleProps} href={show.ticketLink}>
+            {show.title}
+          </a>
+        ) : (
+          <div {...titleProps}>{show.title}</div>
+        )}
+        <div>
+          WHERE:{' '}
+          {show.venueLink ? (
+            <a href={show.venueLink} target="_blank">
+              {show.venueName}
+            </a>
+          ) : (
+            <span>{show.venueName}</span>
+          )}
+        </div>
+        <div>WHEN: {show.date}</div>
+      </div>
     </li>
   );
 };
@@ -47,8 +56,8 @@ interface ShowSectionProps {
 const ShowSection = ({ className, heading, shows }: ShowSectionProps) => {
   return (
     <div className={className}>
-      <SectionHeading>{heading}</SectionHeading>
-      <ul className="flex flex-col gap-4">
+      <SectionHeading className="mb-4">{heading}</SectionHeading>
+      <ul className="flex flex-col gap-8">
         {shows.map((show) => (
           <ShowDetails key={show.date} show={show} />
         ))}
