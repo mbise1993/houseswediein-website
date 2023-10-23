@@ -48,6 +48,7 @@ export default function Page() {
           src="/images/youtube-button.gif"
           alt="YouTube link"
         /> */}
+        <div>houseswedieintx@gmail.com</div>
       </div>
     </div>
   );
