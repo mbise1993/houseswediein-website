@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <div className="px-8">
-      <div className="text-2xl">SOON™️</div>
+      <img src="/images/coming-soon.gif" alt="Coming soon" />
       {/* <ul className="list-disc px-8">
         <li>
           <Link className="text-xl" href="/songs/test-song">
