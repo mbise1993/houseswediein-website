@@ -30,7 +30,12 @@ export default function Page() {
   return (
     <div className="prose px-8">
       <SectionHeading>ABOUT</SectionHeading>
-      <p>
+      <img
+        className="md:h-[400px] md:w-full"
+        src="/images/horizontal-promo-1.jpg"
+        alt="full band photo"
+      />
+      <p className="mt-4">
         Metalcore from Austin, TX. FFO: Screaming music, At the Gates riffs,
         panic chords
       </p>

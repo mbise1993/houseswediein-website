@@ -71,7 +71,7 @@ export default function RootLayout({
             </Link>
           </div>
         </div>
-        <div className="sticky bottom-0 left-0 w-full">
+        <div className="fixed bottom-0 left-0 w-full">
           <Marquee className="bg-black py-1 text-[lawngreen]">
             ALERT: megariff - fireside - zombie veins
           </Marquee>
