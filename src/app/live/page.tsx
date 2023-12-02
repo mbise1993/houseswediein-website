@@ -1,5 +1,5 @@
 import { ShowDetails } from '@/app/live/show-details';
-import { PAST_SHOWS, Show, UPCOMING_SHOWS } from '@/app/live/shows';
+import { Show, getShows } from '@/app/live/shows';
 import { SectionHeading } from '@/components/section-heading';
 import { Metadata } from 'next';
 
@@ -20,7 +20,7 @@ const ShowSection = ({ className, heading, shows }: ShowSectionProps) => {
       <SectionHeading className="mb-4">{heading}</SectionHeading>
       <ul className="flex flex-col gap-8">
         {shows.map((show) => (
-          <ShowDetails key={show.date} show={show} />
+          <ShowDetails key={show.formattedDate} show={show} />
         ))}
       </ul>
     </div>
@@ -28,10 +28,16 @@ const ShowSection = ({ className, heading, shows }: ShowSectionProps) => {
 };
 
 export default function Page() {
+  const shows = getShows();
+
   return (
     <div className="px-8">
-      <ShowSection heading="UPCOMING" shows={UPCOMING_SHOWS} />
-      {/* <ShowSection className="mt-8" heading="PAST" shows={PAST_SHOWS} /> */}
+      {shows.upcoming.length > 0 && (
+        <ShowSection heading="UPCOMING" shows={shows.upcoming} />
+      )}
+      {shows.past.length > 0 && (
+        <ShowSection className="mt-8" heading="PAST" shows={shows.past} />
+      )}
       <div className="flex justify-center pt-8">
         <img alt="Globe" src="/images/green-globe.gif" />
       </div>

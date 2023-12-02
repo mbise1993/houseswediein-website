@@ -1,28 +1,52 @@
-export interface Show {
+import { format } from 'date-fns/format';
+import { isFuture } from 'date-fns/isFuture';
+
+export interface ShowData {
   title: string;
-  date: string;
+  date: Date;
   flyerUrl: string;
   venueName: string;
   venueLink?: string;
   ticketLink?: string;
 }
 
-export const UPCOMING_SHOWS: Show[] = [
+export interface Show extends ShowData {
+  formattedDate: string;
+}
+
+const SHOWS: ShowData[] = [
   {
     title:
       'The High Cost of Playing God and The Vinous w/ Votive & Houses We Die In',
-    date: 'Thursday, Nov 30th',
+    date: new Date('2023-11-30T12:00:00.000-06:00'),
     flyerUrl: '/flyers/2023-11-30.jpg',
-    venueName: 'Linton House',
+    venueName: 'Independence Brewing',
+    venueLink: 'https://independencebrewing.com/',
   },
   {
     title:
       'End Means (Final Show) w/ Upsurge, Fear of Loss, Lowball, Houses We Die In',
-    date: 'Friday, Dec 22nd',
+    date: new Date('2023-12-22T12:00:00.000-06:00'),
     flyerUrl: '/flyers/2023-12-22.png',
     venueName: 'Paper Tiger',
     venueLink: 'https://papertigersatx.com/',
   },
 ];
 
-export const PAST_SHOWS: Show[] = [];
+export function getShows() {
+  const upcoming: Show[] = [];
+  const past: Show[] = [];
+  for (const show of SHOWS) {
+    const showForDisplay = {
+      ...show,
+      formattedDate: format(show.date, 'EEEE, MMM do'),
+    };
+    if (isFuture(show.date)) {
+      upcoming.push(showForDisplay);
+    } else {
+      past.push(showForDisplay);
+    }
+  }
+
+  return { upcoming, past };
+}

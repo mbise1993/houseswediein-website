@@ -1,7 +1,7 @@
-import { Show } from '@/app/live/shows';
+import { ShowData } from '@/app/live/shows';
 
 interface ShowDetailsProps {
-  show: Show;
+  show: ShowData;
 }
 
 export const ShowDetails = ({ show }: ShowDetailsProps) => {
@@ -34,7 +34,7 @@ export const ShowDetails = ({ show }: ShowDetailsProps) => {
             <span>{show.venueName}</span>
           )}
         </div>
-        <div>WHEN: {show.date}</div>
+        <div>WHEN: {show.formattedDate}</div>
       </div>
     </li>
   );

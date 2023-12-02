@@ -28,12 +28,17 @@ export const metadata: Metadata = {
 
 interface NavItemProps {
   href: string;
+  external?: boolean;
   children: React.ReactNode;
 }
 
-export const NavItem = ({ href, children }: NavItemProps) => {
+export const NavItem = ({ href, external, children }: NavItemProps) => {
   return (
-    <Link className="px-2 text-xl font-bold md:text-2xl" href={href}>
+    <Link
+      className="px-2 text-xl font-bold md:text-2xl"
+      href={href}
+      target={external ? '_blank' : undefined}
+    >
       {children}
     </Link>
   );
@@ -57,11 +62,14 @@ export default function RootLayout({
             />
           </div>
           <main className="mt-4 flex min-h-[600px] flex-col bg-orange-50 pb-8">
-            <nav className="flex flex-wrap items-center justify-evenly gap-4 bg-orange-50 px-8 py-6">
+            <nav className="flex flex-wrap items-center justify-evenly gap-4 bg-orange-50 px-4 py-4 md:px-8 md:py-6">
               <NavItem href="/">Home</NavItem>
               <NavItem href="/live">Live</NavItem>
               <NavItem href="/songs">Songs</NavItem>
               <NavItem href="/about">About</NavItem>
+              <NavItem external href="https://houseswedieintx.bandcamp.com">
+                Store
+              </NavItem>
             </nav>
             {children}
           </main>

@@ -1,5 +1,5 @@
 import { ShowDetails } from '@/app/live/show-details';
-import { UPCOMING_SHOWS } from '@/app/live/shows';
+import { getShows } from '@/app/live/shows';
 import { SectionHeading } from '@/components/section-heading';
 
 interface LinkButtonProps {
@@ -17,7 +17,8 @@ const LinkButton = ({ href, src, alt }: LinkButtonProps) => {
 };
 
 export default function Page() {
-  const nextShow = UPCOMING_SHOWS.length > 0 ? UPCOMING_SHOWS[0] : undefined;
+  const shows = getShows();
+  const nextShow = shows.upcoming.length > 0 ? shows.upcoming[0] : undefined;
 
   return (
     <div className="px-8">
