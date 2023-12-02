@@ -1,5 +1,4 @@
-import { format } from 'date-fns/format';
-import { isFuture } from 'date-fns/isFuture';
+import * as dateFns from 'date-fns';
 
 interface ShowData {
   title: string;
@@ -39,9 +38,9 @@ export function getShows() {
   for (const show of SHOWS) {
     const showForDisplay = {
       ...show,
-      formattedDate: format(show.date, 'EEEE, MMM do'),
+      formattedDate: dateFns.format(show.date, 'EEEE, MMM do'),
     };
-    if (isFuture(show.date)) {
+    if (dateFns.isFuture(show.date)) {
       upcoming.push(showForDisplay);
     } else {
       past.push(showForDisplay);
