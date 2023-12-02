@@ -1,7 +1,7 @@
-import { ShowData } from '@/app/live/shows';
+import { Show } from '@/app/live/shows';
 
 interface ShowDetailsProps {
-  show: ShowData;
+  show: Show;
 }
 
 export const ShowDetails = ({ show }: ShowDetailsProps) => {

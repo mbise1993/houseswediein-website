@@ -1,7 +1,7 @@
 import { format } from 'date-fns/format';
 import { isFuture } from 'date-fns/isFuture';
 
-export interface ShowData {
+interface ShowData {
   title: string;
   date: Date;
   flyerUrl: string;
