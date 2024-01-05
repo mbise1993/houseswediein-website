@@ -51,6 +51,7 @@ export default function Page() {
           <a className="text-lg" href="mailto:houseswedieintx@gmail.com">
             houseswedieintx@gmail.com
           </a>
+          &nbsp;(or DM us on Instagram)
         </span>
       </div>
     </div>

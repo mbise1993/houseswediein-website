@@ -14,23 +14,41 @@ export interface Show extends ShowData {
 }
 
 const SHOWS: ShowData[] = [
+  // {
+  //   title: 'Livid, Noisy Neighbors, Laughing Matter, Houses We Die In',
+  //   date: getDate('2024-02-28'),
+  //   flyerUrl: '/flyers/2024-02-28.jpg',
+  //   venueName: '13th Floor',
+  //   venueLink: 'https://the13thflooraustin.com/',
+  // },
   {
-    title:
-      'The High Cost of Playing God and The Vinous w/ Votive & Houses We Die In',
-    date: new Date('2023-11-30T12:00:00.000-06:00'),
-    flyerUrl: '/flyers/2023-11-30.jpg',
-    venueName: 'Independence Brewing',
-    venueLink: 'https://independencebrewing.com/',
+    title: 'CNVCT, Rotten Disgust, Linger, Lament, Houses We Die In',
+    date: getDate('2024-02-09'),
+    flyerUrl: '/flyers/2024-02-09.jpg',
+    venueName: 'Valhalla',
+    venueLink: 'https://www.instagram.com/valhallatavern/',
   },
   {
     title:
       'End Means (Final Show) w/ Upsurge, Fear of Loss, Lowball, Houses We Die In',
-    date: new Date('2023-12-22T12:00:00.000-06:00'),
+    date: getDate('2023-12-22'),
     flyerUrl: '/flyers/2023-12-22.png',
     venueName: 'Paper Tiger',
     venueLink: 'https://papertigersatx.com/',
   },
+  {
+    title:
+      'The High Cost of Playing God and The Vinous w/ Votive & Houses We Die In',
+    date: getDate('2023-11-30'),
+    flyerUrl: '/flyers/2023-11-30.jpg',
+    venueName: 'Independence Brewing',
+    venueLink: 'https://independencebrewing.com/',
+  },
 ];
+
+export function getDate(day: string) {
+  return new Date(`${day}T12:00:00.000-06:00`);
+}
 
 export function getShows() {
   const upcoming: Show[] = [];
@@ -41,8 +59,10 @@ export function getShows() {
       formattedDate: dateFns.format(show.date, 'EEEE, MMM do'),
     };
     if (dateFns.isFuture(show.date)) {
-      upcoming.push(showForDisplay);
+      // Use unshift to show soonest shows first
+      upcoming.unshift(showForDisplay);
     } else {
+      // Use push for regular, reverse-chronological order
       past.push(showForDisplay);
     }
   }

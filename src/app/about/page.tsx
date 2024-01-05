@@ -35,12 +35,9 @@ export default function Page() {
         src="/images/horizontal-promo-1.jpg"
         alt="full band photo"
       />
-      <p className="mt-4">
-        Metalcore from Austin, TX. FFO: Screaming music, At the Gates riffs,
-        panic chords
-      </p>
+      <p className="mt-4">Metalcore from Austin, Texas.</p>
 
-      <SectionHeading className="mt-6">ASSETS</SectionHeading>
+      <SectionHeading className="mt-6">LOGOS</SectionHeading>
       <ul className="flex flex-col gap-4">
         {ASSETS.map((asset) => (
           <li key={asset.url}>
