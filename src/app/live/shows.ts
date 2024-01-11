@@ -14,13 +14,20 @@ export interface Show extends ShowData {
 }
 
 const SHOWS: ShowData[] = [
-  // {
-  //   title: 'Livid, Noisy Neighbors, Laughing Matter, Houses We Die In',
-  //   date: getDate('2024-02-28'),
-  //   flyerUrl: '/flyers/2024-02-28.jpg',
-  //   venueName: '13th Floor',
-  //   venueLink: 'https://the13thflooraustin.com/',
-  // },
+  {
+    title: 'Livid, Noisy Neighbors, Laughing Matter, Houses We Die In',
+    date: getDate('2024-02-28'),
+    flyerUrl: '/flyers/2024-02-28.jpg',
+    venueName: '13th Floor',
+    venueLink: 'https://the13thflooraustin.com/',
+  },
+  {
+    title:
+      "VICTIMBLAMED album release show w/ Salvinorin-A, Phonefoot, Houses We Die In, FEAR OF LOSS, larval therapy, 4waydancebattle, Nicole's Death",
+    date: getDate('2024-02-24'),
+    flyerUrl: '/flyers/2024-02-24.jpg',
+    venueName: '1540 West Harlan Ave. San Antonio, TX',
+  },
   {
     title: 'CNVCT, Rotten Disgust, Linger, Lament, Houses We Die In',
     date: getDate('2024-02-09'),

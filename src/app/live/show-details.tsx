@@ -25,7 +25,10 @@ export const ShowDetails = ({ show }: ShowDetailsProps) => {
           <div {...titleProps}>{show.title}</div>
         )}
         <div>
-          WHERE:{' '}
+          <b>WHEN:</b> {show.formattedDate}
+        </div>
+        <div>
+          <b>WHERE:</b>{' '}
           {show.venueLink ? (
             <a href={show.venueLink} target="_blank">
               {show.venueName}
@@ -34,7 +37,6 @@ export const ShowDetails = ({ show }: ShowDetailsProps) => {
             <span>{show.venueName}</span>
           )}
         </div>
-        <div>WHEN: {show.formattedDate}</div>
       </div>
     </li>
   );

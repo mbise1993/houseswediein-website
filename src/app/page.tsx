@@ -24,7 +24,7 @@ export default function Page() {
     <div className="px-8">
       {nextShow ? (
         <>
-          <SectionHeading className="">UP NEXT</SectionHeading>
+          <SectionHeading>NEXT SHOW</SectionHeading>
           <ShowDetails show={nextShow} />
         </>
       ) : (

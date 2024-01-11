@@ -17,7 +17,7 @@ interface ShowSectionProps {
 const ShowSection = ({ className, heading, shows }: ShowSectionProps) => {
   return (
     <div className={className}>
-      <SectionHeading className="mb-4">{heading}</SectionHeading>
+      <SectionHeading>{heading}</SectionHeading>
       <ul className="flex flex-col gap-8">
         {shows.map((show) => (
           <ShowDetails key={show.formattedDate} show={show} />
@@ -33,10 +33,14 @@ export default function Page() {
   return (
     <div className="px-8">
       {shows.upcoming.length > 0 && (
-        <ShowSection heading="UPCOMING" shows={shows.upcoming} />
+        <ShowSection heading="UPCOMING SHOWS" shows={shows.upcoming} />
       )}
       {shows.past.length > 0 && (
-        <ShowSection className="mt-8" heading="PAST" shows={shows.past} />
+        <ShowSection
+          className="mt-16"
+          heading="PAST SHOWS"
+          shows={shows.past}
+        />
       )}
       <div className="flex justify-center pt-8">
         <img alt="Globe" src="/images/green-globe.gif" />
