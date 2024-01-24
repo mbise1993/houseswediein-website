@@ -15,6 +15,13 @@ export interface Show extends ShowData {
 
 const SHOWS: ShowData[] = [
   {
+    title: 'Glassing w/ Throat Piss, God Shell, Houses We Die In',
+    date: getDate('2024-03-10'),
+    flyerUrl: '/flyers/2024-03-10.jpg',
+    venueName: '13th Floor',
+    venueLink: 'https://the13thflooraustin.com/',
+  },
+  {
     title: 'Livid, Noisy Neighbors, Laughing Matter, Houses We Die In',
     date: getDate('2024-02-28'),
     flyerUrl: '/flyers/2024-02-28.jpg',
