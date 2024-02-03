@@ -65,7 +65,7 @@ export default function RootLayout({
             <nav className="flex flex-wrap items-center justify-evenly gap-4 bg-orange-50 px-4 py-4 md:px-8 md:py-6">
               <NavItem href="/">Home</NavItem>
               <NavItem href="/live">Live</NavItem>
-              <NavItem href="/songs">Songs</NavItem>
+              <NavItem href="/releases">Releases</NavItem>
               <NavItem href="/about">About</NavItem>
               <NavItem external href="https://houseswedieintx.bandcamp.com">
                 Store
@@ -80,8 +80,12 @@ export default function RootLayout({
           </div>
         </div>
         <div className="fixed bottom-0 left-0 w-full">
-          <Marquee className="bg-black py-1 text-[lawngreen]">
-            ALERT: apparitions - restricted fire
+          <Marquee className="bg-black py-1 text-[lawngreen]" speed={40}>
+            BREAKING: First single &quot;Lonely Grave&quot; out Feb 9th.&nbsp;
+            <a href="" target="_blank">
+              Pre-save it here.
+            </a>
+            &nbsp;
           </Marquee>
         </div>
       </body>

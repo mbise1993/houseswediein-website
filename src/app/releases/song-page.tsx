@@ -55,5 +55,5 @@ interface LyricsProps {
 }
 
 export const Lyrics = ({ children }: LyricsProps) => {
-  return <div className="mt-4 px-4 text-center">{children}</div>;
+  return <div className="mt-4 px-4 md:text-center">{children}</div>;
 };
