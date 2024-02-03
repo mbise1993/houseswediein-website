@@ -15,6 +15,16 @@ export interface Show extends ShowData {
 
 const SHOWS: ShowData[] = [
   {
+    title:
+      'SXSW Metal Showcase w/ Never Rest, Reign, Cult Burner, Postal, Deadmouth, Houses We Die In',
+    date: getDate('2024-03-12'),
+    flyerUrl: '/flyers/2024-03-12.jpg',
+    venueName: 'Come and Take It Live',
+    venueLink: 'https://www.comeandtakeitlive.com/',
+    ticketLink:
+      'https://www.etix.com/ticket/p/30695894/disaster-fest-austin-come-and-take-it-live',
+  },
+  {
     title: 'Glassing w/ Throat Piss, God Shell, Houses We Die In',
     date: getDate('2024-03-10'),
     flyerUrl: '/flyers/2024-03-10.jpg',

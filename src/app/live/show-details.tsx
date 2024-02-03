@@ -13,12 +13,16 @@ export const ShowDetails = ({ show }: ShowDetailsProps) => {
     <li className="flex flex-col gap-4 md:flex-row">
       <div className="flex flex-shrink-0 justify-center">
         <a href={show.flyerUrl}>
-          <img className="h-[400px]" src={show.flyerUrl} alt="Flyer" />
+          <img
+            className="max-h-[550px] md:max-w-[350px]"
+            src={show.flyerUrl}
+            alt="Flyer"
+          />
         </a>
       </div>
       <div>
         {show.ticketLink ? (
-          <a {...titleProps} href={show.ticketLink}>
+          <a {...titleProps} href={show.ticketLink} target="_blank">
             {show.title}
           </a>
         ) : (
