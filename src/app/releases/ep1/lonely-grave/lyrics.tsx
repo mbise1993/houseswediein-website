@@ -14,7 +14,9 @@ export const LYRICS = (
     <br />
     Forsaken promises and drug abuse tragedies
     <br />
-    Faces of the suffering begging for you to come home
+    Faces of the suffering
+    <br />
+    Begging for you to come home
     <br />
     <br />
     [Spoken]
@@ -33,7 +35,7 @@ export const LYRICS = (
     <br />
     Worse than the horrors that haunt my dreams
     <br />
-    Wake up and find that this life is worse than I could have imagined
+    Wake up and find that this life is worse than I could have ever imagined
     <br />
     <br />
     [Spoken]

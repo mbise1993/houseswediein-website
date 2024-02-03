@@ -2,18 +2,28 @@ import { SectionHeading } from '@/components/section-heading';
 import { Metadata } from 'next';
 import Link from 'next/link';
 
-const RELEASES = [
-  {
-    title: 'Faces of the Suffering',
-    type: 'EP',
-    artworkUrl: '/artwork/ep1-artwork-black.jpg',
-    songs: [
-      {
-        title: 'Lonely Grave',
-        url: '/releases/ep1/lonely-grave',
-      },
-    ],
-  },
+interface Release {
+  title: string;
+  type: 'Album' | 'EP';
+  artworkUrl: string;
+  songs: {
+    title: string;
+    url: string;
+  }[];
+}
+
+const RELEASES: Release[] = [
+  // {
+  //   title: 'Faces of the Suffering',
+  //   type: 'EP',
+  //   artworkUrl: '/artwork/ep1-artwork-black.jpg',
+  //   songs: [
+  //     {
+  //       title: 'Lonely Grave',
+  //       url: '/releases/ep1/lonely-grave',
+  //     },
+  //   ],
+  // },
 ];
 
 export const metadata: Metadata = {
@@ -24,6 +34,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <div className="px-8">
+      <img src="/images/coming-soon.gif" alt="Coming soon" />
       {RELEASES.map((release) => (
         <div
           key={release.title}

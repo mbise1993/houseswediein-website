@@ -81,8 +81,11 @@ export default function RootLayout({
         </div>
         <div className="fixed bottom-0 left-0 w-full">
           <Marquee className="bg-black py-1 text-[lawngreen]" speed={40}>
-            BREAKING: First single &quot;Lonely Grave&quot; out Feb 9th.&nbsp;
-            <a href="" target="_blank">
+            BREAKING: First single &quot;lonely grave&quot; out Feb 9th.&nbsp;
+            <a
+              href="https://distrokid.com/hyperfollow/houseswediein/lonely-grave"
+              target="_blank"
+            >
               Pre-save it here.
             </a>
             &nbsp;
