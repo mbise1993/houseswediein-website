@@ -66,18 +66,24 @@ export const Lyrics = ({ children }: LyricsProps) => {
 };
 
 interface DownloadsProps {
-  downloads: { title: string; url: string }[];
+  downloads: { title: string; url: string; fileName: string }[];
 }
 
 export const Downloads = ({ downloads }: DownloadsProps) => {
   return (
-    <div className="mt-4 px-4">
+    <div className="mt-6 px-4">
       <SectionHeading className="text-2xl">DOWNLOADS</SectionHeading>
       <ul>
         {downloads.map((download) => (
           <li key={download.url}>
-            <a className="cursor-pointer" href={download.url} target="_blank">
-              {download.title}
+            {download.title}&nbsp;
+            <a
+              className="cursor-pointer"
+              href={download.url}
+              target="_blank"
+              download={download.fileName}
+            >
+              [DOWNLOAD]
             </a>
           </li>
         ))}

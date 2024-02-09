@@ -46,6 +46,11 @@ export default function Page() {
           src="/images/twitter-button.gif"
           alt="X/Twitter link"
         />
+        <LinkButton
+          href="https://twitter.com/houseswedieintx"
+          src="/images/spotify-button.gif"
+          alt="Spotify link"
+        />
         <span>
           Booking:&nbsp;
           <a className="text-lg" href="mailto:houseswedieintx@gmail.com">

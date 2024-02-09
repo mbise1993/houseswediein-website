@@ -13,17 +13,17 @@ interface Release {
 }
 
 const RELEASES: Release[] = [
-  // {
-  //   title: 'Faces of the Suffering',
-  //   type: 'EP',
-  //   artworkUrl: '/artwork/ep1-artwork-black.jpg',
-  //   songs: [
-  //     {
-  //       title: 'Lonely Grave',
-  //       url: '/releases/ep1/lonely-grave',
-  //     },
-  //   ],
-  // },
+  {
+    title: 'Faces of the Suffering',
+    type: 'EP',
+    artworkUrl: '/artwork/ep1-artwork-black.jpg',
+    songs: [
+      {
+        title: 'lonely grave',
+        url: '/releases/ep1/lonely-grave',
+      },
+    ],
+  },
 ];
 
 export const metadata: Metadata = {
@@ -34,7 +34,6 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <div className="px-8">
-      <img src="/images/coming-soon.gif" alt="Coming soon" />
       {RELEASES.map((release) => (
         <div
           key={release.title}

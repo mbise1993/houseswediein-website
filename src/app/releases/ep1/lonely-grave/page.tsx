@@ -5,21 +5,21 @@ import { LYRICS } from '@/app/releases/ep1/lonely-grave/lyrics';
 
 const DOWNLOADS = [
   {
-    title: 'HWDI - Lonely Grave.gp',
-    url: '',
+    title: 'Guitar Pro tab',
+    url: '/tabs/hwdi-lonely-grave.gp',
+    fileName: 'Houses We Die In - lonely grave.gp',
   },
 ];
 
 export const metadata: Metadata = {
-  title: 'Test Song | HWDI',
-  description: 'Test Song by Houses We Die In',
-  robots: { index: false, follow: false },
+  title: 'lonely grave | HWDI',
+  description: 'lonely grave by Houses We Die In',
 };
 
 export default function Page() {
   return (
-    <SongPage title="Lonely Grave" cursor="/cursors/gravestone-cursor.cur">
-      {/* <Video src="https://www.youtube.com/embed/knS59LtVap8?si=gcSqWPX8gGil1ePK" /> */}
+    <SongPage title="lonely grave" cursor="/cursors/gravestone-cursor.cur">
+      <Video src="https://www.youtube.com/embed/knS59LtVap8?si=gcSqWPX8gGil1ePK" />
       <Lyrics>{LYRICS}</Lyrics>
       <Downloads downloads={DOWNLOADS} />
     </SongPage>
