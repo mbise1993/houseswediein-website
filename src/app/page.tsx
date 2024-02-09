@@ -22,6 +22,21 @@ export default function Page() {
 
   return (
     <div className="px-8">
+      <SectionHeading>FACES OF THE SUFFERING SHIRT</SectionHeading>
+      <div className="text-lg">
+        PRE-ORDER{' '}
+        <a
+          href="https://houseswedieintx.bandcamp.com/merch/pre-order-faces-of-the-suffering-t-shirt"
+          target="_blank"
+        >
+          HERE
+        </a>
+      </div>
+      <img
+        className="mb-4"
+        alt="Faces of the Suffering shirt"
+        src="/merch/faces-of-the-suffering-shirt.png"
+      />
       {nextShow ? (
         <>
           <SectionHeading>NEXT SHOW</SectionHeading>

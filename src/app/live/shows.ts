@@ -71,7 +71,7 @@ const SHOWS: ShowData[] = [
 ];
 
 export function getDate(day: string) {
-  return new Date(`${day}T12:00:00.000-06:00`);
+  return new Date(`${day}T23:59:59.999-06:00`);
 }
 
 export function getShows() {
