@@ -34,7 +34,7 @@ export default function Page() {
           alt="full band photo"
         />
       )}
-      <SectionHeading className="my-6">CONNECT</SectionHeading>
+      <SectionHeading className="my-6">LINKS</SectionHeading>
       <div className="flex flex-col flex-wrap gap-2">
         <LinkButton
           href="https://www.instagram.com/houseswedieintx"
@@ -51,14 +51,18 @@ export default function Page() {
           src="/images/spotify-button.gif"
           alt="Spotify link"
         />
-        <span>
-          Booking:&nbsp;
-          <a className="text-lg" href="mailto:houseswedieintx@gmail.com">
-            houseswedieintx@gmail.com
-          </a>
-          &nbsp;(or DM us on Instagram)
-        </span>
+        <LinkButton
+          href="https://www.youtube.com/@houseswedieintx"
+          src="/images/youtube-button.gif"
+          alt="YouTube link"
+        />
       </div>
+      <SectionHeading className="mb-1 mt-6">BOOKING</SectionHeading>
+      <span>
+        Email us at{' '}
+        <a href="mailto:houseswedieintx@gmail.com">houseswedieintx@gmail.com</a>{' '}
+        or DM us on Instagram
+      </span>
     </div>
   );
 }
