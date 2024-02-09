@@ -47,7 +47,7 @@ export default function Page() {
           alt="X/Twitter link"
         />
         <LinkButton
-          href="https://twitter.com/houseswedieintx"
+          href="https://open.spotify.com/artist/5p62veiIRA1sgEM1miwamk?si=jqQkXMeTRhKiJ3iUxYxJ-A"
           src="/images/spotify-button.gif"
           alt="Spotify link"
         />
