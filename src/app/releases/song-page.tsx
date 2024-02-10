@@ -43,6 +43,7 @@ interface VideoProps {
 export const Video = ({ src }: VideoProps) => {
   return (
     <iframe
+      id="video"
       className="mt-4 aspect-video w-full md:px-4"
       src={src}
       title="YouTube video player"
@@ -58,7 +59,7 @@ interface LyricsProps {
 
 export const Lyrics = ({ children }: LyricsProps) => {
   return (
-    <div className="mt-4 px-4">
+    <div id="lyrics" className="mt-4 px-4">
       <SectionHeading className="text-2xl">LYRICS</SectionHeading>
       <div>{children}</div>
     </div>
@@ -71,7 +72,7 @@ interface DownloadsProps {
 
 export const Downloads = ({ downloads }: DownloadsProps) => {
   return (
-    <div className="mt-6 px-4">
+    <div id="downloads" className="mt-6 px-4">
       <SectionHeading className="text-2xl">DOWNLOADS</SectionHeading>
       <ul>
         {downloads.map((download) => (
