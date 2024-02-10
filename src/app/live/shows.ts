@@ -16,7 +16,15 @@ export interface Show extends ShowData {
 const SHOWS: ShowData[] = [
   {
     title:
-      'SXSW Metal Showcase w/ Never Rest, Reign, Cult Burner, Postal, Deadmouth, Houses We Die In',
+      "Lacerated, Don't Fear the End, Fortuna Malvada, Fear of Loss, Houses We Die In",
+    date: getDate('2024-03-21'),
+    flyerUrl: '/flyers/2024-03-21.jpg',
+    venueName: 'Snake Hill Social Club',
+    venueLink: 'https://www.instagram.com/snakehill.satx/',
+  },
+  {
+    title:
+      'SXSE Metal Showcase w/ Never Rest, Reign, Cult Burner, Postal, Deadmouth, Houses We Die In',
     date: getDate('2024-03-12'),
     flyerUrl: '/flyers/2024-03-12.jpg',
     venueName: 'Come and Take It Live',
@@ -71,7 +79,7 @@ const SHOWS: ShowData[] = [
 ];
 
 export function getDate(day: string) {
-  return new Date(`${day}T23:59:59.999-06:00`);
+  return new Date(`${day}T20:00:00.000-06:00`);
 }
 
 export function getShows() {
