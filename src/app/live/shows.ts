@@ -47,6 +47,13 @@ const SHOWS: ShowData[] = [
     venueLink: 'https://the13thflooraustin.com/',
   },
   {
+    title: 'Slow Pulse, Ritual, The High Cost of Playing God, Houses We Die In',
+    date: getDate('2024-02-25'),
+    flyerUrl: '/flyers/2024-02-25.jpg',
+    venueName: '13th Floor',
+    venueLink: 'https://the13thflooraustin.com/',
+  },
+  {
     title:
       "VICTIMBLAMED album release show w/ Salvinorin-A, Phonefoot, Houses We Die In, FEAR OF LOSS, larval therapy, 4waydancebattle, Nicole's Death",
     date: getDate('2024-02-24'),
