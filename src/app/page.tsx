@@ -22,7 +22,7 @@ export default function Page() {
 
   return (
     <div className="px-8">
-      <SectionHeading>FACES OF THE SUFFERING SHIRT</SectionHeading>
+      {/* <SectionHeading>FACES OF THE SUFFERING SHIRT</SectionHeading>
       <div className="text-lg">
         PRE-ORDER{' '}
         <a
@@ -36,7 +36,7 @@ export default function Page() {
         className="mb-4"
         alt="Faces of the Suffering shirt"
         src="/merch/faces-of-the-suffering-shirt.png"
-      />
+      /> */}
       {nextShow ? (
         <>
           <SectionHeading>NEXT SHOW</SectionHeading>
