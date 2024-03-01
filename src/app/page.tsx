@@ -1,5 +1,5 @@
-import { ShowDetails } from '@/app/live/show-details';
-import { getShows } from '@/app/live/shows';
+import { ShowDetails } from '@/app/shows/show-details';
+import { getShows } from '@/app/shows/shows';
 import { SectionHeading } from '@/components/section-heading';
 
 interface LinkButtonProps {
@@ -37,9 +37,18 @@ export default function Page() {
         alt="Faces of the Suffering shirt"
         src="/merch/faces-of-the-suffering-shirt.png"
       /> */}
+      <SectionHeading>LIVE</SectionHeading>
+      <iframe
+        id="video"
+        className="aspect-video w-full"
+        src="https://www.youtube.com/embed/V90XrkRhjmw?si=mBxB9bZ1e_hPT1yG&amp;start=17"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen
+      ></iframe>
       {nextShow ? (
         <>
-          <SectionHeading>NEXT SHOW</SectionHeading>
+          <SectionHeading className="my-6">NEXT SHOW</SectionHeading>
           <ShowDetails show={nextShow} />
         </>
       ) : (

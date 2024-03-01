@@ -64,7 +64,7 @@ export default function RootLayout({
           <main className="mt-4 flex min-h-[600px] flex-col bg-orange-50 pb-8">
             <nav className="flex flex-wrap items-center justify-evenly gap-4 bg-orange-50 px-4 py-4 md:px-8 md:py-6">
               <NavItem href="/">Home</NavItem>
-              <NavItem href="/live">Live</NavItem>
+              <NavItem href="/shows">Shows</NavItem>
               <NavItem href="/releases">Releases</NavItem>
               <NavItem href="/about">About</NavItem>
               <NavItem external href="https://houseswedieintx.bandcamp.com">
@@ -74,9 +74,9 @@ export default function RootLayout({
             {children}
           </main>
           <div className="flex items-center justify-center gap-4 p-4">
-            <Link href="/prepare">
+            <a href="https://www.entrances2hell.co.uk/" target="_blanks">
               <img src="/images/click-here-button.gif" alt="click here" />
-            </Link>
+            </a>
           </div>
         </div>
         <div className="fixed bottom-0 left-0 w-full">

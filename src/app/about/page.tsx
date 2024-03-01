@@ -31,8 +31,8 @@ export default function Page() {
     <div className="prose px-8">
       <SectionHeading>ABOUT</SectionHeading>
       <img
-        className="md:h-[400px] md:w-full"
-        src="/images/horizontal-promo-1.jpg"
+        className="md:h-[400px]"
+        src="/promos/alley-promo-1.jpg"
         alt="full band photo"
       />
       <p className="mt-4">Metalcore from Austin, Texas.</p>
