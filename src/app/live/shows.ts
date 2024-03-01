@@ -40,6 +40,14 @@ const SHOWS: ShowData[] = [
     venueLink: 'https://the13thflooraustin.com/',
   },
   {
+    title:
+      'Far From It w/ Fear of Loss, Fleishwolf, Houses We Die In, Postal, Dogmad, Voracious Contempt, Deadite',
+    date: getDate('2024-03-03'),
+    flyerUrl: '/flyers/2024-03-03.jpg',
+    venueName: 'B-Side',
+    venueLink: 'https://www.instagram.com/bsidesatx/',
+  },
+  {
     title: 'Livid, Noisy Neighbors, Laughing Matter, Houses We Die In',
     date: getDate('2024-02-28'),
     flyerUrl: '/flyers/2024-02-28.jpg',
