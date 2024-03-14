@@ -54,9 +54,9 @@ export default function RootLayout({
       <body>
         <LogMessage />
         <div className="mx-auto w-full max-w-[768px] overflow-hidden py-8 md:overflow-visible">
-          <div className="paper-bg group flex -rotate-[4deg] items-center justify-center px-4 pt-1 transition-all hover:scale-105 md:px-8">
+          <div className="paper-bg group flex h-[100px] -rotate-[6deg] items-center justify-center px-4 transition-all hover:scale-105 md:h-[120px] md:-rotate-[4deg] md:px-8">
             <img
-              className="w-[480px] opacity-90 transition-all group-hover:scale-110"
+              className="mt-2 w-[460px] opacity-90 transition-all group-hover:scale-110"
               alt="Logo"
               src="/assets/logo-black.png"
             />
