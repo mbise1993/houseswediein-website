@@ -11,14 +11,6 @@ const ASSETS = [
     name: 'Logo (white)',
     url: '/assets/logo-white.png',
   },
-  {
-    name: 'Logo alt (black)',
-    url: '/assets/logo-alt-black.png',
-  },
-  {
-    name: 'Logo alt (white)',
-    url: '/assets/logo-alt-white.png',
-  },
 ];
 
 export const metadata: Metadata = {

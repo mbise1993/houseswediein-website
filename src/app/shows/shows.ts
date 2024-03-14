@@ -23,6 +23,12 @@ const SHOWS: ShowData[] = [
     venueLink: 'https://www.instagram.com/snakehill.satx/',
   },
   {
+    title: 'Palefade, Othiel, Houses We Die In, Larvae, Rose Ceremony',
+    date: getDate('2024-03-16'),
+    flyerUrl: '/flyers/2024-03-16.jpg',
+    venueName: 'Arnold House (DM for address)',
+  },
+  {
     title:
       'SXSE Metal Showcase w/ Never Rest, Reign, Cult Burner, Postal, Deadmouth, Houses We Die In',
     date: getDate('2024-03-12'),
