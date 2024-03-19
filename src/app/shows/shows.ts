@@ -16,6 +16,14 @@ export interface Show extends ShowData {
 const SHOWS: ShowData[] = [
   {
     title:
+      'Slander, ghosthouse, Victim Blamed, May I Die, Houses We Die In, Audacious Absurdist',
+    date: getDate('2024-03-23'),
+    flyerUrl: '/flyers/2024-03-23.jpg',
+    venueName: 'The Red Rabbit',
+    venueLink: 'https://www.instagram.com/theredrabbit361/',
+  },
+  {
+    title:
       "Lacerated, Don't Fear the End, Fortuna Malvada, Fear of Loss, Houses We Die In",
     date: getDate('2024-03-21'),
     flyerUrl: '/flyers/2024-03-21.jpg',
@@ -100,7 +108,7 @@ const SHOWS: ShowData[] = [
 ];
 
 export function getDate(day: string) {
-  return new Date(`${day}T20:00:00.000-06:00`);
+  return new Date(`${day}T20:00:00.000`);
 }
 
 export function getShows() {
