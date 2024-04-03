@@ -22,41 +22,22 @@ export default function Page() {
 
   return (
     <div className="px-8">
-      {/* <SectionHeading>FACES OF THE SUFFERING SHIRT</SectionHeading>
-      <div className="text-lg">
-        PRE-ORDER{' '}
-        <a
-          href="https://houseswedieintx.bandcamp.com/merch/pre-order-faces-of-the-suffering-t-shirt"
-          target="_blank"
-        >
-          HERE
-        </a>
-      </div>
-      <img
-        className="mb-4"
-        alt="Faces of the Suffering shirt"
-        src="/merch/faces-of-the-suffering-shirt.png"
-      /> */}
-      <SectionHeading>LIVE</SectionHeading>
+      <SectionHeading>BIG TEXAS METAL FEST TICKETS</SectionHeading>
+      <a href="https://vor.us/b12fb">CLICK HERE</a>
+      <SectionHeading className="mt-4">LIVE</SectionHeading>
       <iframe
         id="video"
         className="aspect-video w-full"
-        src="https://www.youtube.com/embed/V90XrkRhjmw?si=mBxB9bZ1e_hPT1yG&amp;start=17"
+        src="https://www.youtube.com/embed/Tqw6LdpF7fE?si=SwAiU_pw5MOEsI84"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
       ></iframe>
-      {nextShow ? (
+      {nextShow && (
         <>
           <SectionHeading className="my-6">NEXT SHOW</SectionHeading>
           <ShowDetails show={nextShow} />
         </>
-      ) : (
-        <img
-          className="mx-auto md:h-[400px] md:w-full"
-          src="/images/horizontal-promo-1.jpg"
-          alt="full band photo"
-        />
       )}
       <SectionHeading className="my-6">LINKS</SectionHeading>
       <div className="flex flex-col flex-wrap gap-2">

@@ -15,6 +15,14 @@ export interface Show extends ShowData {
 
 const SHOWS: ShowData[] = [
   {
+    title: 'BIG TEXAS METAL FEST (Day 1)',
+    date: getDate('2024-05-24'),
+    flyerUrl: '/flyers/2024-05-24.jpg',
+    venueName: 'The Far Out Lounge & Stage',
+    venueLink: 'http://www.thefaroutaustin.com/',
+    ticketLink: 'https://vor.us/b12fb',
+  },
+  {
     title:
       'Slander, ghosthouse, Victim Blamed, May I Die, Houses We Die In, Audacious Absurdist',
     date: getDate('2024-03-23'),
