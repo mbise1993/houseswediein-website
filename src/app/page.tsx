@@ -26,7 +26,7 @@ export default function Page() {
       <ul className="list-disc pl-4">
         <li>
           <span>
-            <a href="http://url2734.distrokid.com/ls/click?upn=u001.a0grtTtFNGObbwv02PitCPUodymsTWKXNsD1pT7nhD0Oh0brJVDD6-2Fa0pC2fX-2FvxgASg2gLofhc7ddepUno1CdPIZ53plWrpiiZJY1O0onYwEAIq1SfJr8x-2BMgFCInDSW0F1FQEl9Gpkkz7zgBVke-2FhIPnR-2FmaDu2bQ5VJdL1Wc-3DTiT0_WM3-2BY8aipBgOqNhHvQu-2Bb6lfl88tZdKCo82R7tDqWjkDU6yQxVB3j501GmwqlN-2BOSzhbJ3pUGAHGxieNpTO-2BqSdeOldEhbJ6C3k9P9sMI99d5JsviofpGDzTc-2FW4v3TOHwTHJ3V2cEOauCxm7X06GzkxRZThzejjqqipI6BdqdqM-2B1L6vrOu2cZV7ayKtLFGoQ2KvTZXaGaxuyW0qjMRgbqx7j2GZk7iW5M6g8up12w-3D">
+            <a href="https://distrokid.com/hyperfollow/houseswediein/apparitions">
               PRE-SAVE OUR NEXT SINGLE &quot;APPARITIONS&quot;
             </a>
           </span>
