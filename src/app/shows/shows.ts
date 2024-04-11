@@ -23,6 +23,12 @@ const SHOWS: ShowData[] = [
     ticketLink: 'https://vor.us/b12fb',
   },
   {
+    title: 'UTSA Underground Music Festival',
+    date: getDate('2024-05-03'),
+    flyerUrl: '/flyers/2024-05-03.jpg',
+    venueName: 'UTSA tunnels',
+  },
+  {
     title:
       'Slander, ghosthouse, Victim Blamed, May I Die, Houses We Die In, Audacious Absurdist',
     date: getDate('2024-03-23'),

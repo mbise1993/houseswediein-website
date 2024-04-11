@@ -81,7 +81,8 @@ export default function RootLayout({
         </div>
         <div className="fixed bottom-0 left-0 w-full">
           <Marquee className="bg-black py-1 text-[lawngreen]" speed={40}>
-            BREAKING: First single &quot;lonely grave&quot; out now&nbsp;
+            JUST IN: Second single &quot;apparitions&quot; releasing April 18th
+            @ midnight &nbsp;
           </Marquee>
         </div>
       </body>
