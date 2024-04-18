@@ -22,15 +22,15 @@ export default function Page() {
 
   return (
     <div className="px-8">
-      <SectionHeading>ANNOUNCEMENTS/LINKS</SectionHeading>
+      <SectionHeading>ANNOUNCEMENTS</SectionHeading>
       <ul className="list-disc pl-4">
-        <li>
+        {/* <li>
           <span>
             <a href="https://distrokid.com/hyperfollow/houseswediein/apparitions">
               PRE-SAVE OUR NEXT SINGLE &quot;APPARITIONS&quot;
             </a>
           </span>
-        </li>
+        </li> */}
         <li>
           <span>
             BIG TEXAS METAL FEST TICKETS -{' '}

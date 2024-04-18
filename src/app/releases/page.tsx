@@ -16,11 +16,15 @@ const RELEASES: Release[] = [
   {
     title: 'Faces of the Suffering',
     type: 'EP',
-    artworkUrl: '/artwork/ep1-artwork-black.jpg',
+    artworkUrl: '/artwork/ep1-artwork-white-bg.jpg',
     songs: [
       {
+        title: 'apparitions',
+        url: '/releases/faces-of-the-suffering/apparitions',
+      },
+      {
         title: 'lonely grave',
-        url: '/releases/ep1/lonely-grave',
+        url: '/releases/faces-of-the-suffering/lonely-grave',
       },
     ],
   },

@@ -81,8 +81,8 @@ export default function RootLayout({
         </div>
         <div className="fixed bottom-0 left-0 w-full">
           <Marquee className="bg-black py-1 text-[lawngreen]" speed={40}>
-            JUST IN: Second single &quot;apparitions&quot; releasing April 18th
-            @ midnight &nbsp;
+            JUST IN: second single &quot;apparitions&quot; out NOW worldwide
+            &nbsp;
           </Marquee>
         </div>
       </body>

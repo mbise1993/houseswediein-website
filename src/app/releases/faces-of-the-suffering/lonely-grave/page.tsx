@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 import { Downloads, Lyrics, SongPage, Video } from '@/app/releases/song-page';
-import { LYRICS } from '@/app/releases/ep1/lonely-grave/lyrics';
+import { LYRICS } from '@/app/releases/faces-of-the-suffering/lonely-grave/lyrics';
 
 const DOWNLOADS = [
   {
