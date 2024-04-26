@@ -24,8 +24,8 @@ const SHOWS: ShowData[] = [
   },
   {
     title: 'UTSA Underground Music Festival',
-    date: getDate('2024-05-03'),
-    flyerUrl: '/flyers/2024-05-03.jpg',
+    date: getDate('2024-05-02'),
+    flyerUrl: '/flyers/2024-05-02.jpg',
     venueName: 'UTSA tunnels',
   },
   {
