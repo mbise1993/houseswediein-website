@@ -23,6 +23,14 @@ const SHOWS: ShowData[] = [
     ticketLink: 'https://vor.us/b12fb',
   },
   {
+    title:
+      'Postal EP Release w/ Crossways.3000, Houses We Die In, Fountain Mouth',
+    date: getDate('2024-05-10'),
+    flyerUrl: '/flyers/2024-05-10.jpg',
+    venueName: 'B-Side',
+    venueLink: 'https://www.instagram.com/bsidesatx/',
+  },
+  {
     title: 'UTSA Underground Music Festival',
     date: getDate('2024-05-02'),
     flyerUrl: '/flyers/2024-05-02.jpg',
