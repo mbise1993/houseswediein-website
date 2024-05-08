@@ -11,7 +11,7 @@ export interface Release {
 export const RELEASES: Release[] = [
   {
     title: 'Faces of the Suffering',
-    artworkUrl: '/artwork/ep1-artwork-white-bg.jpg',
+    artworkUrl: '/artwork/fots-artwork.jpg',
     songs: [
       {
         title: 'all we leave behind',

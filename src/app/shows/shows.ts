@@ -15,6 +15,13 @@ export interface Show extends ShowData {
 
 const SHOWS: ShowData[] = [
   {
+    title:
+      'Girl of Glass, Ballista, Victim Blamed, Misanthrope, Houses We Die In, Ghosthouse',
+    date: getDate('2024-06-29'),
+    flyerUrl: '/flyers/2024-06-29.jpg',
+    venueName: '922 Dorthy Dr. Corpus Christi',
+  },
+  {
     title: 'BIG TEXAS METAL FEST (Day 1)',
     date: getDate('2024-05-24'),
     flyerUrl: '/flyers/2024-05-24.jpg',
@@ -24,7 +31,7 @@ const SHOWS: ShowData[] = [
   },
   {
     title:
-      'Postal EP Release w/ Crossways.3000, Houses We Die In, Fountain Mouth',
+      'Postal EP Release w/ Crossways.3000, Houses We Die In, Fountain Mouth, Faint',
     date: getDate('2024-05-10'),
     flyerUrl: '/flyers/2024-05-10.jpg',
     venueName: 'B-Side',

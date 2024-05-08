@@ -25,16 +25,14 @@ export default function Page() {
       <SectionHeading>ANNOUNCEMENTS</SectionHeading>
       <ul className="list-disc pl-4">
         <li>
-          <span>
-            BIG TEXAS METAL FEST TICKETS -{' '}
-            <a href="https://vor.us/b12fb">CLICK HERE!!!</a>
-          </span>
+          <a href="https://distrokid.com/hyperfollow/houseswediein/faces-of-the-suffering">
+            Pre-save the &quot;Faces of the Suffering&quot; EP
+          </a>
         </li>
         <li>
           <span>
-            <a href="https://youtu.be/cz4k3Y52W0Y">
-              &quot;lonely grave&quot; GUITAR PLAYTHROUGH
-            </a>
+            BIG TEXAS METAL FEST TICKETS -{' '}
+            <a href="https://vor.us/b12fb">CLICK HERE!!!</a>
           </span>
         </li>
       </ul>
