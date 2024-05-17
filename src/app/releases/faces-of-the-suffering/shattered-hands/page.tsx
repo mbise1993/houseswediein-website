@@ -1,9 +1,9 @@
 import { Metadata } from 'next';
 
 import { Downloads, Lyrics, SongPage, Video } from '@/app/releases/song-page';
-import { LYRICS } from '@/app/releases/faces-of-the-suffering/lonely-grave/lyrics';
+import { LYRICS } from '@/app/releases/faces-of-the-suffering/shattered-hands/lyrics';
 
-const TITLE = 'lonely grave';
+const TITLE = 'shattered hands';
 
 const DOWNLOADS = [
   {
@@ -20,8 +20,8 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <SongPage title={TITLE} cursor="/cursors/gravestone-cursor.cur">
-      <Video src="https://www.youtube.com/embed/cz4k3Y52W0Y?si=_nTJChw5_ewoyZLF" />
+    <SongPage title={TITLE} cursor="/cursors/zombie-hand-cursor.cur">
+      <Video src="https://www.youtube.com/embed/R8G27Bl_fmI?si=_jxbcRkb0ODKLPd3" />
       <Lyrics>{LYRICS}</Lyrics>
       <Downloads downloads={DOWNLOADS} />
     </SongPage>
