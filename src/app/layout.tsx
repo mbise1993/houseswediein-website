@@ -81,8 +81,8 @@ export default function RootLayout({
         </div>
         <div className="fixed bottom-0 left-0 w-full">
           <Marquee className="bg-black py-1 text-[lawngreen]" speed={40}>
-            EXCLUSIVE: &quot;Faces of the Suffering&quot; EP out EVERYWHERE May
-            17th &nbsp;
+            BREAKING: &quot;Faces of the Suffering&quot; out NOW worldwide
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           </Marquee>
         </div>
       </body>

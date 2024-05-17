@@ -26,17 +26,40 @@ export default function Page() {
       <ul className="list-disc pl-4">
         <li>
           <a href="https://distrokid.com/hyperfollow/houseswediein/faces-of-the-suffering">
-            Pre-save the &quot;Faces of the Suffering&quot; EP
+            &quot;Faces of the Suffering&quot; EP out NOW!!!
           </a>
         </li>
         <li>
           <span>
             BIG TEXAS METAL FEST TICKETS -{' '}
-            <a href="https://vor.us/b12fb">CLICK HERE!!!</a>
+            <a href="https://vor.us/b12fb">CLICK HERE</a>
           </span>
         </li>
       </ul>
-      <SectionHeading className="mt-4">LIVE</SectionHeading>
+      <SectionHeading className="mt-6">LINKS</SectionHeading>
+      <div className="flex flex-col flex-wrap gap-2">
+        <LinkButton
+          href="https://open.spotify.com/artist/5p62veiIRA1sgEM1miwamk?si=jqQkXMeTRhKiJ3iUxYxJ-A"
+          src="/images/spotify-button.gif"
+          alt="Spotify link"
+        />
+        <LinkButton
+          href="https://www.instagram.com/houseswedieintx"
+          src="/images/instagram-button.gif"
+          alt="Instagram link"
+        />
+        <LinkButton
+          href="https://twitter.com/houseswedieintx"
+          src="/images/twitter-button.gif"
+          alt="X/Twitter link"
+        />
+        <LinkButton
+          href="https://www.youtube.com/@houseswedieintx"
+          src="/images/youtube-button.gif"
+          alt="YouTube link"
+        />
+      </div>
+      <SectionHeading className="mt-6">LIVE</SectionHeading>
       <iframe
         id="video"
         className="aspect-video w-full"
@@ -51,29 +74,6 @@ export default function Page() {
           <ShowDetails show={nextShow} />
         </>
       )}
-      <SectionHeading className="my-6">LINKS</SectionHeading>
-      <div className="flex flex-col flex-wrap gap-2">
-        <LinkButton
-          href="https://www.instagram.com/houseswedieintx"
-          src="/images/instagram-button.gif"
-          alt="Instagram link"
-        />
-        <LinkButton
-          href="https://twitter.com/houseswedieintx"
-          src="/images/twitter-button.gif"
-          alt="X/Twitter link"
-        />
-        <LinkButton
-          href="https://open.spotify.com/artist/5p62veiIRA1sgEM1miwamk?si=jqQkXMeTRhKiJ3iUxYxJ-A"
-          src="/images/spotify-button.gif"
-          alt="Spotify link"
-        />
-        <LinkButton
-          href="https://www.youtube.com/@houseswedieintx"
-          src="/images/youtube-button.gif"
-          alt="YouTube link"
-        />
-      </div>
       <SectionHeading className="mb-1 mt-6">BOOKING</SectionHeading>
       <span>
         Email us at{' '}
