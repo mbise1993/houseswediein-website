@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <SongPage title={TITLE} cursor="/cursors/pill-bottle-cursor.cur">
-      {/* <Video src="https://www.youtube.com/embed/gg899NNIxY4?si=bRh9JIoVjboT0JMy" /> */}
+      <Video src="https://www.youtube.com/embed/ORLKGcB0Usg?si=jGFYl5EKKSkoEzOw" />
       <Lyrics>{LYRICS}</Lyrics>
       <Downloads downloads={DOWNLOADS} />
     </SongPage>
