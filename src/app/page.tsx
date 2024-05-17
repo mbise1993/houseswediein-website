@@ -25,7 +25,7 @@ export default function Page() {
       <SectionHeading>ANNOUNCEMENTS</SectionHeading>
       <ul className="list-disc pl-4">
         <li>
-          <a href="https://distrokid.com/hyperfollow/houseswediein/faces-of-the-suffering">
+          <a href="https://open.spotify.com/album/5gFVZHrUvH7B9oeNdmCyzp?si=iXyTqH1JSeWDciP4YcFTiw">
             &quot;Faces of the Suffering&quot; EP out NOW!!!
           </a>
         </li>
