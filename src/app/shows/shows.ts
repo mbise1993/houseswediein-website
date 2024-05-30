@@ -15,11 +15,60 @@ export interface Show extends ShowData {
 
 const SHOWS: ShowData[] = [
   {
+    title: 'VULGARFEST (Day 1)',
+    date: getDate('2024-07-06'),
+    flyerUrl: '/flyers/2024-07-06.jpg',
+    venueName: 'Los Angeles, CA - The American Legion (9026 Sunland Blvd.)',
+  },
+  {
+    title:
+      'Houses We Die In, Fatal Wounds, Purest Bond, Lacerated, Watch You Fall, Death Whispers',
+    date: getDate('2024-07-03'),
+    flyerUrl: '/flyers/2024-07-03.jpg',
+    venueName: 'San Diego, CA - The Che Cafe',
+    venueLink: 'http://thechecafe.blogspot.com/',
+  },
+  {
+    title:
+      'Houses We Die In, Undissassembled, Rocky Mountain Oysters, Rotten Disgust, Predecessor',
+    date: getDate('2024-07-01'),
+    flyerUrl: '/flyers/2024-07-01.jpg',
+    venueName: "El Paso, TX - Vincent and Melo's",
+    venueLink: 'https://vincentandmelos.com/',
+  },
+  {
     title:
       'Girl of Glass, Ballista, Victim Blamed, Misanthrope, Houses We Die In, Ghosthouse',
     date: getDate('2024-06-29'),
     flyerUrl: '/flyers/2024-06-29.jpg',
     venueName: '922 Dorthy Dr. Corpus Christi',
+  },
+  {
+    title: 'HOUSES JULY TOUR',
+    date: getDate('2024-06-29'),
+    flyerUrl: '/flyers/2024-07-tour.jpg',
+    venueName: 'Southwest USA',
+  },
+  {
+    title: 'HOODS w/ Houses We Die In, Born Savage, Los Cabrones',
+    date: getDate('2024-06-19'),
+    flyerUrl: '/flyers/2024-06-19.jpg',
+    venueName: '13th Floor',
+    venueLink: 'https://the13thflooraustin.com/',
+  },
+  {
+    title: 'Everyone Dies In Utah, Cloud Anchor, Houses We Die In, Aeganova',
+    date: getDate('2024-06-14'),
+    flyerUrl: '/flyers/2024-06-14.jpg',
+    venueName: "Sean's Pub (Harker Heights, TX)",
+    venueLink: 'https://www.facebook.com/seanspubheights/',
+  },
+  {
+    title: 'Burning Years, Houses We Die In, Speak Slow, McBryde',
+    date: getDate('2024-05-31'),
+    flyerUrl: '/flyers/2024-05-31.jpg',
+    venueName: "Sunny's Backyard",
+    venueLink: 'https://www.sunnysbackyard.com/',
   },
   {
     title: 'BIG TEXAS METAL FEST (Day 1)',

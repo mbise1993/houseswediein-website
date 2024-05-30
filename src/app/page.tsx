@@ -25,15 +25,21 @@ export default function Page() {
       <SectionHeading>ANNOUNCEMENTS</SectionHeading>
       <ul className="list-disc pl-4">
         <li>
-          <a href="https://open.spotify.com/album/5gFVZHrUvH7B9oeNdmCyzp?si=iXyTqH1JSeWDciP4YcFTiw">
-            &quot;Faces of the Suffering&quot; EP out NOW!!!
+          Houses We Die In Southwest tour June 29th through July 9th -&nbsp;
+          <a
+            href="https://www.instagram.com/p/C7cjXQHp_UH/?img_index=1"
+            target="_blank"
+          >
+            CLICK HERE FOR DATES
           </a>
         </li>
         <li>
-          <span>
-            BIG TEXAS METAL FEST TICKETS -{' '}
-            <a href="https://vor.us/b12fb">CLICK HERE</a>
-          </span>
+          <a
+            href="https://open.spotify.com/album/5gFVZHrUvH7B9oeNdmCyzp?si=iXyTqH1JSeWDciP4YcFTiw"
+            target="_blank"
+          >
+            &quot;Faces of the Suffering&quot; EP out NOW!!!
+          </a>
         </li>
       </ul>
       <SectionHeading className="mt-6">LINKS</SectionHeading>

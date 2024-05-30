@@ -74,15 +74,15 @@ export default function RootLayout({
             {children}
           </main>
           <div className="flex items-center justify-center gap-4 p-4">
-            <a href="https://www.entrances2hell.co.uk/" target="_blanks">
+            <a href="https://www.entrances2hell.co.uk/" target="_blank">
               <img src="/images/click-here-button.gif" alt="click here" />
             </a>
           </div>
         </div>
         <div className="fixed bottom-0 left-0 w-full">
           <Marquee className="bg-black py-1 text-[lawngreen]" speed={40}>
-            BREAKING: &quot;Faces of the Suffering&quot; out NOW worldwide
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            HOUSES WORLDWIDE: Coming to a city near you in July 2k24 &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           </Marquee>
         </div>
       </body>
