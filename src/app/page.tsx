@@ -25,23 +25,44 @@ export default function Page() {
       <SectionHeading>ANNOUNCEMENTS</SectionHeading>
       <ul className="list-disc pl-4">
         <li>
-          Houses We Die In Southwest tour June 29th through July 9th -&nbsp;
+          Only a few cassettes left on our store!&nbsp;
           <a
-            href="https://www.instagram.com/p/C7cjXQHp_UH/?img_index=1"
+            href="https://houseswedieintx.bandcamp.com/album/faces-of-the-suffering"
             target="_blank"
           >
-            CLICK HERE FOR DATES
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://open.spotify.com/album/5gFVZHrUvH7B9oeNdmCyzp?si=iXyTqH1JSeWDciP4YcFTiw"
-            target="_blank"
-          >
-            &quot;Faces of the Suffering&quot; EP out NOW!!!
+            CLICK HERE
           </a>
         </li>
       </ul>
+      {nextShow && (
+        <>
+          <SectionHeading className="my-6">NEXT SHOW</SectionHeading>
+          <ShowDetails show={nextShow} />
+        </>
+      )}
+      <SectionHeading className="mt-6">LIVE</SectionHeading>
+      <div>
+        At Arnold House (Austin, TX)
+        <iframe
+          id="video"
+          className="aspect-video w-full"
+          src="https://www.youtube.com/embed/Tqw6LdpF7fE?si=SwAiU_pw5MOEsI84"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <div className="mt-4">
+        At Che Cafe (San Diego, CA)
+        <iframe
+          id="video"
+          className="aspect-video w-full"
+          src="https://www.youtube.com/embed/6IWw8wBijnE?si=yPDuCFXT7W7bma1Z"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        ></iframe>
+      </div>
       <SectionHeading className="mt-6">LINKS</SectionHeading>
       <div className="flex flex-col flex-wrap gap-2">
         <LinkButton
@@ -65,21 +86,6 @@ export default function Page() {
           alt="YouTube link"
         />
       </div>
-      <SectionHeading className="mt-6">LIVE</SectionHeading>
-      <iframe
-        id="video"
-        className="aspect-video w-full"
-        src="https://www.youtube.com/embed/Tqw6LdpF7fE?si=SwAiU_pw5MOEsI84"
-        title="YouTube video player"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowFullScreen
-      ></iframe>
-      {nextShow && (
-        <>
-          <SectionHeading className="my-6">NEXT SHOW</SectionHeading>
-          <ShowDetails show={nextShow} />
-        </>
-      )}
       <SectionHeading className="mb-1 mt-6">BOOKING</SectionHeading>
       <span>
         Email us at{' '}
