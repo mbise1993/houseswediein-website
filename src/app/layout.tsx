@@ -58,7 +58,7 @@ export default function RootLayout({
             <img
               className="mt-2 w-[460px] opacity-90 transition-all group-hover:scale-110"
               alt="Logo"
-              src="/assets/logo-black.png"
+              src="/assets/main-logo.png"
             />
           </div>
           <main className="mt-4 flex min-h-[600px] flex-col bg-orange-50 pb-8">
@@ -81,8 +81,8 @@ export default function RootLayout({
         </div>
         <div className="fixed bottom-0 left-0 w-full">
           <Marquee className="bg-black py-1 text-[lawngreen]" speed={40}>
-            HOUSES WORLDWIDE: Coming to a city near you in July 2k24 &nbsp;
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            HOUSES WORLDWIDE&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            &nbsp;
           </Marquee>
         </div>
       </body>

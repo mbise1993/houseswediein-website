@@ -1,15 +1,12 @@
 import { Metadata } from 'next';
 
 import { SectionHeading } from '@/components/section-heading';
+import { PromoPhoto } from '@/components/promo-photo';
 
 const ASSETS = [
   {
-    name: 'Logo (black)',
-    url: '/assets/logo-black.png',
-  },
-  {
-    name: 'Logo (white)',
-    url: '/assets/logo-white.png',
+    name: 'Main logo',
+    url: '/assets/main-logo.png',
   },
 ];
 
@@ -22,10 +19,10 @@ export default function Page() {
   return (
     <div className="prose px-8">
       <SectionHeading>ABOUT</SectionHeading>
-      <img
-        className="md:h-[400px]"
-        src="/promos/alley-promo-1.jpg"
-        alt="full band photo"
+      <PromoPhoto
+        src="/promos/alley-1.jpg"
+        alt="Alley photo"
+        photographer="dylandistance"
       />
       <p className="mt-4">Metalcore from Austin, Texas.</p>
 

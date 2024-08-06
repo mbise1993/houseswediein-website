@@ -10,7 +10,7 @@ interface LinkButtonProps {
 
 const LinkButton = ({ href, src, alt }: LinkButtonProps) => {
   return (
-    <a href={href} target="_blank">
+    <a className="w-fit" href={href} target="_blank">
       <img className="w-[240px]" alt={alt} src={src} />
     </a>
   );
@@ -88,9 +88,7 @@ export default function Page() {
       </div>
       <SectionHeading className="mb-1 mt-6">BOOKING</SectionHeading>
       <span>
-        Email us at{' '}
-        <a href="mailto:houseswedieintx@gmail.com">houseswedieintx@gmail.com</a>{' '}
-        or DM us on Instagram
+        Email us at <b>houseswedieintx@gmail.com</b> or DM us on Instagram
       </span>
     </div>
   );
