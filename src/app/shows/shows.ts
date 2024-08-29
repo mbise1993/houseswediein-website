@@ -15,6 +15,22 @@ export interface Show extends ShowData {
 
 const SHOWS: ShowData[] = [
   {
+    title: 'Unity TX, Silly Goose, Soulkeeper, Houses We Die In',
+    date: getDate('2024-10-20'),
+    flyerUrl: '/flyers/2024-10-20.jpg',
+    venueName: 'Empire Control Room',
+    venueLink: 'https://empireatx.com/',
+    ticketLink: 'https://vor.us/b1c2c',
+  },
+  {
+    title:
+      'Chernobyl the Secret, DGMA, Speak Slow, Houses We Die In, Blank Slate',
+    date: getDate('2024-09-22'),
+    flyerUrl: '/flyers/2024-09-22.jpg',
+    venueName: 'Come and Take It Live',
+    venueLink: 'https://comeandtakeitproductions.com/',
+  },
+  {
     title:
       'Cable, Houses We Die In, War Stories, Sugar, Scissor Tailfly Catcher',
     date: getDate('2024-09-13'),
