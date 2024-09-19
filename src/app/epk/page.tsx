@@ -187,13 +187,10 @@ export default function Page() {
         </li>
         <li>
           <a href="https://www.instagram.com/ampsvsslamps/">Jake Reeves</a> -
-          Bass
+          Guitar
         </li>
         <li>
-          <a href="https://www.instagram.com/deathmetalpizza/">
-            Juan Hernandez
-          </a>{' '}
-          - Drums
+          <a href="https://www.instagram.com/ethnthyr/">Ethan Thayer</a> - Bass
         </li>
         <li>
           <a href="https://www.instagram.com/helloarjana/">Arjana Almaneih</a> -
