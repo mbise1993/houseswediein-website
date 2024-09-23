@@ -22,10 +22,10 @@ export default function Page() {
 
   return (
     <div className="px-8">
-      {/* <SectionHeading>ANNOUNCEMENTS</SectionHeading>
+      <SectionHeading>ANNOUNCEMENTS</SectionHeading>
       <ul className="list-disc pl-4">
         <li>
-          Only a few cassettes left on our store!&nbsp;
+          FALL MERCH PREORDERS -&nbsp;
           <a
             href="https://houseswedieintx.bandcamp.com/album/faces-of-the-suffering"
             target="_blank"
@@ -33,7 +33,7 @@ export default function Page() {
             CLICK HERE
           </a>
         </li>
-      </ul> */}
+      </ul>
       {nextShow && (
         <>
           <SectionHeading className="my-6">NEXT SHOW</SectionHeading>

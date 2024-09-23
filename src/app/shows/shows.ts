@@ -23,6 +23,13 @@ const SHOWS: ShowData[] = [
     ticketLink: 'https://vor.us/b1c2c',
   },
   {
+    title: 'The Way It Is Fest (Benefit for Gaza)',
+    date: getDate('2024-09-28'),
+    flyerUrl: '/flyers/2024-09-28.jpg',
+    venueName: 'The Far Out Lounge',
+    venueLink: 'http://www.thefaroutaustin.com/',
+  },
+  {
     title:
       'Chernobyl the Secret, DGMA, Speak Slow, Houses We Die In, Blank Slate',
     date: getDate('2024-09-22'),
