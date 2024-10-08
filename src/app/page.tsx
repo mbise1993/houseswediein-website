@@ -22,7 +22,20 @@ export default function Page() {
 
   return (
     <div className="px-8">
-      <SectionHeading>ANNOUNCEMENTS</SectionHeading>
+      <div className="flex items-center justify-between">
+        <img
+          className="h-12"
+          src="/extras/skull-and-crossbones.gif"
+          alt="spinning skull and crossbones"
+        />
+        <span className="text-2xl font-bold">WELCOME</span>
+        <img
+          className="h-12"
+          src="/extras/skull-and-crossbones.gif"
+          alt="spinning skull and crossbones"
+        />
+      </div>
+      {/* <SectionHeading>ANNOUNCEMENTS</SectionHeading>
       <ul className="list-disc pl-4">
         <li>
           FALL MERCH PREORDERS -&nbsp;
@@ -33,7 +46,7 @@ export default function Page() {
             CLICK HERE
           </a>
         </li>
-      </ul>
+      </ul> */}
       {nextShow && (
         <>
           <SectionHeading className="my-6">NEXT SHOW</SectionHeading>

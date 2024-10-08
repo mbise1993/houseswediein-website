@@ -15,6 +15,38 @@ export interface Show extends ShowData {
 
 const SHOWS: ShowData[] = [
   {
+    title:
+      'Live Longer Burn Everything, Houses We Die In, Victim Blamed, Postal',
+    date: getDate('2024-11-04'),
+    flyerUrl: '/flyers/2024-11-04.jpg',
+    venueName: 'The Starlighter',
+    venueLink: 'https://thestarlighter.com/',
+  },
+  {
+    title:
+      'Live Longer Burn Everything, Houses We Die In, My Dad Died, Rebecka',
+    date: getDate('2024-11-03'),
+    flyerUrl: '/flyers/2024-11-03.jpg',
+    venueName: 'Chess Club',
+    venueLink: 'https://chessclubaustin.com/',
+  },
+  {
+    title: '2024 Halloween Havoc',
+    date: getDate('2024-10-31'),
+    flyerUrl: '/flyers/2024-10-31.jpg',
+    venueName: 'The Ballroom',
+    venueLink: 'https://www.ballroomtx.com/',
+  },
+  {
+    title: 'Glassing, Drip Fed, Tied Up, Houses We Die In',
+    date: getDate('2024-10-21'),
+    flyerUrl: '/flyers/2024-10-21.jpg',
+    venueName: 'Chess Club',
+    venueLink: 'https://chessclubaustin.com/',
+    ticketLink:
+      'https://dice.fm/partner/dice/event/8eap2r-glassing-drip-fed-tied-up-houses-we-die-in-21st-oct-chess-club-austin-tickets?dice_id=4095852&dice_channel=web&dice_tags=organic&dice_campaign=DICE&dice_feature=mio_marketing&_branch_match_id=1340370699146078524&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9ZLyUxO1UvL1XdMTExMTrZMMTczMravK0pNSy0qysxLj08qyi8vTi2ydc4oys9NBQCpQWrUOwAAAA',
+  },
+  {
     title: 'Unity TX, Silly Goose, Soulkeeper, Houses We Die In',
     date: getDate('2024-10-20'),
     flyerUrl: '/flyers/2024-10-20.jpg',
