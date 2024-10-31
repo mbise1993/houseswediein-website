@@ -82,12 +82,16 @@ export default function Page() {
           allowFullScreen
         ></iframe>
       </div>
-      <SectionHeading className="mt-6">NOTABLE SHOWS</SectionHeading>
+      <SectionHeading className="mt-8">NOTABLE SHOWS</SectionHeading>
       <ul className="list-disc pl-4">
         <li>May 2024 - Opened day 1 of Big Texas Metal Fest in Austin, TX</li>
         <li>July 2024 - Two-week DIY southwest tour (to LA and back)</li>
         <li>
           July 2024 - Opened for I Set My Friends on Fire in Corpus Christi, TX
+        </li>
+        <li>
+          October 2024 - Opened for Unity TX, Silly Goose, and Soulkeeper at
+          Empire Control Room in Austin, TX
         </li>
         {/* <li>December 2024 - No Sleep Fest + Texas run with Lacerated</li> */}
       </ul>
@@ -108,16 +112,16 @@ export default function Page() {
       </ul>
       <SectionHeading className="mt-6">PROMO PHOTOS</SectionHeading>
       <PromoPhoto
+        src="/promos/chess-club-1.jpg"
+        alt="Chess Club"
+        photographer="coreylaynephoto"
+      />
+      {/* <PromoPhoto
+        className="mt-4"
         src="/promos/alley-1.jpg"
         alt="Alley photo"
         photographer="dylandistance"
-      />
-      <PromoPhoto
-        className="mt-4"
-        src="/promos/stairs-1.jpg"
-        alt="Stairs photo"
-        photographer="dylandistance"
-      />
+      /> */}
       <PromoPhoto
         className="mt-4"
         src="/promos/valhalla-1.jpg"
@@ -178,23 +182,40 @@ export default function Page() {
           - Vocals
         </li>
         <li>
-          <a href="https://www.instagram.com/matthew.bise/">Matthew Bise</a> -
-          Guitar
+          <a href="https://www.instagram.com/matthew.bise/" target="_blank">
+            Matthew Bise
+          </a>{' '}
+          - Guitar
         </li>
         <li>
-          <a href="https://www.instagram.com/toscan00/">Matthew Toscano</a> -
-          Guitar
+          <a href="https://www.instagram.com/toscan00/" target="_blank">
+            Matthew Toscano
+          </a>{' '}
+          - Guitar
         </li>
         <li>
-          <a href="https://www.instagram.com/ampsvsslamps/">Jake Reeves</a> -
-          Guitar
+          <a href="https://www.instagram.com/ampsvsslamps/" target="_blank">
+            Jake Reeves
+          </a>{' '}
+          - Guitar
         </li>
         <li>
-          <a href="https://www.instagram.com/ethnthyr/">Ethan Thayer</a> - Bass
+          <a href="https://www.instagram.com/ethnthyr/" target="_blank">
+            Ethan Thayer
+          </a>{' '}
+          - Bass
         </li>
         <li>
-          <a href="https://www.instagram.com/helloarjana/">Arjana Almaneih</a> -
-          Management, booking, merch
+          <a href="https://www.instagram.com/a.r.y.l/" target="_blank">
+            Lucky Trejo
+          </a>{' '}
+          - Drums
+        </li>
+        <li>
+          <a href="https://www.instagram.com/helloarjana/" target="_blank">
+            Arjana Almaneih
+          </a>{' '}
+          - Management, booking, merch
         </li>
       </ul>
     </div>
