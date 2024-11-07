@@ -20,9 +20,9 @@ export default function Page() {
     <div className="prose px-8">
       <SectionHeading>ABOUT</SectionHeading>
       <PromoPhoto
-        src="/promos/alley-1.jpg"
-        alt="Alley photo"
-        photographer="dylandistance"
+        src="/promos/group-1.jpg"
+        alt="Band photo"
+        photographer="reillysbadphotos"
       />
       <p className="mt-4">Metalcore from Austin, Texas.</p>
 

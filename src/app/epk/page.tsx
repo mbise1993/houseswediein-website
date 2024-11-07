@@ -26,10 +26,10 @@ export default function Page() {
     <div className="prose px-8">
       <SectionHeading>BIO</SectionHeading>
       <div>
-        Houses We Die In formed in 2023 as a five-piece metalcore band in
-        Austin, Texas. Sonically, they are a modern take on the golden era of
-        metalcore from the early to mid 2000s. They also strive to pay homage to
-        the forefathers of the genre in their live shows, bringing an infectious
+        Houses We Die In formed in 2023 as a six-piece metalcore band in Austin,
+        Texas. Sonically, they are a modern take on the golden era of metalcore
+        from the early to mid 2000s. They also strive to pay homage to the
+        forefathers of the genre in their live shows, bringing an infectious
         energy and stage presence to match the intensity of the music.
       </div>
       <SectionHeading className="mt-6">MUSIC</SectionHeading>
@@ -112,21 +112,21 @@ export default function Page() {
       </ul>
       <SectionHeading className="mt-6">PROMO PHOTOS</SectionHeading>
       <PromoPhoto
+        src="/promos/group-1.jpg"
+        alt="Group photo 1"
+        photographer="reillysbadphotos"
+      />
+      <PromoPhoto
+        className="mt-4"
+        src="/promos/group-2.jpg"
+        alt="Group photo 2"
+        photographer="reillysbadphotos"
+      />
+      <PromoPhoto
+        className="mt-4"
         src="/promos/chess-club-1.jpg"
         alt="Chess Club"
         photographer="coreylaynephoto"
-      />
-      {/* <PromoPhoto
-        className="mt-4"
-        src="/promos/alley-1.jpg"
-        alt="Alley photo"
-        photographer="dylandistance"
-      /> */}
-      <PromoPhoto
-        className="mt-4"
-        src="/promos/valhalla-1.jpg"
-        alt="Valhalla 1"
-        photographer="dylandistance"
       />
       <PromoPhoto
         className="mt-4"
