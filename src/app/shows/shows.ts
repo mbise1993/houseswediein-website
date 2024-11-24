@@ -15,6 +15,34 @@ export interface Show extends ShowData {
 
 const SHOWS: ShowData[] = [
   {
+    title: 'Invasion Fest',
+    date: getDate('2025-03-08'),
+    flyerUrl: '/flyers/2025-03-08.jpg',
+    venueName: 'The End (Houston)',
+    venueLink: 'https://www.instagram.com/the_end_houston/',
+  },
+  {
+    title:
+      'Lacerated, Houses We Die In, Crooked Life, knifeinagunfight, As My Will Caves',
+    date: getDate('2024-12-09'),
+    flyerUrl: '/flyers/2024-12-09.jpg',
+    venueName: 'The Free Store (New Orleans)',
+  },
+  {
+    title:
+      'Houses We Die In, Lacerated, True Grit, Ritual Abuse, Misanthrope, Hatred Creation',
+    date: getDate('2024-12-04'),
+    flyerUrl: '/flyers/2024-12-04.jpg',
+    venueName: 'Haltom Theater',
+    venueLink: 'https://www.thehaltomtheater.com/',
+  },
+  {
+    title: 'Houses We Die In, Postal, Havrath, Skabatha, Chained In Sin',
+    date: getDate('2024-11-22'),
+    flyerUrl: '/flyers/2024-11-22.jpg',
+    venueName: 'UTSA MOB',
+  },
+  {
     title:
       'Live Longer Burn Everything, Houses We Die In, Victim Blamed, Postal',
     date: getDate('2024-11-04'),

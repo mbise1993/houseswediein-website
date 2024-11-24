@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 
 import { SectionHeading } from '@/components/section-heading';
 import { PromoPhoto } from '@/components/promo-photo';
+import Link from 'next/link';
 
 const ASSETS = [
   {
@@ -37,6 +38,9 @@ export default function Page() {
           </li>
         ))}
       </ul>
+
+      <SectionHeading className="mt-6">EPK</SectionHeading>
+      <Link href="/epk">Click here</Link>
     </div>
   );
 }

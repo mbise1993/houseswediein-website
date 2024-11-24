@@ -35,18 +35,18 @@ export default function Page() {
           alt="spinning skull and crossbones"
         />
       </div>
-      {/* <SectionHeading>ANNOUNCEMENTS</SectionHeading>
+      <SectionHeading className="mt-6">ANNOUNCEMENTS</SectionHeading>
       <ul className="list-disc pl-4">
         <li>
-          FALL MERCH PREORDERS -&nbsp;
+          NEW SONG &quot;PORTRAITS OF YOU&quot; NOV 30TH -&nbsp;
           <a
-            href="https://houseswedieintx.bandcamp.com/album/faces-of-the-suffering"
+            href="https://distrokid.com/hyperfollow/houseswediein/portraits-of-you"
             target="_blank"
           >
             CLICK HERE
           </a>
         </li>
-      </ul> */}
+      </ul>
       {nextShow && (
         <>
           <SectionHeading className="my-6">NEXT SHOW</SectionHeading>
