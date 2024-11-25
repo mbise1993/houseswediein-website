@@ -29,6 +29,13 @@ const SHOWS: ShowData[] = [
     venueName: 'The Free Store (New Orleans)',
   },
   {
+    title: 'Lacerated, Houses We Die In, McBryde, Ten Times Demise',
+    date: getDate('2024-12-05'),
+    flyerUrl: '/flyers/2024-12-05.jpg',
+    venueName: '13th Floor',
+    venueLink: 'https://the13thflooraustin.com/',
+  },
+  {
     title:
       'Houses We Die In, Lacerated, True Grit, Ritual Abuse, Misanthrope, Hatred Creation',
     date: getDate('2024-12-04'),
