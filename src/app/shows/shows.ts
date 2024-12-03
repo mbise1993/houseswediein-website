@@ -23,17 +23,33 @@ const SHOWS: ShowData[] = [
   },
   {
     title:
+      'The High Cost of Playing God, Houses We Die In, Votive, Missouri Executive Order 44',
+    date: getDate('2024-12-13'),
+    flyerUrl: '/flyers/2024-12-13.jpg',
+    venueName: 'House of Los',
+  },
+  {
+    title:
       'Lacerated, Houses We Die In, Crooked Life, knifeinagunfight, As My Will Caves',
     date: getDate('2024-12-09'),
     flyerUrl: '/flyers/2024-12-09.jpg',
     venueName: 'The Free Store (New Orleans)',
   },
   {
-    title: 'Lacerated, Houses We Die In, McBryde, Ten Times Demise',
+    title: 'No Sleep Fest Pre-show',
+    date: getDate('2024-12-06'),
+    flyerUrl: '/flyers/2024-12-06.jpg',
+    venueName: 'Moontower Inn',
+    venueLink: 'https://www.moontowerinn.com/',
+  },
+  {
+    title: 'Lacerated, Houses We Die In, Scrape, McBryde, Ten Times Demise',
     date: getDate('2024-12-05'),
     flyerUrl: '/flyers/2024-12-05.jpg',
-    venueName: '13th Floor',
-    venueLink: 'https://the13thflooraustin.com/',
+    venueName: 'Far Out Lounge',
+    venueLink: 'http://www.thefaroutaustin.com/',
+    ticketLink:
+      'https://www.tickettailor.com/events/thefaroutloungestage/1487881',
   },
   {
     title:
@@ -42,6 +58,14 @@ const SHOWS: ShowData[] = [
     flyerUrl: '/flyers/2024-12-04.jpg',
     venueName: 'Haltom Theater',
     venueLink: 'https://www.thehaltomtheater.com/',
+  },
+  {
+    title:
+      'Bosh, Girl of Glass, Thus Spoke Zarathustra, Withpaperwings, Houses We Die In',
+    date: getDate('2024-12-03'),
+    flyerUrl: '/flyers/2024-12-03.jpg',
+    venueName: 'Independence Brewing',
+    venueLink: 'https://independencebrewing.com/',
   },
   {
     title: 'Houses We Die In, Postal, Havrath, Skabatha, Chained In Sin',
