@@ -81,7 +81,7 @@ export default function RootLayout({
         </div>
         <div className="fixed bottom-0 left-0 w-full">
           <Marquee className="bg-black py-1 text-[lawngreen]" speed={40}>
-            NEW SONG &quot;PORTRAITS OF YOU&quot; OUT NOVEMBER 30TH&nbsp; &nbsp;
+            NEW SONG &quot;PORTRAITS OF YOU&quot; OUT NOW WORLDWIDE&nbsp; &nbsp;
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
             &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
             &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;

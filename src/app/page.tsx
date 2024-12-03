@@ -38,12 +38,12 @@ export default function Page() {
       <SectionHeading className="mt-6">ANNOUNCEMENTS</SectionHeading>
       <ul className="list-disc pl-4">
         <li>
-          NEW SONG &quot;PORTRAITS OF YOU&quot; NOV 30TH -&nbsp;
+          NEW SONG &quot;PORTRAITS OF YOU&quot; OUT NOW -&nbsp;
           <a
-            href="https://distrokid.com/hyperfollow/houseswediein/portraits-of-you"
+            href="https://open.spotify.com/track/5OI59ekqcjIq4bs09gWNEZ?si=0df25c1943354c72"
             target="_blank"
           >
-            CLICK HERE
+            LISTEN HERE
           </a>
         </li>
       </ul>
