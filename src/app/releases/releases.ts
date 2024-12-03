@@ -10,6 +10,16 @@ export interface Release {
 
 export const RELEASES: Release[] = [
   {
+    title: 'portraits of you',
+    artworkUrl: '/artwork/2024-dual-release-artwork.jpg',
+    songs: [
+      {
+        title: 'portraits of you',
+        url: '/releases/2024-dual-release/portraits-of-you',
+      },
+    ],
+  },
+  {
     title: 'Faces of the Suffering',
     artworkUrl: '/artwork/fots-artwork.jpg',
     songs: [

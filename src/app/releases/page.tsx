@@ -14,7 +14,7 @@ export default function Page() {
       {RELEASES.map((release) => (
         <div
           key={release.title}
-          className="mt-2 flex flex-col gap-4 md:flex-row"
+          className="mt-8 flex flex-col gap-4 md:flex-row"
         >
           <div className="flex flex-shrink-0 justify-center">
             <img
