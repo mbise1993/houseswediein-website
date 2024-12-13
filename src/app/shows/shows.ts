@@ -23,10 +23,19 @@ const SHOWS: ShowData[] = [
   },
   {
     title:
+      'Ghosthouse, Postal, Houses We Die In, Safely Home, Slum Mafia, Censored, Parasite',
+    date: getDate('2024-12-21'),
+    flyerUrl: '/flyers/2024-12-21.jpg',
+    venueName: 'Galvan Ballroom (Corpus Christi, TX)',
+    venueLink: 'http://galvanballroom.com/',
+  },
+  {
+    title:
       'The High Cost of Playing God, Houses We Die In, Votive, Missouri Executive Order 44',
     date: getDate('2024-12-13'),
     flyerUrl: '/flyers/2024-12-13.jpg',
-    venueName: 'House of Los',
+    venueName: 'Monkeywrench Books',
+    venueLink: 'https://www.monkeywrenchbooks.org/',
   },
   {
     title:
