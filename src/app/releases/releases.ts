@@ -10,12 +10,16 @@ export interface Release {
 
 export const RELEASES: Release[] = [
   {
-    title: 'portraits of you',
+    title: 'portraits of you // purgatory creek',
     artworkUrl: '/artwork/2024-dual-release-artwork.jpg',
     songs: [
       {
         title: 'portraits of you',
         url: '/releases/2024-dual-release/portraits-of-you',
+      },
+      {
+        title: 'purgatory creek',
+        url: '/releases/2024-dual-release/purgatory-creek',
       },
     ],
   },

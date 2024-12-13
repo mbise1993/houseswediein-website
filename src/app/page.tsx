@@ -38,9 +38,9 @@ export default function Page() {
       <SectionHeading className="mt-6">ANNOUNCEMENTS</SectionHeading>
       <ul className="list-disc pl-4">
         <li>
-          NEW SONG &quot;PORTRAITS OF YOU&quot; OUT NOW -&nbsp;
+          NEW SONG &quot;PURGATORY CREEK&quot; OUT NOW -&nbsp;
           <a
-            href="https://open.spotify.com/track/5OI59ekqcjIq4bs09gWNEZ?si=0df25c1943354c72"
+            href="https://open.spotify.com/album/6u6fugNTVWhavspu2yYb5d?si=Ie1HRltcTBiKqpj_n6FObA"
             target="_blank"
           >
             LISTEN HERE
