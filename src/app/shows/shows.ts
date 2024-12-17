@@ -22,6 +22,14 @@ const SHOWS: ShowData[] = [
     venueLink: 'https://www.instagram.com/the_end_houston/',
   },
   {
+    title: 'Tar Creek, JAW/LINE, Houses We Die In, Born Savage',
+    date: getDate('2025-01-19'),
+    flyerUrl: '/flyers/2025-01-19.jpg',
+    venueName: 'Mohawk',
+    venueLink: 'https://mohawkaustin.com/',
+    ticketLink: 'https://mohawkaustin.com/event/?id=-2853509351522476205',
+  },
+  {
     title:
       'Ghosthouse, Postal, Houses We Die In, Safely Home, Slum Mafia, Censored, Parasite',
     date: getDate('2024-12-21'),
