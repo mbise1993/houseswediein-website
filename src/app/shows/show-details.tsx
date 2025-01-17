@@ -1,3 +1,5 @@
+import * as dateFns from 'date-fns';
+
 import { Show } from '@/app/shows/shows';
 
 interface ShowDetailsProps {
@@ -19,7 +21,7 @@ export const ShowDetails = ({ show }: ShowDetailsProps) => {
         />
       </div>
       <div>
-        {show.ticketLink ? (
+        {show.ticketLink && dateFns.isFuture(show.date) ? (
           <a {...titleProps} href={show.ticketLink} target="_blank">
             {show.title}
           </a>

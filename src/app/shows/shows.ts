@@ -15,11 +15,42 @@ export interface Show extends ShowData {
 
 const SHOWS: ShowData[] = [
   {
+    title:
+      "Don't Fear the End, Houses We Die In, fingerswoventogether, Monterey, andwhentheskywasopened",
+    date: getDate('2025-03-27'),
+    flyerUrl: '/flyers/2025-03-27.jpg',
+    venueName: "Will's Pub (Orlando)",
+    venueLink: 'https://willspub.org/',
+    ticketLink:
+      'https://www.ticketweb.com/event/dont-fear-the-end-with-wills-pub-tickets/14165113',
+  },
+  {
+    title:
+      "Houses We Die In, Don't Fear the End, Kurama, Claymore, xMercyx, Blood Buffet",
+    date: getDate('2025-03-25'),
+    flyerUrl: '/flyers/2025-03-25.jpg',
+    venueName: 'The White Swan (Houston)',
+    venueLink: 'https://www.whiteswanlive.com/',
+  },
+  {
+    title: "March Tour w/ Don't Fear the End",
+    date: getDate('2025-03-25'),
+    flyerUrl: '/flyers/2025-03-tour.jpg',
+    venueName: 'Texas, NOLA, Florida',
+  },
+  {
     title: 'Invasion Fest',
     date: getDate('2025-03-08'),
     flyerUrl: '/flyers/2025-03-08.jpg',
     venueName: 'The End (Houston)',
     venueLink: 'https://www.instagram.com/the_end_houston/',
+  },
+  {
+    title: 'Banged Out, Palefade, Houses We Die In',
+    date: getDate('2025-01-20'),
+    flyerUrl: '/flyers/2025-01-20.jpg',
+    venueName: 'Low Down Lounge',
+    venueLink: 'https://www.lowdownlounge.com/',
   },
   {
     title: 'Tar Creek, JAW/LINE, Houses We Die In, Born Savage',
@@ -28,6 +59,19 @@ const SHOWS: ShowData[] = [
     venueName: 'Mohawk',
     venueLink: 'https://mohawkaustin.com/',
     ticketLink: 'https://mohawkaustin.com/event/?id=-2853509351522476205',
+  },
+  {
+    title: 'Buckle Bunnies Benefit Show',
+    date: getDate('2025-01-11'),
+    flyerUrl: '/flyers/2025-01-11.jpg',
+    venueName: 'Private Park (San Marcos)',
+  },
+  {
+    title: 'FREE WEEK at Mohawk',
+    date: getDate('2025-01-02'),
+    flyerUrl: '/flyers/2025-01-02.jpg',
+    venueName: 'Mohawk',
+    venueLink: 'https://mohawkaustin.com/',
   },
   {
     title:

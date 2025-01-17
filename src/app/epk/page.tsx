@@ -93,7 +93,13 @@ export default function Page() {
           October 2024 - Opened for Unity TX, Silly Goose, and Soulkeeper at
           Empire Control Room in Austin, TX
         </li>
-        {/* <li>December 2024 - No Sleep Fest + Texas run with Lacerated</li> */}
+        <li>
+          December 2024 - No Sleep Fest pre-show + Texas/NOLA run with Lacerated
+        </li>
+        <li>
+          January 2025 - Played Free Week show at Mohawk with Creeping Death,
+          Mujeres Podridas, Mugger, NRA, and Dewormer
+        </li>
       </ul>
       <SectionHeading className="mt-6">LOGOS</SectionHeading>
       <ul className="flex flex-col gap-4">
