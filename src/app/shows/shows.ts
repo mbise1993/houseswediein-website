@@ -16,6 +16,14 @@ export interface Show extends ShowData {
 const SHOWS: ShowData[] = [
   {
     title:
+      'Victim Blamed, Houses We Die In, Ashes at Last, In Which Divides Us, Pink Michigan, Ghosthouse, Trapin Percatory',
+    date: getDate('2025-04-19'),
+    flyerUrl: '/flyers/2025-04-19.jpg',
+    venueName: 'Independence Brewing (Austin)',
+    venueLink: 'https://independencebrewing.com/',
+  },
+  {
+    title:
       "Don't Fear the End, Houses We Die In, fingerswoventogether, Monterey, andwhentheskywasopened",
     date: getDate('2025-03-27'),
     flyerUrl: '/flyers/2025-03-27.jpg',
@@ -23,6 +31,13 @@ const SHOWS: ShowData[] = [
     venueLink: 'https://willspub.org/',
     ticketLink:
       'https://www.ticketweb.com/event/dont-fear-the-end-with-wills-pub-tickets/14165113',
+  },
+  {
+    title: "Don't Fear the End, Houses We Die In, Knife In A Gunfight, Dremm",
+    date: getDate('2025-03-26'),
+    flyerUrl: '/flyers/2025-03-26.jpg',
+    venueName: 'Fred Hampton Free Store (New Orleans)',
+    venueLink: 'https://www.instagram.com/gno.cc.eventspace/',
   },
   {
     title:
@@ -34,7 +49,7 @@ const SHOWS: ShowData[] = [
   },
   {
     title: "March Tour w/ Don't Fear the End",
-    date: getDate('2025-03-25'),
+    date: getDate('2025-03-24'),
     flyerUrl: '/flyers/2025-03-tour.jpg',
     venueName: 'Texas, NOLA, Florida',
   },
@@ -44,6 +59,13 @@ const SHOWS: ShowData[] = [
     flyerUrl: '/flyers/2025-03-08.jpg',
     venueName: 'The End (Houston)',
     venueLink: 'https://www.instagram.com/the_end_houston/',
+  },
+  {
+    title:
+      'Destroy All Humans, Houses We Die In, Fear of Loss, Ghosthouse, Nervepoint, Postal, Ricin',
+    date: getDate('2025-03-06'),
+    flyerUrl: '/flyers/2025-03-06.jpg',
+    venueName: 'Private Park (San Marcos)',
   },
   {
     title: 'Banged Out, Palefade, Houses We Die In',

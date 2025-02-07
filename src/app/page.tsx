@@ -38,12 +38,13 @@ export default function Page() {
       <SectionHeading className="mt-6">ANNOUNCEMENTS</SectionHeading>
       <ul className="list-disc pl-4">
         <li>
-          NEW SONG &quot;PURGATORY CREEK&quot; OUT NOW -&nbsp;
+          FEB 10TH AT 7PM: PURGATORY CREEK // PORTRAITS OF YOU VIDEO PREMIER
+          -&nbsp;
           <a
             href="https://open.spotify.com/album/6u6fugNTVWhavspu2yYb5d?si=Ie1HRltcTBiKqpj_n6FObA"
             target="_blank"
           >
-            LISTEN HERE
+            WATCH HERE
           </a>
         </li>
       </ul>
