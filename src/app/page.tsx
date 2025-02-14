@@ -38,13 +38,13 @@ export default function Page() {
       <SectionHeading className="mt-6">ANNOUNCEMENTS</SectionHeading>
       <ul className="list-disc pl-4">
         <li>
-          FEB 10TH AT 7PM: PURGATORY CREEK // PORTRAITS OF YOU VIDEO PREMIER
-          -&nbsp;
+          NEW DUAL SINGLE &quot;SAINT VALENTINE&apos;S DAY MASSACRE&quot; OUT
+          NOW -&nbsp;
           <a
-            href="https://open.spotify.com/album/6u6fugNTVWhavspu2yYb5d?si=Ie1HRltcTBiKqpj_n6FObA"
+            href="https://open.spotify.com/album/1ZU4WHoH80cnuqPN6GR8Mw?si=2ednQ2o3QE2AsazxM6h-Wg"
             target="_blank"
           >
-            WATCH HERE
+            LISTEN HERE
           </a>
         </li>
       </ul>

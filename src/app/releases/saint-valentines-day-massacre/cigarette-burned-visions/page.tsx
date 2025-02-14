@@ -1,9 +1,9 @@
 import { Metadata } from 'next';
 
 import { Downloads, Lyrics, SongPage, Video } from '@/app/releases/song-page';
-import { LYRICS } from '@/app/releases/2024-dual-release/portraits-of-you/lyrics';
+import { LYRICS } from '@/app/releases/saint-valentines-day-massacre/cigarette-burned-visions/lyrics';
 
-const TITLE = 'portraits of you';
+const TITLE = 'cigarette burned visions';
 
 const DOWNLOADS = [
   {
@@ -22,9 +22,9 @@ export default function Page() {
   return (
     <SongPage
       title={TITLE}
-      cursor="https://cur.cursors-4u.net/holidays/hol-1/hol18.cur"
+      cursor="https://cur.cursors-4u.net/others/oth-1/oth3.png"
     >
-      <Video src="https://www.youtube.com/embed/YGLPglw4HjY?si=Sq9kGE7F3pjBGzFS" />
+      <Video src="https://www.youtube.com/embed/xjpYQlTvUG8?si=2RKgLJBSNLDuJoWs" />
       <Lyrics>{LYRICS}</Lyrics>
       <Downloads downloads={DOWNLOADS} />
     </SongPage>

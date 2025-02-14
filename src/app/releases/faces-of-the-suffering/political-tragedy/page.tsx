@@ -12,7 +12,10 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <SongPage title={TITLE} cursor="/cursors/statue-of-liberty-cursor.cur">
+    <SongPage
+      title={TITLE}
+      cursor="https://ani.cursors-4u.net/others/oth-9/oth889.cur"
+    >
       <Video src="https://www.youtube.com/embed/8KvZ9ak_i-U?si=gXk9pMLKQw90NAZ_" />
       <Lyrics>{LYRICS}</Lyrics>
     </SongPage>

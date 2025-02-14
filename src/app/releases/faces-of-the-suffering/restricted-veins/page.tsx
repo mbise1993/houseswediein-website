@@ -20,7 +20,10 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <SongPage title={TITLE} cursor="/cursors/bloody-x-cursor.cur">
+    <SongPage
+      title={TITLE}
+      cursor="https://cur.cursors-4u.net/user/use-1/use2.cur"
+    >
       <Video src="https://www.youtube.com/embed/lsr6bXGGNHk?si=NWxX3QI2DgsXXJjF" />
       <Lyrics>{LYRICS}</Lyrics>
       <Downloads downloads={DOWNLOADS} />

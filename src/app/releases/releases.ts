@@ -10,6 +10,20 @@ export interface Release {
 
 export const RELEASES: Release[] = [
   {
+    title: "Saint Valentine's Day Massacre",
+    artworkUrl: '/artwork/saint-valentines-day-massacre-artwork.jpg',
+    songs: [
+      {
+        title: 'cigarette burned visions',
+        url: '/releases/saint-valentines-day-massacre/cigarette-burned-visions',
+      },
+      {
+        title: 'see you on the other side',
+        url: '/releases/saint-valentines-day-massacre/see-you-on-the-other-side',
+      },
+    ],
+  },
+  {
     title: 'portraits of you // purgatory creek',
     artworkUrl: '/artwork/2024-dual-release-artwork.jpg',
     songs: [
