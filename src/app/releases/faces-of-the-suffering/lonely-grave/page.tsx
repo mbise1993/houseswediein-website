@@ -7,8 +7,13 @@ const TITLE = 'lonely grave';
 
 const DOWNLOADS = [
   {
-    title: 'Guitar Pro tab',
-    url: `/tabs/hwdi-${TITLE.replace(' ', '-')}.gp`,
+    title: 'Tabs (PDF)',
+    url: `/tabs/hwdi-${TITLE.replaceAll(' ', '-')}.pdf`,
+    fileName: `Houses We Die In - ${TITLE}.pdf`,
+  },
+  {
+    title: 'Tabs (Guitar Pro)',
+    url: `/tabs/hwdi-${TITLE.replaceAll(' ', '-')}.gp`,
     fileName: `Houses We Die In - ${TITLE}.gp`,
   },
 ];
