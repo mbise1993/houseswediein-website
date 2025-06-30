@@ -38,14 +38,13 @@ export default function Page() {
       <SectionHeading className="mt-6">ANNOUNCEMENTS</SectionHeading>
       <ul className="list-disc pl-4">
         <li>
-          NEW DUAL SINGLE &quot;SAINT VALENTINE&apos;S DAY MASSACRE&quot; OUT
-          NOW -&nbsp;
-          <a
+          TEXAS DATES WITH CURRENT COMFORT AUGUST 14TH-17TH
+          {/* <a
             href="https://open.spotify.com/album/1ZU4WHoH80cnuqPN6GR8Mw?si=2ednQ2o3QE2AsazxM6h-Wg"
             target="_blank"
           >
             LISTEN HERE
-          </a>
+          </a> */}
         </li>
       </ul>
       {nextShow && (
@@ -55,6 +54,17 @@ export default function Page() {
         </>
       )}
       <SectionHeading className="mt-6">LIVE</SectionHeading>
+      <div>
+        At The White Swan (Houston, TX)
+        <iframe
+          id="video"
+          className="aspect-video w-full"
+          src="https://www.youtube.com/embed/WUBqaz-rR3Y?si=JY0e3x1wiWYVLUD9"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        ></iframe>
+      </div>
       <div>
         At Arnold House (Austin, TX)
         <iframe
