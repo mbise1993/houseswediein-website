@@ -1,5 +1,5 @@
 import { ShowDetails } from '@/app/shows/show-details';
-import { Show, getShows } from '@/app/shows/shows';
+import { Show, getShows } from '@/app/shows/visible-shows';
 import { SectionHeading } from '@/components/section-heading';
 import { Metadata } from 'next';
 

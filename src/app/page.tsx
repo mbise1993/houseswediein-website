@@ -1,5 +1,5 @@
 import { ShowDetails } from '@/app/shows/show-details';
-import { getShows } from '@/app/shows/shows';
+import { getShows } from '@/app/shows/visible-shows';
 import { SectionHeading } from '@/components/section-heading';
 
 interface LinkButtonProps {

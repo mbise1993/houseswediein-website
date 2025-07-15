@@ -1,6 +1,6 @@
 import * as dateFns from 'date-fns';
 
-import { Show } from '@/app/shows/shows';
+import { Show } from '@/app/shows/visible-shows';
 
 interface ShowDetailsProps {
   show: Show;
