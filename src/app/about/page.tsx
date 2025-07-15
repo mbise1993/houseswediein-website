@@ -39,8 +39,15 @@ export default function Page() {
         ))}
       </ul>
 
-      <SectionHeading className="mt-6">EPK</SectionHeading>
-      <Link href="/epk">Click here</Link>
+      <SectionHeading className="mt-6">Other stuff</SectionHeading>
+      <Link href="/epk">Our EPK</Link>
+      <a
+        className="mt-2 block cursor-pointer"
+        href="/assets/houses-we-die-in-stage-plot.pdf"
+        target="_blank"
+      >
+        Stage plot/input list
+      </a>
     </div>
   );
 }
