@@ -39,7 +39,7 @@ export default function Page() {
             href="https://open.spotify.com/album/5gFVZHrUvH7B9oeNdmCyzp?si=vZ_3UcMYQryCIU0x5dGszg"
             target="_blank"
           >
-            Faces of the Suffering EP
+            &quot;Faces of the Suffering&quot; EP
           </a>{' '}
           (May 2024) - Released on CD via{' '}
           <a href="https://www.instagram.com/dsfprecords/" target="_blank">
@@ -49,7 +49,24 @@ export default function Page() {
           <a href="https://www.instagram.com/owtg.tx/" target="_blank">
             ...out with the goons
           </a>
-          .
+        </li>
+        <li>
+          <a
+            href="https://open.spotify.com/album/6u6fugNTVWhavspu2yYb5d?si=gGvtNfSBQLGVXyuoeJ87pg"
+            target="_blank"
+          >
+            &quot;portraits of you // purgatory creek&quot; singles
+          </a>{' '}
+          (December 2024)
+        </li>
+        <li>
+          <a
+            href="https://open.spotify.com/album/1ZU4WHoH80cnuqPN6GR8Mw?si=eYHFtlYlTCqec2A1jQCc-w"
+            target="_blank"
+          >
+            &quot;Saint Valentine&apos;s Day Massacre&quot; single
+          </a>{' '}
+          (February 2025)
         </li>
       </ul>
       <SectionHeading className="mt-6">
@@ -61,6 +78,17 @@ export default function Page() {
       </div>
       <SectionHeading className="mt-6">LIVE FOOTAGE</SectionHeading>
       <div>
+        At The White Swan (Houston, TX)
+        <iframe
+          id="video"
+          className="aspect-video w-full"
+          src="https://www.youtube.com/embed/WUBqaz-rR3Y?si=JY0e3x1wiWYVLUD9"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <div>
         March 2024 at Arnold House (Austin, TX)
         <iframe
           id="video"
@@ -71,34 +99,29 @@ export default function Page() {
           allowFullScreen
         ></iframe>
       </div>
-      <div className="mt-4">
-        July 2024 at The Che Cafe (San Diego, CA)
-        <iframe
-          id="video"
-          className="aspect-video w-full"
-          src="https://www.youtube.com/embed/6IWw8wBijnE?si=yPDuCFXT7W7bma1Z"
-          title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowFullScreen
-        ></iframe>
-      </div>
       <SectionHeading className="mt-8">NOTABLE SHOWS</SectionHeading>
       <ul className="list-disc pl-4">
-        <li>May 2024 - Opened day 1 of Big Texas Metal Fest in Austin, TX</li>
-        <li>July 2024 - Two-week DIY southwest tour (to LA and back)</li>
         <li>
-          July 2024 - Opened for I Set My Friends on Fire in Corpus Christi, TX
+          <b>May 2024</b> - Opened day 1 of Big Texas Metal Fest in Austin, TX
         </li>
         <li>
-          October 2024 - Opened for Unity TX, Silly Goose, and Soulkeeper at
-          Empire Control Room in Austin, TX
+          <b>July 2024</b> - Two-week DIY southwest tour (to LA and back)
         </li>
         <li>
-          December 2024 - No Sleep Fest pre-show + Texas/NOLA run with Lacerated
+          <b>December 2024</b> - No Sleep Fest pre-show + Texas/New Orleans run
+          with Lacerated
         </li>
         <li>
-          January 2025 - Played Free Week show at Mohawk with Creeping Death,
-          Mujeres Podridas, Mugger, NRA, and Dewormer
+          <b>March 2025</b> - Two-week DIY southeast tour (to Florida and back)
+          with Don&apos;t Fear the End
+        </li>
+        <li>
+          <b>June 2025</b> - Two-week Texas tour supporting Thus Spoke
+          Zarathustra&apos;s album release + a couple of headlining dates in
+          Little Rock, AR and Oklahoma City, OK
+        </li>
+        <li>
+          <b>August 2025</b> - DIY Texas run with Current Comfort
         </li>
       </ul>
       <SectionHeading className="mt-6">LOGOS</SectionHeading>
@@ -118,14 +141,14 @@ export default function Page() {
       </ul>
       <SectionHeading className="mt-6">PROMO PHOTOS</SectionHeading>
       <PromoPhoto
-        src="/promos/group-1.jpg"
-        alt="Group photo 1"
-        photographer="reillysbadphotos"
+        src="/promos/red-group-promo.png"
+        alt="Red group promo"
+        photographer="dylandistance"
       />
       <PromoPhoto
         className="mt-4"
-        src="/promos/group-2.jpg"
-        alt="Group photo 2"
+        src="/promos/group-1.jpg"
+        alt="Group photo 1"
         photographer="reillysbadphotos"
       />
       <PromoPhoto
@@ -136,15 +159,15 @@ export default function Page() {
       />
       <PromoPhoto
         className="mt-4"
-        src="/promos/utsa-1.jpg"
-        alt="UTSA 1"
-        photographer="glombroski"
+        src="/promos/indy-brewing-1.jpg"
+        alt="Indy Brewing 1"
+        photographer="dylandistance"
       />
       <PromoPhoto
         className="mt-4"
-        src="/promos/valhalla-2.jpg"
-        alt="Valhalla 2"
-        photographer="reillysbadphotos"
+        src="/promos/mohawk-1.jpg"
+        alt="Mohawk 1"
+        photographer="dylandistance"
       />
       <SectionHeading className="mt-6">LINKS & CONTACT INFO</SectionHeading>
       <ul className="list-disc pl-4">
