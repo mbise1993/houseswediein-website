@@ -143,11 +143,9 @@ export function getShows() {
   for (const show of SHOWS) {
     const showForDisplay = {
       ...show,
-      // @ts-expect-error
       formattedDate: dateFns.format(show.date, 'EEEE, MMM do'),
     };
 
-    // @ts-expect-error
     if (dateFns.isFuture(show.date)) {
       // Use unshift to show soonest shows first
       upcoming.unshift(showForDisplay);
