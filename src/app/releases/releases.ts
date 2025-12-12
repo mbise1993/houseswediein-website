@@ -10,6 +10,16 @@ export interface Release {
 
 export const RELEASES: Release[] = [
   {
+    title: "i'll stay as long as you do",
+    artworkUrl: '/artwork/2026-ep-alt-artwork.jpg',
+    songs: [
+      {
+        title: "i'll stay as long as you do",
+        url: '/releases/2026-ep/ill-stay-as-long-as-you-do',
+      },
+    ],
+  },
+  {
     title: "Saint Valentine's Day Massacre",
     artworkUrl: '/artwork/saint-valentines-day-massacre-artwork.jpg',
     songs: [

@@ -38,13 +38,16 @@ export default function Page() {
       <SectionHeading className="mt-6">ANNOUNCEMENTS</SectionHeading>
       <ul className="list-disc pl-4">
         <li>
-          TEXAS DATES WITH CURRENT COMFORT AUGUST 14TH-17TH
-          {/* <a
-            href="https://open.spotify.com/album/1ZU4WHoH80cnuqPN6GR8Mw?si=2ednQ2o3QE2AsazxM6h-Wg"
+          i&apos;ll stay as long as you do OUT NOW!&nbsp;
+          <a
+            href="https://music.apple.com/us/album/ill-stay-as-long-as-you-do-single/1850864372"
             target="_blank"
           >
             LISTEN HERE
-          </a> */}
+          </a>
+        </li>
+        <li>
+          CALI/ARIZONA TOUR WITH EVERYONE DIES IN UTAH MARCH 11TH-15TH&nbsp;
         </li>
       </ul>
       {nextShow && (
@@ -89,10 +92,15 @@ export default function Page() {
       </div>
       <SectionHeading className="mt-6">LINKS</SectionHeading>
       <div className="flex flex-col flex-wrap gap-2">
-        <LinkButton
+        {/* <LinkButton
           href="https://open.spotify.com/artist/5p62veiIRA1sgEM1miwamk?si=jqQkXMeTRhKiJ3iUxYxJ-A"
           src="/images/spotify-button.gif"
           alt="Spotify link"
+        /> */}
+        <LinkButton
+          href="https://music.apple.com/us/artist/houses-we-die-in/1729034848"
+          src="/images/apple-music-button.gif"
+          alt="Apple Music link"
         />
         <LinkButton
           href="https://www.instagram.com/houseswedieintx"

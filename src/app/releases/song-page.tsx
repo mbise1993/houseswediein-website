@@ -29,7 +29,7 @@ export const SongPage = ({
   }, [cursor]);
 
   return (
-    <div className={cn('m-auto max-w-lg', className)}>
+    <div className={cn('m-auto max-w-xl', className)}>
       <h2 className="px-4 text-center text-3xl font-medium">{title}</h2>
       {children}
     </div>

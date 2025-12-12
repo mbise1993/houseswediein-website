@@ -9,11 +9,11 @@ const ASSETS = [
     url: '/assets/main-logo.png',
     height: '60px',
   },
-  {
-    name: 'Alt Logo',
-    url: '/assets/alt-logo.png',
-    height: '120px',
-  },
+  // {
+  //   name: 'Alt Logo',
+  //   url: '/assets/alt-logo.png',
+  //   height: '120px',
+  // },
 ];
 
 export const metadata: Metadata = {
@@ -34,6 +34,34 @@ export default function Page() {
       </div>
       <SectionHeading className="mt-6">MUSIC</SectionHeading>
       <ul className="list-disc pl-4">
+        <li>New EP coming early 2026</li>
+        <li>
+          <a
+            href="https://open.spotify.com/track/46pPD8rtE0EOpp3FPA1IeF?si=fe22ca2c9f774f13"
+            target="_blank"
+          >
+            &quot;i&apos;ll stay as long as you do&quot; single
+          </a>{' '}
+          (November 2025)
+        </li>
+        <li>
+          <a
+            href="https://open.spotify.com/album/1ZU4WHoH80cnuqPN6GR8Mw?si=eYHFtlYlTCqec2A1jQCc-w"
+            target="_blank"
+          >
+            &quot;Saint Valentine&apos;s Day Massacre&quot; dual single
+          </a>{' '}
+          (February 2025)
+        </li>
+        <li>
+          <a
+            href="https://open.spotify.com/album/6u6fugNTVWhavspu2yYb5d?si=gGvtNfSBQLGVXyuoeJ87pg"
+            target="_blank"
+          >
+            &quot;portraits of you // purgatory creek&quot; dual single
+          </a>{' '}
+          (December 2024)
+        </li>
         <li>
           <a
             href="https://open.spotify.com/album/5gFVZHrUvH7B9oeNdmCyzp?si=vZ_3UcMYQryCIU0x5dGszg"
@@ -50,31 +78,13 @@ export default function Page() {
             ...out with the goons
           </a>
         </li>
-        <li>
-          <a
-            href="https://open.spotify.com/album/6u6fugNTVWhavspu2yYb5d?si=gGvtNfSBQLGVXyuoeJ87pg"
-            target="_blank"
-          >
-            &quot;portraits of you // purgatory creek&quot; singles
-          </a>{' '}
-          (December 2024)
-        </li>
-        <li>
-          <a
-            href="https://open.spotify.com/album/1ZU4WHoH80cnuqPN6GR8Mw?si=eYHFtlYlTCqec2A1jQCc-w"
-            target="_blank"
-          >
-            &quot;Saint Valentine&apos;s Day Massacre&quot; single
-          </a>{' '}
-          (February 2025)
-        </li>
       </ul>
       <SectionHeading className="mt-6">
         INFLUENCES & SIMILAR ARTISTS
       </SectionHeading>
       <div>
-        Misery Signals, On Broken Wings, Unearth, Parkway Drive,
-        SeeYouSpaceCowboy, Dying Wish, Counterparts
+        Misery Signals, Unearth, Frail Body, SeeYouSpaceCowboy, Dying Wish,
+        Counterparts
       </div>
       <SectionHeading className="mt-6">LIVE FOOTAGE</SectionHeading>
       <div>
@@ -102,18 +112,11 @@ export default function Page() {
       <SectionHeading className="mt-8">NOTABLE SHOWS</SectionHeading>
       <ul className="list-disc pl-4">
         <li>
-          <b>May 2024</b> - Opened day 1 of Big Texas Metal Fest in Austin, TX
+          <b>March 2026</b> - California and Arizona run with Everyone Dies In
+          Utah
         </li>
         <li>
-          <b>July 2024</b> - Two-week DIY southwest tour (to LA and back)
-        </li>
-        <li>
-          <b>December 2024</b> - No Sleep Fest pre-show + Texas/New Orleans run
-          with Lacerated
-        </li>
-        <li>
-          <b>March 2025</b> - Two-week DIY southeast tour (to Florida and back)
-          with Don&apos;t Fear the End
+          <b>August 2025</b> - DIY Texas run with Current Comfort
         </li>
         <li>
           <b>June 2025</b> - Two-week Texas tour supporting Thus Spoke
@@ -121,7 +124,18 @@ export default function Page() {
           Little Rock, AR and Oklahoma City, OK
         </li>
         <li>
-          <b>August 2025</b> - DIY Texas run with Current Comfort
+          <b>March 2025</b> - Two-week DIY southeast tour (to Florida and back)
+          with Don&apos;t Fear the End
+        </li>
+        <li>
+          <b>December 2024</b> - No Sleep Fest pre-show + Texas/New Orleans run
+          with Lacerated
+        </li>
+        <li>
+          <b>July 2024</b> - Two-week DIY southwest tour (to LA and back)
+        </li>
+        <li>
+          <b>May 2024</b> - Opened day 1 of Big Texas Metal Fest in Austin, TX
         </li>
       </ul>
       <SectionHeading className="mt-6">LOGOS</SectionHeading>
@@ -140,11 +154,11 @@ export default function Page() {
         ))}
       </ul>
       <SectionHeading className="mt-6">PROMO PHOTOS</SectionHeading>
-      <PromoPhoto
+      {/* <PromoPhoto
         src="/promos/red-group-promo.png"
         alt="Red group promo"
         photographer="dylandistance"
-      />
+      /> */}
       <PromoPhoto
         className="mt-4"
         src="/promos/group-1.jpg"
@@ -183,6 +197,14 @@ export default function Page() {
         <li>
           <a href="https://www.x.com/houseswedieintx/" target="_blank">
             X
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://music.apple.com/us/artist/houses-we-die-in/1729034848"
+            target="_blank"
+          >
+            Apple Music
           </a>
         </li>
         <li>
