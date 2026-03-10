@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 import { Downloads, Lyrics, SongPage, Video } from '@/app/releases/song-page';
-import { LYRICS } from '@/app/releases/2024-dual-release/portraits-of-you/lyrics';
+import { LYRICS } from './lyrics';
 
 const TITLE = 'portraits of you';
 

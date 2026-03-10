@@ -1,9 +1,9 @@
 import { Metadata } from 'next';
 
 import { Downloads, Lyrics, SongPage, Video } from '@/app/releases/song-page';
-import { LYRICS } from '@/app/releases/2026-ep/ill-stay-as-long-as-you-do/lyrics';
+import { LYRICS } from './lyrics';
 
-const TITLE = "i'll stay as long as you do";
+const TITLE = 'in their eyes';
 const URL_SAFE_TITLE = TITLE.replaceAll(' ', '-').replaceAll("'", '');
 
 const DOWNLOADS = [
@@ -28,9 +28,9 @@ export default function Page() {
   return (
     <SongPage
       title={TITLE}
-      cursor="https://cur.cursors-4u.net/holidays/hol-3/hol246.png"
+      cursor="url('https://cdn.cursors-4u.net/previews/eye-c967256b-32.webp') 32 32, auto"
     >
-      <Video src="https://www.youtube.com/embed/bUaryqG22YU?si=07AORxIkxndgxBLJ" />
+      <Video src="https://www.youtube.com/embed/Q5hx-wDFXgE?si=U7dJUoXaR_W2G2Ee" />
       <Lyrics>{LYRICS}</Lyrics>
       <Downloads downloads={DOWNLOADS} />
     </SongPage>

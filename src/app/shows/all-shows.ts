@@ -1,11 +1,45 @@
-import { getDate, ShowData } from '@/app/shows/visible-shows';
+import { getDate } from '@/app/shows/visible-shows';
 
-export const ALL_SHOWS: Record<string, ShowData> = {
-  '2026-03-tour': {
-    title: 'March 2026 Tour w/ Everyone Dies In Utah',
-    date: getDate('2026-03-11'),
-    flyerUrl: '/flyers/2026-03-tour.jpg',
-    venueName: 'California and Arizona',
+export const ALL_SHOWS = {
+  '2026-04-21': {
+    title:
+      'Deadbeat Nightlife, Hollow Crown, Destroy All Humans, Houses We Die In, Dancing With Despair, Bludgeon the Weak',
+    date: getDate('2026-04-21'),
+    flyerUrl: '/flyers/2026-04-21.png',
+    venueName: 'Planet K (South Lamar)',
+  },
+  '2026-03-21': {
+    title: 'Thin Line Fest',
+    date: getDate('2026-03-21'),
+    flyerUrl: '/flyers/2026-03-21.png',
+    venueName: 'Rubber Gloves (Denton, TX)',
+    venueLink: 'https://rubberglovesdenton.com/',
+  },
+  '2026-03-14': {
+    title: "Houses We Die In, Sittin Sideways, The Master's Call",
+    date: getDate('2026-03-14'),
+    flyerUrl: '/flyers/2026-03-14.png',
+    venueName: 'The Vegan Nom',
+  },
+  '2026-03-06': {
+    title: "Fortunes, Kream, Houses We Die In, For What It's Worth, Trenchborn",
+    date: getDate('2026-03-06'),
+    flyerUrl: '/flyers/2026-03-06.png',
+    venueName: 'Paper Tiger',
+    venueLink: 'https://papertigersatx.com/',
+  },
+  '2026-02-20': {
+    title: 'Date to Struggle Benefit Show',
+    date: getDate('2026-02-20'),
+    flyerUrl: '/flyers/2026-02-20.png',
+    venueName: 'Planet K (South Lamar)',
+  },
+  '2026-02-07': {
+    title: 'Alice Gas, Bayymack, 9aradox, Ghosthouse, Houses We Die In',
+    date: getDate('2026-02-07'),
+    flyerUrl: '/flyers/2026-02-07.png',
+    venueName: 'Come and Take It Live',
+    venueLink: 'https://www.comeandtakeitlive.com/',
   },
   '2026-01-01': {
     title: 'FREE WEEK ON 29TH STREET: Houses We Die In, Banged Out, Drip Fed',

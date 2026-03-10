@@ -38,16 +38,8 @@ export default function Page() {
       <SectionHeading className="mt-6">ANNOUNCEMENTS</SectionHeading>
       <ul className="list-disc pl-4">
         <li>
-          i&apos;ll stay as long as you do OUT NOW!&nbsp;
-          <a
-            href="https://music.apple.com/us/album/ill-stay-as-long-as-you-do-single/1850864372"
-            target="_blank"
-          >
-            LISTEN HERE
-          </a>
-        </li>
-        <li>
-          CALI/ARIZONA TOUR WITH EVERYONE DIES IN UTAH MARCH 11TH-15TH&nbsp;
+          &quot;A Brief Glimpse of Solace&quot; OUT APRIL 3RD ON PAPER WINGS
+          RECORDS&nbsp;
         </li>
       </ul>
       {nextShow && (

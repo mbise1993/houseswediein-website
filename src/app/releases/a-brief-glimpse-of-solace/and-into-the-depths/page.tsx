@@ -3,17 +3,18 @@ import { Metadata } from 'next';
 import { Downloads, Lyrics, SongPage, Video } from '@/app/releases/song-page';
 import { LYRICS } from './lyrics';
 
-const TITLE = 'predisposed';
+const TITLE = 'and into the depths (i lost my point of contention)';
+const URL_SAFE_TITLE = 'and-into-the-depths';
 
 const DOWNLOADS = [
   {
     title: 'Tabs (PDF)',
-    url: `/tabs/hwdi-${TITLE.replaceAll(' ', '-')}.pdf`,
+    url: `/tabs/hwdi-${URL_SAFE_TITLE}.pdf`,
     fileName: `Houses We Die In - ${TITLE}.pdf`,
   },
   {
     title: 'Tabs (Guitar Pro)',
-    url: `/tabs/hwdi-${TITLE.replaceAll(' ', '-')}.gp`,
+    url: `/tabs/hwdi-${URL_SAFE_TITLE}.gp`,
     fileName: `Houses We Die In - ${TITLE}.gp`,
   },
 ];
@@ -27,9 +28,9 @@ export default function Page() {
   return (
     <SongPage
       title={TITLE}
-      cursor="https://cur.cursors-4u.net/others/oth-3/oth208.cur"
+      cursor="url('https://cdn.cursors-4u.net/previews/zombie-hand-help-select-8a9b067f-32.webp') 46 45, auto"
     >
-      <Video src="https://www.youtube.com/embed/ORLKGcB0Usg?si=jGFYl5EKKSkoEzOw" />
+      <Video src="https://www.youtube.com/embed/Q5hx-wDFXgE?si=U7dJUoXaR_W2G2Ee" />
       <Lyrics>{LYRICS}</Lyrics>
       <Downloads downloads={DOWNLOADS} />
     </SongPage>

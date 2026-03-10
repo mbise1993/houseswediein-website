@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 import { Downloads, Lyrics, SongPage, Video } from '@/app/releases/song-page';
-import { LYRICS } from '@/app/releases/saint-valentines-day-massacre/cigarette-burned-visions/lyrics';
+import { LYRICS } from './lyrics';
 
 const TITLE = 'cigarette burned visions';
 

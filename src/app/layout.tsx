@@ -81,7 +81,7 @@ export default function RootLayout({
         </div>
         <div className="fixed bottom-0 left-0 w-full">
           <Marquee className="bg-black py-1 text-[lawngreen]" speed={40}>
-            TEXAS DATES WITH CURRENT COMFORT AUG 14TH-17TH&nbsp; &nbsp; &nbsp;
+            NEW EP OUT APRIL 3RD ON PAPER WINGS RECORDS&nbsp; &nbsp; &nbsp;
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
             &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
             &nbsp;

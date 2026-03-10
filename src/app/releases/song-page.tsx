@@ -21,7 +21,9 @@ export const SongPage = ({
       return;
     }
 
-    document.body.style.cursor = `url(${cursor}), auto`;
+    document.body.style.cursor = cursor.startsWith('url(')
+      ? cursor
+      : `url(${cursor}), auto`;
 
     return () => {
       document.body.style.cursor = 'auto';
@@ -29,7 +31,7 @@ export const SongPage = ({
   }, [cursor]);
 
   return (
-    <div className={cn('m-auto max-w-xl', className)}>
+    <div className={cn('mx-auto w-full max-w-xl', className)}>
       <h2 className="px-4 text-center text-3xl font-medium">{title}</h2>
       {children}
     </div>

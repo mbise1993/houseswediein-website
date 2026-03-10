@@ -10,12 +10,36 @@ export interface Release {
 
 export const RELEASES: Release[] = [
   {
-    title: "i'll stay as long as you do",
-    artworkUrl: '/artwork/2026-ep-alt-artwork.jpg',
+    title: 'A Brief Glimpse of Solace',
+    artworkUrl: '/artwork/abgos-artwork.jpg',
     songs: [
       {
+        title: 'atonement',
+        url: '/releases/a-brief-glimpse-of-solace/atonement',
+        unreleased: true,
+      },
+      {
         title: "i'll stay as long as you do",
-        url: '/releases/2026-ep/ill-stay-as-long-as-you-do',
+        url: '/releases/a-brief-glimpse-of-solace/ill-stay-as-long-as-you-do',
+      },
+      {
+        title: 'flowers in february',
+        url: '/releases/a-brief-glimpse-of-solace/flowers-in-february',
+        unreleased: true,
+      },
+      {
+        title: 'poison',
+        url: '/releases/a-brief-glimpse-of-solace/poison',
+      },
+      {
+        title: 'in their eyes',
+        url: '/releases/a-brief-glimpse-of-solace/in-their-eyes',
+        unreleased: true,
+      },
+      {
+        title: 'and into the depths (i lost my point of contention)',
+        url: '/releases/a-brief-glimpse-of-solace/and-into-the-depths',
+        unreleased: true,
       },
     ],
   },

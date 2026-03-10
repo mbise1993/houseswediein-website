@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 import { Downloads, Lyrics, SongPage, Video } from '@/app/releases/song-page';
-import { LYRICS } from '@/app/releases/saint-valentines-day-massacre/see-you-on-the-other-side/lyrics';
+import { LYRICS } from './lyrics';
 
 const TITLE = 'see you on the other side';
 
