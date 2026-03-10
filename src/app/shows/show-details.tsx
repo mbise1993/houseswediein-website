@@ -8,7 +8,7 @@ interface ShowDetailsProps {
 
 export const ShowDetails = ({ show }: ShowDetailsProps) => {
   const titleProps = {
-    className: 'text-xl text-red-700 leading-snug',
+    className: 'text-xl text-orange-700 leading-snug',
   };
 
   return (
