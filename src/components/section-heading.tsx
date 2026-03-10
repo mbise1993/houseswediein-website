@@ -10,6 +10,8 @@ export const SectionHeading = ({
   children,
 }: SectionHeadingProps) => {
   return (
-    <h2 className={cn('mb-2 text-3xl font-medium', className)}>{children}</h2>
+    <h2 className={cn('mb-2 text-3xl font-medium italic', className)}>
+      {children}
+    </h2>
   );
 };

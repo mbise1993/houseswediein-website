@@ -61,7 +61,7 @@ interface LyricsProps {
 
 export const Lyrics = ({ children }: LyricsProps) => {
   return (
-    <div id="lyrics" className="mt-4 px-4">
+    <div id="lyrics" className="mt-8 px-4">
       <SectionHeading className="text-2xl">LYRICS</SectionHeading>
       <div>{children}</div>
     </div>

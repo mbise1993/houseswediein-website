@@ -26,6 +26,10 @@ export default function Page() {
         photographer="reillysbadphotos"
       />
       <p className="mt-4">Metalcore from Austin, Texas.</p>
+      <p>
+        New EP &quot;A Brief Glimpse of Solace&quot; out April 3rd on Paper
+        Wings Records.
+      </p>
 
       <SectionHeading className="mt-6">LOGOS</SectionHeading>
       <ul className="flex flex-col gap-4">
@@ -39,7 +43,7 @@ export default function Page() {
         ))}
       </ul>
 
-      <SectionHeading className="mt-6">Other stuff</SectionHeading>
+      <SectionHeading className="mt-6">OTHER STUFF</SectionHeading>
       <Link href="/epk">Our EPK</Link>
       <a
         className="mt-2 block cursor-pointer"

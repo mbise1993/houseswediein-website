@@ -22,24 +22,11 @@ export default function Page() {
 
   return (
     <div className="px-8">
-      <div className="flex items-center justify-between">
-        <img
-          className="h-12"
-          src="/extras/skull-and-crossbones.gif"
-          alt="spinning skull and crossbones"
-        />
-        <span className="text-2xl font-bold">WELCOME</span>
-        <img
-          className="h-12"
-          src="/extras/skull-and-crossbones.gif"
-          alt="spinning skull and crossbones"
-        />
-      </div>
-      <SectionHeading className="mt-6">ANNOUNCEMENTS</SectionHeading>
+      <SectionHeading>ANNOUNCEMENTS</SectionHeading>
       <ul className="list-disc pl-4">
         <li>
-          &quot;A Brief Glimpse of Solace&quot; OUT APRIL 3RD ON PAPER WINGS
-          RECORDS&nbsp;
+          &quot;A Brief Glimpse of Solace&quot; out April 3rd on Paper Wings
+          Records&nbsp;
         </li>
       </ul>
       {nextShow && (
@@ -60,7 +47,7 @@ export default function Page() {
           allowFullScreen
         ></iframe>
       </div>
-      <div>
+      <div className="mt-4">
         At Arnold House (Austin, TX)
         <iframe
           id="video"
