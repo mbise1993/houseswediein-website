@@ -1,4 +1,6 @@
+import { GoogleAnalytics } from '@next/third-parties/google';
 import { Metadata } from 'next';
+import { Libre_Baskerville } from 'next/font/google';
 import Link from 'next/link';
 import React from 'react';
 
@@ -6,6 +8,8 @@ import { LogMessage } from '@/app/log-message';
 
 import './globals.css';
 import Marquee from 'react-fast-marquee';
+
+const libreBaskerville = Libre_Baskerville({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Houses We Die In',
@@ -54,7 +58,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body>
+      <body className={libreBaskerville.className}>
         <LogMessage />
         <div className="mx-auto w-full max-w-[768px] overflow-hidden py-8 md:overflow-visible">
           <div className="flex items-center justify-center bg-stone-800 px-4 md:px-8">
@@ -92,6 +96,7 @@ export default function RootLayout({
           </Marquee>
         </div>
       </body>
+      <GoogleAnalytics gaId="G-DJ3Y6MW103" />
     </html>
   );
 }
