@@ -1,10 +1,10 @@
-import { ShowDetails } from '@/app/shows/show-details';
-import { Show, getShows } from '@/app/shows/visible-shows';
-import { SectionHeading } from '@/components/section-heading';
 import { Metadata } from 'next';
+import { ShowDetails } from '@/app/shows/show-details';
+import { getShows, Show } from '@/app/shows/visible-shows';
+import { SectionHeading } from '@/components/section-heading';
 
 export const metadata: Metadata = {
-  title: 'Live | HWDI',
+  title: 'Shows | HWDI',
   description: 'Upcoming and past shows',
 };
 
