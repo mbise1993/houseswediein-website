@@ -30,8 +30,7 @@ export const LYRICS = (
     <br />
     Grief will drag me down
     <br />
-    <br />
-    I don&apos;t believe in angels
+    <br />I don&apos;t believe in angels
     <br />
     But the devil surely has a place for me
     <br />

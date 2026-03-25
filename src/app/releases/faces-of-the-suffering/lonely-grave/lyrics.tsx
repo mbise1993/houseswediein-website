@@ -57,10 +57,8 @@ export const LYRICS = (
     Avoiding my friends with less effort everyday
     <br />
     Reaching out of a waste of my time and they don’t really care anyway
-    <br />
-    I will carry these grudges to a lonely grave
-    <br />
-    I will carry these grudges to a lonely grave
+    <br />I will carry these grudges to a lonely grave
+    <br />I will carry these grudges to a lonely grave
     <br />
     How on earth could you possibly understand
     <br />

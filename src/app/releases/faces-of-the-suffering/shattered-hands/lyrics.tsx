@@ -17,8 +17,7 @@ export const LYRICS = (
     You betrayed me even though I gave you everything I loved
     <br />
     These are the scars that time cannot erase
-    <br />
-    I have nothing left to give
+    <br />I have nothing left to give
     <br />
     <br />
     Broken and bruised
@@ -57,8 +56,7 @@ export const LYRICS = (
     Past times have died along with who we used to be
     <br />
     Mourning the life we shared everyday
-    <br />
-    A test of my heart to withhold agony
+    <br />A test of my heart to withhold agony
     <br />
     <br />
     With my shattered hands

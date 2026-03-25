@@ -2,8 +2,7 @@
 export const LYRICS = (
   <>
     I&apos;m calling it quits on what I know
-    <br />
-    A bloodbath in pale blue light
+    <br />A bloodbath in pale blue light
     <br />
     Crawl up the stairs, it hangs off the walls
     <br />
@@ -11,8 +10,7 @@ export const LYRICS = (
     <br />
     <br />
     Ounce of shame
-    <br />
-    I have to give
+    <br />I have to give
     <br />
     It's starting to show
     <br />
@@ -29,10 +27,8 @@ export const LYRICS = (
     <br />
     <br />
     [Spoken]
-    <br />
-    A bloodbath in pale blue light
-    <br />
-    A bloodbath
+    <br />A bloodbath in pale blue light
+    <br />A bloodbath
     <br />
     <br />
     [Chorus]
@@ -66,8 +62,7 @@ export const LYRICS = (
     <br />
     [Repeat chorus]
     <br />
-    <br />
-    A bloodbath in pale blue light
+    <br />A bloodbath in pale blue light
     <br />
     I&apos;m calling it quits
     <br />
@@ -76,12 +71,10 @@ export const LYRICS = (
     <br />
     Don&apos;t pity the dead
     <br />
-    <br />
-    A bloodbath in pale blue light
+    <br />A bloodbath in pale blue light
     <br />
     Restrict my veins, tell me lies
-    <br />
-    A bloodbath in pale blue light
+    <br />A bloodbath in pale blue light
     <br />
     Tell me lies
     <br />

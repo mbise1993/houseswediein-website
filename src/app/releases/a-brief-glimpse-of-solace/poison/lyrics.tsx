@@ -4,14 +4,12 @@ export const LYRICS = (
     We'll burn out brighter than the stars
     <br />
     Feet to the ground, another bar
-    <br />
-    I don't care about a word they say
+    <br />I don't care about a word they say
     <br />
     Convincing smile through car crash eyes
     <br />
     We'll never fall asleep tonight
-    <br />
-    A pale glow tears through the window pane
+    <br />A pale glow tears through the window pane
     <br />
     <br />
     You tried to tell me this can't be the end
@@ -26,15 +24,13 @@ export const LYRICS = (
     Envious of the brave who wear their heart on their sleeve
     <br />
     Without the fear of the comedown
-    <br />
-    I would've given all the blood in my veins
+    <br />I would've given all the blood in my veins
     <br />
     Just to keep you around
     <br />
     <br />
     So pass the poison, just let me burn with you
-    <br />
-    A final drop in our sea of misery
+    <br />A final drop in our sea of misery
     <br />
     Your haunting gaze can't keep me here
     <br />
@@ -55,8 +51,7 @@ export const LYRICS = (
     We're bleeding out in bathroom stalls
     <br />
     We'll hide these memories in the walls
-    <br />
-    I won't forget about you
+    <br />I won't forget about you
     <br />
     <br />
     Love is a weapon
@@ -76,8 +71,7 @@ export const LYRICS = (
     <br />
     <br />
     So pass the poison, just let me burn with you
-    <br />
-    A final drop in our sea of misery
+    <br />A final drop in our sea of misery
     <br />
     Your haunting gaze can't keep me here
     <br />

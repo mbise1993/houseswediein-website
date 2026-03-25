@@ -29,8 +29,7 @@ export const LYRICS = (
     <br />
     Trade life for fading comfort, call it a revival
     <br />
-    <br />
-    A generation predisposed
+    <br />A generation predisposed
     <br />
     To bloodshot eyes and broken homes
     <br />
@@ -51,8 +50,7 @@ export const LYRICS = (
     Blood-stained profits
     <br />
     Inhale the black dust from our lungs
-    <br />
-    A label written in greed, masking a government-sanctioned eulogy
+    <br />A label written in greed, masking a government-sanctioned eulogy
     <br />
     <br />
     [Spoken]

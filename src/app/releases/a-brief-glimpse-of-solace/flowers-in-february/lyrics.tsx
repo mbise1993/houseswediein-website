@@ -4,8 +4,7 @@ export const LYRICS = (
     Those screams still echo in my head
     <br />
     Your frail body burned into my eyes
-    <br />
-    I felt my world crumble with every step
+    <br />I felt my world crumble with every step
     <br />
     Until my legs gave out to be with you
     <br />
@@ -16,24 +15,19 @@ export const LYRICS = (
     <br />
     And drag us down together
     <br />
-    <br />
-    I held your lifeless body to mine
+    <br />I held your lifeless body to mine
     <br />
     As if we were one in the same
     <br />
     <br />
     No chance to say goodbye
-    <br />
-    A memorial's all we have left
-    <br />
-    I will hold your memory in my heart
-    <br />
-    I will never forget you
+    <br />A memorial's all we have left
+    <br />I will hold your memory in my heart
+    <br />I will never forget you
     <br />
     <br />
     Your ghost still lives in this apartment
-    <br />
-    I watch it walk down the hall every night
+    <br />I watch it walk down the hall every night
     <br />
     But you always disappear, just out of reach
     <br />
@@ -66,15 +60,11 @@ export const LYRICS = (
     <br />
     <br />
     No chance to say goodbye
+    <br />A memorial's all we have left
+    <br />I will hold your memory in my heart
+    <br />I will never forget you
     <br />
-    A memorial's all we have left
-    <br />
-    I will hold your memory in my heart
-    <br />
-    I will never forget you
-    <br />
-    <br />
-    I haven't eaten much this week
+    <br />I haven't eaten much this week
     <br />
     And I've been sleeping on the couch
     <br />
@@ -82,10 +72,8 @@ export const LYRICS = (
     <br />
     That bring me back down
     <br />
-    <br />
-    I just wanted to say goodbye
-    <br />
-    I just wanted to say goodbye
+    <br />I just wanted to say goodbye
+    <br />I just wanted to say goodbye
     <br />
     Close my fucking eyes
     <br />

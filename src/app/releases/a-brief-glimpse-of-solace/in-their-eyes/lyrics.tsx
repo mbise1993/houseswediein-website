@@ -6,8 +6,7 @@ export const LYRICS = (
     No hope left to grasp
     <br />
     They'll be dragging the lake soon enough
-    <br />
-    I can see it in their eyes
+    <br />I can see it in their eyes
     <br />
     <br />
     Climbing up this bridge

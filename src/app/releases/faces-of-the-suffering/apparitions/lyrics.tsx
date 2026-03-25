@@ -15,8 +15,7 @@ export const LYRICS = (
     Begging to hear your comforting voice again
     <br />
     This house has burned to ash, the flames engulf me inside
-    <br />
-    I haven’t felt like myself since the day that you died
+    <br />I haven’t felt like myself since the day that you died
     <br />
     <br />
     Sacrificing my flesh into the abyss
@@ -24,8 +23,7 @@ export const LYRICS = (
     Hope dies in vain, no time to reminisce
     <br />
     In the attic, circles drawn in salt and shame
-    <br />
-    I just need to see your face again
+    <br />I just need to see your face again
     <br />
     <br />
     [Spoken]

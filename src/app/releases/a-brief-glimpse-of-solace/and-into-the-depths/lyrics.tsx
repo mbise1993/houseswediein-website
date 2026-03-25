@@ -18,8 +18,7 @@ export const LYRICS = (
     <br />
     Through crushing of feeble bones
     <br />
-    <br />
-    A frail body to give relief
+    <br />A frail body to give relief
     <br />
     To my rotten flesh
     <br />
@@ -53,16 +52,12 @@ export const LYRICS = (
     <br />
     Complete and utter despair circles back to acceptance
     <br />
-    <br />
-    I know this is all my fault
-    <br />
-    I know this is all my fault
+    <br />I know this is all my fault
+    <br />I know this is all my fault
     <br />
     Complete and utter despair circles back to acceptance
-    <br />
-    I know this is all my fault
-    <br />
-    I know this is all my fault
+    <br />I know this is all my fault
+    <br />I know this is all my fault
     <br />
     <br />
     Prolonging my miserable existence

@@ -17,8 +17,7 @@ export const LYRICS = (
     The separation between us
     <br />
     Confiding in how much
-    <br />
-    I despise what we've become
+    <br />I despise what we've become
     <br />
     <br />
     The holes in the walls tell a somber tale
@@ -33,8 +32,7 @@ export const LYRICS = (
     Will I find home when I leave this Earth Will I find home when I leave this
     Earth
     <br />
-    <br />
-    I wish that I had died on that dead end street
+    <br />I wish that I had died on that dead end street
     <br />
     So I could haunt this house forever
     <br />
@@ -55,8 +53,7 @@ export const LYRICS = (
     And I promise that I tried my hardest
     <br />
     But I can't help it anymore
-    <br />
-    I can't heal this hole in my heart
+    <br />I can't heal this hole in my heart
     <br />
     <br />
     You don't have to lie
@@ -64,21 +61,18 @@ export const LYRICS = (
     This is all that I can do
     <br />
     Don't forgive me
-    <br />
-    I am a burden onto you
+    <br />I am a burden onto you
     <br />
     <br />
     When the skies burn
-    <br />
-    I will be here waiting
+    <br />I will be here waiting
     <br />
     Confined to my hole in the earth
     <br />
     This is what I deserve
     <br />
     I'm so sorry
-    <br />
-    I have nothing to live for
+    <br />I have nothing to live for
     <br />I have nothing to lose
   </>
 );

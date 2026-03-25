@@ -4,8 +4,7 @@ export const LYRICS = (
     Eyes dilated from staring at memories
     <br />
     Leaking through a fractured picture frame
-    <br />
-    I can't trust who I am or the people around me
+    <br />I can't trust who I am or the people around me
     <br />
     Beyond the point of no return
     <br />
@@ -47,14 +46,10 @@ export const LYRICS = (
     <br />
     Scars are the only thing left
     <br />
-    <br />
-    I hate to say it
-    <br />
-    I hate to say it
-    <br />
-    I hate to say it
-    <br />
-    I hate to say it
+    <br />I hate to say it
+    <br />I hate to say it
+    <br />I hate to say it
+    <br />I hate to say it
     <br />
     <br />
     Pleading for release
@@ -78,8 +73,7 @@ export const LYRICS = (
     Worthless all along
     <br />
     For no one is listening
-    <br />
-    I hate to say it
+    <br />I hate to say it
     <br />
     But you knew that all along
   </>
