@@ -52,7 +52,39 @@ export default function Page() {
           <ShowDetails show={nextShow} />
         </>
       )}
-      <SectionHeading className="mt-6">LIVE</SectionHeading>
+      <SectionHeading className="mt-6">LINKS</SectionHeading>
+      <div className="flex flex-col flex-wrap gap-2">
+        <LinkButton
+          href="https://www.instagram.com/houseswedieintx"
+          src="/images/instagram-button.gif"
+          alt="Instagram link"
+        />
+        <LinkButton
+          href="https://www.youtube.com/@houseswedieintx"
+          src="/images/youtube-button.gif"
+          alt="YouTube link"
+        />
+        <LinkButton
+          href="https://open.spotify.com/artist/5p62veiIRA1sgEM1miwamk?si=jqQkXMeTRhKiJ3iUxYxJ-A"
+          src="/images/spotify-button.gif"
+          alt="Spotify link"
+        />
+        <LinkButton
+          href="https://music.apple.com/us/artist/houses-we-die-in/1729034848"
+          src="/images/apple-music-button.gif"
+          alt="Apple Music link"
+        />
+        {/* <LinkButton
+          href="https://twitter.com/houseswedieintx"
+          src="/images/twitter-button.gif"
+          alt="X/Twitter link"
+        /> */}
+      </div>
+      <SectionHeading className="mb-1 mt-6">BOOKING</SectionHeading>
+      <span>
+        Email us at <b>houseswedieintx@gmail.com</b>
+      </span>
+      {/* <SectionHeading className="mt-6">LIVE</SectionHeading>
       <div>
         At The White Swan (Houston, TX)
         <iframe
@@ -85,39 +117,7 @@ export default function Page() {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
         ></iframe>
-      </div>
-      <SectionHeading className="mt-6">LINKS</SectionHeading>
-      <div className="flex flex-col flex-wrap gap-2">
-        {/* <LinkButton
-          href="https://open.spotify.com/artist/5p62veiIRA1sgEM1miwamk?si=jqQkXMeTRhKiJ3iUxYxJ-A"
-          src="/images/spotify-button.gif"
-          alt="Spotify link"
-        /> */}
-        <LinkButton
-          href="https://music.apple.com/us/artist/houses-we-die-in/1729034848"
-          src="/images/apple-music-button.gif"
-          alt="Apple Music link"
-        />
-        <LinkButton
-          href="https://www.instagram.com/houseswedieintx"
-          src="/images/instagram-button.gif"
-          alt="Instagram link"
-        />
-        <LinkButton
-          href="https://twitter.com/houseswedieintx"
-          src="/images/twitter-button.gif"
-          alt="X/Twitter link"
-        />
-        <LinkButton
-          href="https://www.youtube.com/@houseswedieintx"
-          src="/images/youtube-button.gif"
-          alt="YouTube link"
-        />
-      </div>
-      <SectionHeading className="mb-1 mt-6">BOOKING</SectionHeading>
-      <span>
-        Email us at <b>houseswedieintx@gmail.com</b> or DM us on Instagram
-      </span>
+      </div> */}
     </div>
   );
 }
