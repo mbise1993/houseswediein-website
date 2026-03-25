@@ -8,6 +8,14 @@ export const ALL_SHOWS = {
     flyerUrl: '/flyers/2026-04-21.png',
     venueName: 'Planet K (South Lamar)',
   },
+  '2026-04-12': {
+    title: 'Houses We Die In: A Brief Glimpse of Solace EP Release Show',
+    date: getDate('2026-04-12'),
+    flyerUrl: '/flyers/2026-04-12.jpg',
+    venueName: 'Brushy Street Commons',
+    venueLink: 'https://brushystreet.com/',
+    ticketLink: 'https://eventim.us/HWDI',
+  },
   '2026-03-21': {
     title: 'Thin Line Fest',
     date: getDate('2026-03-21'),

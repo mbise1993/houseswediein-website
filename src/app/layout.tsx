@@ -43,6 +43,15 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  function renderMarqueeLine(text: string, spacesAfter = 60) {
+    return (
+      <>
+        {text}
+        {'\u00A0'.repeat(spacesAfter)}
+      </>
+    );
+  }
+
   return (
     <html lang="en">
       <body>
@@ -76,10 +85,10 @@ export default function RootLayout({
         </div>
         <div className="fixed bottom-0 left-0 w-full">
           <Marquee className="bg-black py-1 text-orange-500" speed={40}>
-            NEW EP OUT APRIL 3RD ON PAPER WINGS RECORDS&nbsp; &nbsp; &nbsp;
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-            &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
-            &nbsp;
+            {renderMarqueeLine('NEW EP OUT APRIL 3RD ON PAPER WINGS RECORDS')}
+            {renderMarqueeLine(
+              'EP RELEASE SHOW APRIL 12TH AT BRUSHY STREET COMMONS',
+            )}
           </Marquee>
         </div>
       </body>

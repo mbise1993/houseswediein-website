@@ -25,8 +25,25 @@ export default function Page() {
       <SectionHeading>ANNOUNCEMENTS</SectionHeading>
       <ul className="list-disc pl-4">
         <li>
-          &quot;A Brief Glimpse of Solace&quot; out April 3rd on Paper Wings
-          Records&nbsp;
+          &quot;A Brief Glimpse of Solace&quot; EP out April 3rd on Paper Wings
+          Records -{' '}
+          <a
+            href="https://distrokid.com/hyperfollow/houseswediein/a-brief-glimpse-of-solace-3"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            pre-save here
+          </a>
+        </li>
+        <li>
+          EP release show on April 12th at Brushy Street Commons -{' '}
+          <a
+            href="https://eventim.us/HWDI"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            tickets here
+          </a>
         </li>
       </ul>
       {nextShow && (
