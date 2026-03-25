@@ -1,7 +1,8 @@
 'use client';
+import { YouTubeEmbed } from '@next/third-parties/google';
+import React from 'react';
 import { SectionHeading } from '@/components/section-heading';
 import { cn } from '@/util/cn';
-import React from 'react';
 
 interface SongPageProps {
   className?: string;
@@ -39,19 +40,15 @@ export const SongPage = ({
 };
 
 interface VideoProps {
-  src: string;
+  videoId: string;
+  params?: string;
 }
 
-export const Video = ({ src }: VideoProps) => {
+export const Video = ({ videoId, params }: VideoProps) => {
   return (
-    <iframe
-      id="video"
-      className="mt-4 aspect-video w-full md:px-4"
-      src={src}
-      title="YouTube video player"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowFullScreen
-    ></iframe>
+    <div className="mt-4 aspect-video w-full md:px-4">
+      <YouTubeEmbed videoid={videoId} params={params} />
+    </div>
   );
 };
 

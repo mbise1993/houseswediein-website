@@ -1,7 +1,6 @@
 import { Metadata } from 'next';
-
-import { Lyrics, SongPage, Video } from '@/app/releases/song-page';
 import { LYRICS } from '@/app/releases/faces-of-the-suffering/political-tragedy/lyrics';
+import { Lyrics, SongPage, Video } from '@/app/releases/song-page';
 
 const TITLE = 'political tragedy';
 
@@ -16,7 +15,7 @@ export default function Page() {
       title={TITLE}
       cursor="https://ani.cursors-4u.net/others/oth-9/oth889.cur"
     >
-      <Video src="https://www.youtube.com/embed/8KvZ9ak_i-U?si=gXk9pMLKQw90NAZ_" />
+      <Video videoId="8KvZ9ak_i-U" />
       <Lyrics>{LYRICS}</Lyrics>
     </SongPage>
   );

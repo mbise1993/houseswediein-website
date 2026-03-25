@@ -29,7 +29,7 @@ export default function Page() {
       title={TITLE}
       cursor="https://cur.cursors-4u.net/others/oth-1/oth3.png"
     >
-      <Video src="https://www.youtube.com/embed/xjpYQlTvUG8?si=2RKgLJBSNLDuJoWs" />
+      <Video videoId="xjpYQlTvUG8" />
       <Lyrics>{LYRICS}</Lyrics>
       <Downloads downloads={DOWNLOADS} />
     </SongPage>

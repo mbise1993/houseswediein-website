@@ -30,7 +30,7 @@ export default function Page() {
       title={TITLE}
       cursor="url('https://cdn.cursors-4u.net/previews/zombie-hand-help-select-8a9b067f-32.webp') 46 45, auto"
     >
-      <Video src="https://www.youtube.com/embed/Q5hx-wDFXgE?si=U7dJUoXaR_W2G2Ee" />
+      <Video videoId="Q5hx-wDFXgE" />
       <Lyrics>{LYRICS}</Lyrics>
       <Downloads downloads={DOWNLOADS} />
     </SongPage>
