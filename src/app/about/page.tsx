@@ -1,13 +1,12 @@
 import { Metadata } from 'next';
-
-import { SectionHeading } from '@/components/section-heading';
-import { PromoPhoto } from '@/components/promo-photo';
 import Link from 'next/link';
+import { PromoPhoto } from '@/components/promo-photo';
+import { SectionHeading } from '@/components/section-heading';
 
 const ASSETS = [
   {
     name: 'Main logo',
-    url: '/assets/main-logo.png',
+    url: '/assets/script-logo.png',
   },
 ];
 
@@ -34,8 +33,8 @@ export default function Page() {
       <SectionHeading className="mt-6">LOGOS</SectionHeading>
       <ul className="flex flex-col gap-4">
         {ASSETS.map((asset) => (
-          <li key={asset.url}>
-            <img className="h-[60px]" src={asset.url} alt={asset.name} />
+          <li key={asset.url} className="mt-2">
+            <img className="h-[40px] mb-2" src={asset.url} alt={asset.name} />
             <a target="_blank" href={asset.url}>
               {asset.name}
             </a>

@@ -64,9 +64,9 @@ export default function RootLayout({
           <div className="flex items-center justify-center bg-stone-800 px-4 md:px-8">
             <Link href="/">
               <img
-                className="mt-2 w-[460px] invert transition-all md:hover:scale-110"
+                className="my-6 w-[460px] invert transition-all md:hover:scale-110"
                 alt="Logo"
-                src="/assets/main-logo.png"
+                src="/assets/script-logo.png"
               />
             </Link>
           </div>
