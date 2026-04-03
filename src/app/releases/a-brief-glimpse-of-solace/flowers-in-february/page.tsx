@@ -30,7 +30,7 @@ export default function Page() {
       title={TITLE}
       cursor="url('https://cdn.cursors-4u.net/previews/orange-cat-dd3fd578-32.webp') 32 32, auto"
     >
-      {/* <Video videoId="bUaryqG22YU" /> */}
+      <Video videoId="vI5KsbjbQIo" />
       <Lyrics>{LYRICS}</Lyrics>
       {/* <img
         className="mt-4 inline-block"

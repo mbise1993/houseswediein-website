@@ -15,7 +15,7 @@ export default function Page() {
       title={TITLE}
       cursor="url(https://cdn.cursors-4u.net/previews/gold-cross-82e7a673-32.webp) 32 32, auto"
     >
-      {/* <Video videoId="bUaryqG22YU" /> */}
+      <Video videoId="7e2Ohf_XTdc" />
       <Lyrics>[INSTRUMENTAL]</Lyrics>
     </SongPage>
   );
