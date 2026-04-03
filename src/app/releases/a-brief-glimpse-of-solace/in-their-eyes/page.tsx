@@ -30,7 +30,7 @@ export default function Page() {
       title={TITLE}
       cursor="url('https://cdn.cursors-4u.net/previews/eye-c967256b-32.webp') 32 32, auto"
     >
-      <Video videoId="Q5hx-wDFXgE" />
+      {/* <Video videoId="Q5hx-wDFXgE" /> */}
       <Lyrics>{LYRICS}</Lyrics>
       <Downloads downloads={DOWNLOADS} />
     </SongPage>
