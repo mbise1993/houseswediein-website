@@ -32,15 +32,15 @@ export default function Page() {
     >
       <Video videoId="bUaryqG22YU" />
       <Lyrics>{LYRICS}</Lyrics>
-      <img
+      {/* <img
         className="mt-4 inline-block"
         src="/images/weasley.png"
         alt="Weasley"
         height={100}
         width={100}
-      />
+      /> */}
       <img
-        className="ml-4 inline-block"
+        className="mt-4 ml-4 inline-block"
         src="/images/weasley-paw-print.png"
         alt="Weasley paw print"
         height={80}

@@ -1,13 +1,12 @@
 import { Metadata } from 'next';
-
-import { SectionHeading } from '@/components/section-heading';
 import { PromoPhoto } from '@/components/promo-photo';
+import { SectionHeading } from '@/components/section-heading';
 
 const ASSETS = [
   {
     name: 'Main Logo',
-    url: '/assets/main-logo.png',
-    height: '60px',
+    url: '/assets/script-logo.png',
+    height: '40px',
   },
   // {
   //   name: 'Alt Logo',
@@ -32,17 +31,17 @@ export default function Page() {
         forefathers of the genre in their live shows, bringing an infectious
         energy and stage presence to match the intensity of the music.
       </div>
+
       <SectionHeading className="mt-6">MUSIC</SectionHeading>
       <ul className="list-disc pl-4">
-        <li>New EP coming early 2026</li>
         <li>
           <a
             href="https://open.spotify.com/track/46pPD8rtE0EOpp3FPA1IeF?si=fe22ca2c9f774f13"
             target="_blank"
           >
-            &quot;i&apos;ll stay as long as you do&quot; single
+            &quot;A Brief Glimpse of Solace&quot; EP
           </a>{' '}
-          (November 2025)
+          (April 2026 - Paper Wings Records)
         </li>
         <li>
           <a
@@ -79,6 +78,7 @@ export default function Page() {
           </a>
         </li>
       </ul>
+
       <SectionHeading className="mt-6">
         INFLUENCES & SIMILAR ARTISTS
       </SectionHeading>
@@ -86,6 +86,7 @@ export default function Page() {
         Misery Signals, Unearth, Frail Body, SeeYouSpaceCowboy, Dying Wish,
         Counterparts
       </div>
+
       <SectionHeading className="mt-6">LIVE FOOTAGE</SectionHeading>
       <div>
         At The White Swan (Houston, TX)
@@ -109,11 +110,12 @@ export default function Page() {
           allowFullScreen
         ></iframe>
       </div>
+
       <SectionHeading className="mt-8">NOTABLE SHOWS</SectionHeading>
       <ul className="list-disc pl-4">
         <li>
-          <b>March 2026</b> - California and Arizona run with Everyone Dies In
-          Utah
+          <b>June 2026</b> - West Coast/Midwest tour with Live Longer Burn
+          Everything
         </li>
         <li>
           <b>August 2025</b> - DIY Texas run with Current Comfort
@@ -138,6 +140,7 @@ export default function Page() {
           <b>May 2024</b> - Opened day 1 of Big Texas Metal Fest in Austin, TX
         </li>
       </ul>
+
       <SectionHeading className="mt-6">LOGOS</SectionHeading>
       <ul className="flex flex-col gap-4">
         {ASSETS.map((asset) => (
@@ -147,21 +150,17 @@ export default function Page() {
               src={asset.url}
               alt={asset.name}
             />
-            <a target="_blank" href={asset.url}>
+            <a className="mt-2 block" target="_blank" href={asset.url}>
               {asset.name}
             </a>
           </li>
         ))}
       </ul>
+
       <SectionHeading className="mt-6">PROMO PHOTOS</SectionHeading>
-      {/* <PromoPhoto
-        src="/promos/red-group-promo.png"
-        alt="Red group promo"
-        photographer="dylandistance"
-      /> */}
       <PromoPhoto
         className="mt-4"
-        src="/promos/group-1.jpg"
+        src="/promos/willow-bw-1.jpg"
         alt="Group photo 1"
         photographer="reillysbadphotos"
       />
@@ -183,11 +182,11 @@ export default function Page() {
         alt="Mohawk 1"
         photographer="dylandistance"
       />
+
       <SectionHeading className="mt-6">LINKS & CONTACT INFO</SectionHeading>
       <ul className="list-disc pl-4">
         <li>
-          Main contact: Email <b>houseswedieintx@gmail.com</b> or DM us on
-          Instagram
+          Email: <b>houseswedieintx@gmail.com</b>
         </li>
         <li>
           <a href="https://www.instagram.com/houseswedieintx/" target="_blank">
@@ -224,6 +223,7 @@ export default function Page() {
           </a>
         </li>
       </ul>
+
       <SectionHeading className="mt-6">THE TEAM</SectionHeading>
       <ul className="list-disc pl-4">
         <li>
@@ -269,6 +269,15 @@ export default function Page() {
           - Management, booking, merch
         </li>
       </ul>
+
+      <SectionHeading className="mt-6">OTHER STUFF</SectionHeading>
+      <a
+        className="mt-2 block cursor-pointer"
+        href="/assets/houses-we-die-in-stage-plot.pdf"
+        target="_blank"
+      >
+        Stage plot/input list
+      </a>
     </div>
   );
 }

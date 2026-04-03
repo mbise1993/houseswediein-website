@@ -20,14 +20,14 @@ export default function Page() {
     <div className="prose px-8">
       <SectionHeading>ABOUT</SectionHeading>
       <PromoPhoto
-        src="/promos/group-1.jpg"
+        src="/promos/willow-bw-1.jpg"
         alt="Band photo"
         photographer="reillysbadphotos"
       />
       <p className="mt-4">Metalcore from Austin, Texas.</p>
       <p>
-        New EP &quot;A Brief Glimpse of Solace&quot; out April 3rd on Paper
-        Wings Records.
+        New EP &quot;A Brief Glimpse of Solace&quot; out now on Paper Wings
+        Records.
       </p>
 
       <SectionHeading className="mt-6">LOGOS</SectionHeading>
@@ -43,14 +43,7 @@ export default function Page() {
       </ul>
 
       <SectionHeading className="mt-6">OTHER STUFF</SectionHeading>
-      <Link href="/epk">Our EPK</Link>
-      <a
-        className="mt-2 block cursor-pointer"
-        href="/assets/houses-we-die-in-stage-plot.pdf"
-        target="_blank"
-      >
-        Stage plot/input list
-      </a>
+      <Link href="/epk">EPK</Link>
     </div>
   );
 }

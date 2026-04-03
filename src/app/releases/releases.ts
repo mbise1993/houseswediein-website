@@ -16,7 +16,6 @@ export const RELEASES: Release[] = [
       {
         title: 'atonement',
         url: '/releases/a-brief-glimpse-of-solace/atonement',
-        unreleased: true,
       },
       {
         title: "i'll stay as long as you do",
@@ -25,7 +24,6 @@ export const RELEASES: Release[] = [
       {
         title: 'flowers in february',
         url: '/releases/a-brief-glimpse-of-solace/flowers-in-february',
-        unreleased: true,
       },
       {
         title: 'poison',
@@ -34,12 +32,10 @@ export const RELEASES: Release[] = [
       {
         title: 'in their eyes',
         url: '/releases/a-brief-glimpse-of-solace/in-their-eyes',
-        unreleased: true,
       },
       {
         title: 'and into the depths (i lost my point of contention)',
         url: '/releases/a-brief-glimpse-of-solace/and-into-the-depths',
-        unreleased: true,
       },
     ],
   },

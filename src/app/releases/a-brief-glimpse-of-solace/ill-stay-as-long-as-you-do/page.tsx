@@ -30,7 +30,7 @@ export default function Page() {
       title={TITLE}
       cursor="https://cur.cursors-4u.net/holidays/hol-3/hol246.png"
     >
-      <Video videoId="bUaryqG22YU" />
+      <Video videoId="xgPjnFD6AN4" />
       <Lyrics>{LYRICS}</Lyrics>
       <Downloads downloads={DOWNLOADS} />
     </SongPage>

@@ -47,7 +47,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  function renderMarqueeLine(text: string, spacesAfter = 60) {
+  function renderMarqueeLine(text: string, spacesAfter = 65) {
     return (
       <>
         {text}
@@ -88,8 +88,8 @@ export default function RootLayout({
           </div>
         </div>
         <div className="fixed bottom-0 left-0 w-full">
-          <Marquee className="bg-black py-1 text-orange-500" speed={40}>
-            {renderMarqueeLine('NEW EP OUT APRIL 3RD ON PAPER WINGS RECORDS')}
+          <Marquee className="bg-black py-1 text-orange-500" speed={60}>
+            {renderMarqueeLine('A BRIEF GLIMPSE OF SOLACE OUT NOW!!!')}
             {renderMarqueeLine(
               'EP RELEASE SHOW APRIL 12TH AT BRUSHY STREET COMMONS',
             )}
