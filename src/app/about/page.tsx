@@ -5,8 +5,12 @@ import { SectionHeading } from '@/components/section-heading';
 
 const ASSETS = [
   {
-    name: 'Main logo',
+    name: 'Script logo',
     url: '/assets/script-logo.png',
+  },
+  {
+    name: 'Stacked logo',
+    url: '/assets/stacked-logo.png',
   },
 ];
 
@@ -34,7 +38,7 @@ export default function Page() {
       <ul className="flex flex-col gap-4">
         {ASSETS.map((asset) => (
           <li key={asset.url} className="mt-2">
-            <img className="h-[40px] mb-2" src={asset.url} alt={asset.name} />
+            <img className="h-[40px] mb-1" src={asset.url} alt={asset.name} />
             <a target="_blank" href={asset.url}>
               {asset.name}
             </a>
