@@ -1,5 +1,5 @@
-import { ALL_SHOWS } from '@/app/shows/all-shows';
 import * as dateFns from 'date-fns';
+import { ALL_SHOWS } from '@/app/shows/all-shows';
 
 export interface ShowData {
   title: string;
@@ -15,7 +15,10 @@ export interface Show extends ShowData {
 }
 
 const SHOWS: ShowData[] = [
+  ALL_SHOWS['2026-07-18'],
+  ALL_SHOWS['2026-06-25'],
   ALL_SHOWS['2026-04-21'],
+  ALL_SHOWS['2026-04-18'],
   ALL_SHOWS['2026-04-12'],
   ALL_SHOWS['2026-03-21'],
   ALL_SHOWS['2026-01-01'],

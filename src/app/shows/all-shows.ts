@@ -1,12 +1,35 @@
 import { getDate } from '@/app/shows/visible-shows';
 
 export const ALL_SHOWS = {
+  '2026-07-18': {
+    title:
+      'Ashes at Last, Amulet, Destroy All Humans, Houses We Die In, Sovereign Suicide',
+    date: getDate('2026-07-18'),
+    flyerUrl: '/flyers/2026-07-18.png',
+    venueName: 'San Antonio (The Rock Box)',
+    venueLink: 'https://therockboxsa.com/',
+    ticketLink: 'https://www.stubwire.com/e/37808/ashestour/therockbox/',
+  },
+  '2026-06-25': {
+    title:
+      'Houses We Die In, Live Longer Burn Everything, It All Happened in July, While Memories Last, Waning',
+    date: getDate('2026-06-25'),
+    flyerUrl: '/flyers/2026-06-25.png',
+    venueName: 'Oklahoma City (The Sanctuary)',
+  },
   '2026-04-21': {
     title:
       'Deadbeat Nightlife, Hollow Crown, Destroy All Humans, Houses We Die In, Dancing With Despair, Bludgeon the Weak',
     date: getDate('2026-04-21'),
     flyerUrl: '/flyers/2026-04-21.png',
     venueName: 'Planet K (South Lamar)',
+  },
+  '2026-04-18': {
+    title:
+      'Houses We Die In, Throat Piss, Slow Pulse, A Letter to Autumn, Mom Found the Pistol',
+    date: getDate('2026-04-18'),
+    flyerUrl: '/flyers/2026-04-18.png',
+    venueName: '21st St Co-op',
   },
   '2026-04-12': {
     title: 'Houses We Die In: A Brief Glimpse of Solace EP Release Show',
@@ -20,7 +43,7 @@ export const ALL_SHOWS = {
     title: 'Thin Line Fest',
     date: getDate('2026-03-21'),
     flyerUrl: '/flyers/2026-03-21.png',
-    venueName: 'Rubber Gloves (Denton, TX)',
+    venueName: 'Denton, TX (Rubber Gloves)',
     venueLink: 'https://rubberglovesdenton.com/',
   },
   '2026-03-14': {

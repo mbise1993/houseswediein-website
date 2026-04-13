@@ -90,9 +90,6 @@ export default function RootLayout({
         <div className="fixed bottom-0 left-0 w-full">
           <Marquee className="bg-black py-1 text-orange-500" speed={60}>
             {renderMarqueeLine('A BRIEF GLIMPSE OF SOLACE OUT NOW!!!')}
-            {renderMarqueeLine(
-              'EP RELEASE SHOW APRIL 12TH AT BRUSHY STREET COMMONS',
-            )}
           </Marquee>
         </div>
       </body>

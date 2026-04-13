@@ -27,16 +27,6 @@ export default function Page() {
         <li>
           &quot;A Brief Glimpse of Solace&quot; OUT NOW on Paper Wings Records
         </li>
-        <li>
-          EP release show on April 12th at Brushy Street Commons in Austin, TX -{' '}
-          <a
-            href="https://eventim.us/HWDI"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            tickets here
-          </a>
-        </li>
       </ul>
       {nextShow && (
         <>
