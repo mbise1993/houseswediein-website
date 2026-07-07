@@ -5,14 +5,14 @@ import { SectionHeading } from '@/components/section-heading';
 const ASSETS = [
   {
     name: 'Main Logo',
-    url: '/assets/script-logo.png',
+    url: '/assets/stacked-logo.png',
     height: '40px',
   },
-  // {
-  //   name: 'Alt Logo',
-  //   url: '/assets/alt-logo.png',
-  //   height: '120px',
-  // },
+  {
+    name: 'Alt Logo',
+    url: '/assets/main-logo.png',
+    height: '50px',
+  },
 ];
 
 export const metadata: Metadata = {
@@ -31,6 +31,17 @@ export default function Page() {
         forefathers of the genre in their live shows, bringing an infectious
         energy and stage presence to match the intensity of the music.
       </div>
+      <a
+        className="block mt-2 w-[60px]"
+        href="https://papercutrecordings.com"
+        target="_blank"
+      >
+        <img
+          className="w-[60px]"
+          src="/images/papercut-logo.avif"
+          alt="Papercut Recordings logo"
+        />
+      </a>
 
       <SectionHeading className="mt-6">MUSIC</SectionHeading>
       <ul className="list-disc pl-4">
@@ -41,7 +52,7 @@ export default function Page() {
           >
             &quot;A Brief Glimpse of Solace&quot; EP
           </a>{' '}
-          (April 2026 - Paper Wings Records)
+          (April 2026)
         </li>
         <li>
           <a
@@ -79,15 +90,54 @@ export default function Page() {
         </li>
       </ul>
 
+      <SectionHeading className="mt-6">PROMO PHOTOS</SectionHeading>
+      <PromoPhoto
+        className="mt-4"
+        src="/promos/la-group.jpg"
+        alt="Group photo 1"
+        photographer="theliamstewart"
+      />
+      <PromoPhoto
+        className="mt-4"
+        src="/promos/chess-club-1.jpg"
+        alt="Chess Club"
+        photographer="coreylaynephoto"
+      />
+      <PromoPhoto
+        className="mt-4"
+        src="/promos/indy-brewing-1.jpg"
+        alt="Indy Brewing 1"
+        photographer="dylandistance"
+      />
+      <PromoPhoto
+        className="mt-4"
+        src="/promos/mohawk-1.jpg"
+        alt="Mohawk 1"
+        photographer="dylandistance"
+      />
+
+      <SectionHeading className="mt-6">LOGOS</SectionHeading>
+      <ul className="flex flex-col gap-4">
+        {ASSETS.map((asset) => (
+          <li key={asset.url}>
+            <img
+              style={{ height: asset.height }}
+              src={asset.url}
+              alt={asset.name}
+            />
+            <a className="mt-2 block" target="_blank" href={asset.url}>
+              {asset.name}
+            </a>
+          </li>
+        ))}
+      </ul>
+
       <SectionHeading className="mt-6">
         INFLUENCES & SIMILAR ARTISTS
       </SectionHeading>
-      <div>
-        Misery Signals, Unearth, Frail Body, SeeYouSpaceCowboy, Dying Wish,
-        Counterparts
-      </div>
+      <div>Misery Signals, Unearth, Dying Wish, Counterparts, Frail Body</div>
 
-      <SectionHeading className="mt-6">LIVE FOOTAGE</SectionHeading>
+      {/* <SectionHeading className="mt-6">LIVE FOOTAGE</SectionHeading>
       <div>
         At The White Swan (Houston, TX)
         <iframe
@@ -109,9 +159,9 @@ export default function Page() {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
         ></iframe>
-      </div>
+      </div> */}
 
-      <SectionHeading className="mt-8">NOTABLE SHOWS</SectionHeading>
+      {/* <SectionHeading className="mt-8">NOTABLE SHOWS</SectionHeading>
       <ul className="list-disc pl-4">
         <li>
           <b>June 2026</b> - West Coast/Midwest tour with Live Longer Burn
@@ -126,62 +176,17 @@ export default function Page() {
           Little Rock, AR and Oklahoma City, OK
         </li>
         <li>
-          <b>March 2025</b> - Two-week DIY southeast tour (to Florida and back)
-          with Don&apos;t Fear the End
+          <b>March 2025</b> - Two-week DIY southeast tour to south Florida with
+          Don&apos;t Fear the End
         </li>
         <li>
           <b>December 2024</b> - No Sleep Fest pre-show + Texas/New Orleans run
           with Lacerated
         </li>
         <li>
-          <b>July 2024</b> - Two-week DIY southwest tour (to LA and back)
+          <b>July 2024</b> - Two-week DIY southwest tour to southern California
         </li>
-        <li>
-          <b>May 2024</b> - Opened day 1 of Big Texas Metal Fest in Austin, TX
-        </li>
-      </ul>
-
-      <SectionHeading className="mt-6">LOGOS</SectionHeading>
-      <ul className="flex flex-col gap-4">
-        {ASSETS.map((asset) => (
-          <li key={asset.url}>
-            <img
-              style={{ height: asset.height }}
-              src={asset.url}
-              alt={asset.name}
-            />
-            <a className="mt-2 block" target="_blank" href={asset.url}>
-              {asset.name}
-            </a>
-          </li>
-        ))}
-      </ul>
-
-      <SectionHeading className="mt-6">PROMO PHOTOS</SectionHeading>
-      <PromoPhoto
-        className="mt-4"
-        src="/promos/willow-bw-1.jpg"
-        alt="Group photo 1"
-        photographer="reillysbadphotos"
-      />
-      <PromoPhoto
-        className="mt-4"
-        src="/promos/chess-club-1.jpg"
-        alt="Chess Club"
-        photographer="coreylaynephoto"
-      />
-      <PromoPhoto
-        className="mt-4"
-        src="/promos/indy-brewing-1.jpg"
-        alt="Indy Brewing 1"
-        photographer="dylandistance"
-      />
-      <PromoPhoto
-        className="mt-4"
-        src="/promos/mohawk-1.jpg"
-        alt="Mohawk 1"
-        photographer="dylandistance"
-      />
+      </ul> */}
 
       <SectionHeading className="mt-6">LINKS & CONTACT INFO</SectionHeading>
       <ul className="list-disc pl-4">
@@ -266,7 +271,7 @@ export default function Page() {
           <a href="https://www.instagram.com/helloarjana/" target="_blank">
             Arjana Almaneih
           </a>{' '}
-          - Management, booking, merch
+          - Management
         </li>
       </ul>
 

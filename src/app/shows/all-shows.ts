@@ -17,6 +17,12 @@ export const ALL_SHOWS = {
     flyerUrl: '/flyers/2026-06-25.png',
     venueName: 'Oklahoma City (The Sanctuary)',
   },
+  '2026-06-tour': {
+    title: 'June 2026 Tour w/ Live Longer Burn Everything',
+    date: getDate('2026-06-12'),
+    flyerUrl: '/flyers/2026-06-tour.jpg',
+    venueName: 'Southwest & Midwest US',
+  },
   '2026-04-21': {
     title:
       'Deadbeat Nightlife, Hollow Crown, Destroy All Humans, Houses We Die In, Dancing With Despair, Bludgeon the Weak',

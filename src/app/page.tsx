@@ -25,7 +25,14 @@ export default function Page() {
       <SectionHeading>ANNOUNCEMENTS</SectionHeading>
       <ul className="list-disc pl-4">
         <li>
-          &quot;A Brief Glimpse of Solace&quot; OUT NOW on Paper Wings Records
+          &quot;A Brief Glimpse of Solace&quot; CD pre-orders now available
+          through{' '}
+          <a
+            href="https://papercutrecordings.com/products/houses-we-die-in-a-brief-glimpse-of-solace-preorder?variant=51492184064278"
+            target="_blank"
+          >
+            Papercut Recordings
+          </a>
         </li>
       </ul>
       {nextShow && (

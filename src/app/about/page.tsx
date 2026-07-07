@@ -5,12 +5,12 @@ import { SectionHeading } from '@/components/section-heading';
 
 const ASSETS = [
   {
-    name: 'Script logo',
-    url: '/assets/script-logo.png',
+    name: 'Main logo',
+    url: '/assets/stacked-logo.png',
   },
   {
-    name: 'Stacked logo',
-    url: '/assets/stacked-logo.png',
+    name: 'Alt logo',
+    url: '/assets/main-logo.png',
   },
 ];
 
@@ -24,17 +24,25 @@ export default function Page() {
     <div className="prose px-8">
       <SectionHeading>ABOUT</SectionHeading>
       <PromoPhoto
-        src="/promos/willow-bw-1.jpg"
+        src="/promos/la-group-sm.jpg"
         alt="Band photo"
-        photographer="reillysbadphotos"
+        photographer="theliamstewart"
       />
       <p className="mt-4">Metalcore from Austin, Texas.</p>
-      <p>
-        New EP &quot;A Brief Glimpse of Solace&quot; out now on Paper Wings
-        Records.
-      </p>
+      <p>New EP &quot;A Brief Glimpse of Solace&quot; out now.</p>
+      <a
+        className="block w-[60px]"
+        href="https://papercutrecordings.com"
+        target="_blank"
+      >
+        <img
+          className="w-[60px]"
+          src="/images/papercut-logo.avif"
+          alt="Papercut Recordings logo"
+        />
+      </a>
 
-      <SectionHeading className="mt-6">LOGOS</SectionHeading>
+      {/* <SectionHeading className="mt-6">LOGOS</SectionHeading>
       <ul className="flex flex-col gap-4">
         {ASSETS.map((asset) => (
           <li key={asset.url} className="mt-2">
@@ -44,9 +52,9 @@ export default function Page() {
             </a>
           </li>
         ))}
-      </ul>
+      </ul> */}
 
-      <SectionHeading className="mt-6">OTHER STUFF</SectionHeading>
+      {/* <SectionHeading className="mt-6">OTHER STUFF</SectionHeading> */}
       <Link href="/epk">EPK</Link>
     </div>
   );

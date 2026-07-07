@@ -64,9 +64,9 @@ export default function RootLayout({
           <div className="flex items-center justify-center bg-stone-800 px-4 md:px-8">
             <Link href="/">
               <img
-                className="my-6 w-[460px] invert transition-all md:hover:scale-110"
+                className="w-[420px] invert transition-all md:hover:scale-110"
                 alt="Logo"
-                src="/assets/script-logo.png"
+                src="/assets/main-logo.png"
               />
             </Link>
           </div>
@@ -76,7 +76,7 @@ export default function RootLayout({
               <NavItem href="/releases">Releases</NavItem>
               <NavItem href="/about">About</NavItem>
               <NavItem external href="https://houseswedieintx.bandcamp.com">
-                Store
+                Bandcamp
               </NavItem>
             </nav>
             {children}

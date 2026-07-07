@@ -16,23 +16,14 @@ export interface Show extends ShowData {
 
 const SHOWS: ShowData[] = [
   ALL_SHOWS['2026-07-18'],
-  ALL_SHOWS['2026-06-25'],
-  ALL_SHOWS['2026-04-21'],
-  ALL_SHOWS['2026-04-18'],
+  ALL_SHOWS['2026-06-tour'],
   ALL_SHOWS['2026-04-12'],
-  ALL_SHOWS['2026-03-21'],
-  ALL_SHOWS['2026-01-01'],
   ALL_SHOWS['2025-11-29'],
   ALL_SHOWS['2025-08-tour'],
   ALL_SHOWS['2025-06-tour'],
-  ALL_SHOWS['2025-05-15'],
   ALL_SHOWS['2025-03-tour'],
-  ALL_SHOWS['2025-03-07'],
   ALL_SHOWS['2024-12-03'],
-  ALL_SHOWS['2024-10-20'],
-  ALL_SHOWS['2024-07-28'],
   ALL_SHOWS['2024-07-tour'],
-  ALL_SHOWS['2024-05-24'],
 ];
 
 export function getDate(day: string) {
