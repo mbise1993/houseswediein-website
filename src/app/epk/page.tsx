@@ -4,14 +4,14 @@ import { SectionHeading } from '@/components/section-heading';
 
 const ASSETS = [
   {
-    name: 'Main Logo',
+    name: 'Logo',
     url: '/assets/stacked-logo.png',
-    height: '40px',
+    height: '50px',
   },
   {
-    name: 'Alt Logo',
-    url: '/assets/main-logo.png',
-    height: '50px',
+    name: 'Logo (single line)',
+    url: '/assets/block-logo-single-line.png',
+    height: '30px',
   },
 ];
 
@@ -93,9 +93,15 @@ export default function Page() {
       <SectionHeading className="mt-6">PROMO PHOTOS</SectionHeading>
       <PromoPhoto
         className="mt-4"
-        src="/promos/la-group.jpg"
+        src="/promos/group-orange.jpg"
         alt="Group photo 1"
-        photographer="theliamstewart"
+        photographer="dylandistance"
+      />
+      <PromoPhoto
+        className="mt-4"
+        src="/promos/group-dress.jpg"
+        alt="Group photo 2"
+        photographer="dylandistance"
       />
       <PromoPhoto
         className="mt-4"
@@ -246,12 +252,6 @@ export default function Page() {
         <li>
           <a href="https://www.instagram.com/toscan00/" target="_blank">
             Matthew Toscano
-          </a>{' '}
-          - Guitar
-        </li>
-        <li>
-          <a href="https://www.instagram.com/ampsvsslamps/" target="_blank">
-            Jake Reeves
           </a>{' '}
           - Guitar
         </li>

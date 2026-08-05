@@ -61,12 +61,12 @@ export default function RootLayout({
       <body className={libreBaskerville.className}>
         <LogMessage />
         <div className="mx-auto w-full max-w-[768px] overflow-hidden py-8 md:overflow-visible">
-          <div className="flex items-center justify-center bg-stone-800 px-4 md:px-8">
+          <div className="flex items-center justify-center bg-stone-800 py-4">
             <Link href="/">
               <img
-                className="w-[420px] invert transition-all md:hover:scale-110"
+                className="w-[440px] invert transition-all md:hover:scale-110"
                 alt="Logo"
-                src="/assets/main-logo.png"
+                src="/assets/block-logo-single-line.png"
               />
             </Link>
           </div>

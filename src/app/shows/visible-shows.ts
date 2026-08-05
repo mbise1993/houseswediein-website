@@ -15,6 +15,7 @@ export interface Show extends ShowData {
 }
 
 const SHOWS: ShowData[] = [
+  ALL_SHOWS['2026-08-15'],
   ALL_SHOWS['2026-07-18'],
   ALL_SHOWS['2026-06-tour'],
   ALL_SHOWS['2026-04-12'],

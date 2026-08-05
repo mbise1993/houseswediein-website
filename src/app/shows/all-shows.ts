@@ -1,6 +1,14 @@
 import { getDate } from '@/app/shows/visible-shows';
 
 export const ALL_SHOWS = {
+  '2026-08-15': {
+    title: 'Current Comfort EP Release Show w/ Houses We Die In and Fevered',
+    date: getDate('2026-08-15'),
+    flyerUrl: '/flyers/2026-08-15.png',
+    venueName: 'Stubbs (Inside)',
+    venueLink: 'https://stubbsaustin.com/',
+    ticketLink: 'https://www.stubwire.com/e/37808/ashestour/therockbox/',
+  },
   '2026-07-18': {
     title:
       'Ashes at Last, Amulet, Destroy All Humans, Houses We Die In, Sovereign Suicide',
@@ -8,7 +16,7 @@ export const ALL_SHOWS = {
     flyerUrl: '/flyers/2026-07-18.png',
     venueName: 'San Antonio (The Rock Box)',
     venueLink: 'https://therockboxsa.com/',
-    ticketLink: 'https://www.stubwire.com/e/37808/ashestour/therockbox/',
+    ticketLink: 'https://stubbsaustin.com/tm-event/current-comfort/',
   },
   '2026-06-25': {
     title:

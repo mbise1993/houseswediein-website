@@ -3,17 +3,6 @@ import Link from 'next/link';
 import { PromoPhoto } from '@/components/promo-photo';
 import { SectionHeading } from '@/components/section-heading';
 
-const ASSETS = [
-  {
-    name: 'Main logo',
-    url: '/assets/stacked-logo.png',
-  },
-  {
-    name: 'Alt logo',
-    url: '/assets/main-logo.png',
-  },
-];
-
 export const metadata: Metadata = {
   title: 'About | HWDI',
   description: 'About the band',
@@ -24,9 +13,9 @@ export default function Page() {
     <div className="prose px-8">
       <SectionHeading>ABOUT</SectionHeading>
       <PromoPhoto
-        src="/promos/la-group-sm.jpg"
+        src="/promos/group-orange-sm.jpg"
         alt="Band photo"
-        photographer="theliamstewart"
+        photographer="dylandistance"
       />
       <p className="mt-4">Metalcore from Austin, Texas.</p>
       <p>New EP &quot;A Brief Glimpse of Solace&quot; out now.</p>
