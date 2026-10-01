@@ -22,22 +22,13 @@ export default function Page() {
 
   return (
     <div className="px-8">
-      <SectionHeading>ANNOUNCEMENTS</SectionHeading>
+      {/* <SectionHeading>ANNOUNCEMENTS</SectionHeading>
       <ul className="list-disc pl-4">
-        <li>
-          &quot;A Brief Glimpse of Solace&quot; CD pre-orders now available
-          through{' '}
-          <a
-            href="https://papercutrecordings.com/products/houses-we-die-in-a-brief-glimpse-of-solace-preorder?variant=51492184064278"
-            target="_blank"
-          >
-            Papercut Recordings
-          </a>
-        </li>
-      </ul>
+        <li>New single &quot;as angels fall&quot; out now!</li>
+      </ul> */}
       {nextShow && (
         <>
-          <SectionHeading className="my-6">NEXT SHOW</SectionHeading>
+          <SectionHeading>NEXT SHOW</SectionHeading>
           <ShowDetails show={nextShow} />
         </>
       )}

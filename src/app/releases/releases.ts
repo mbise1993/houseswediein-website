@@ -10,6 +10,26 @@ export interface Release {
 
 export const RELEASES: Release[] = [
   {
+    title: 'A Brief Glimpse of Solace (Deluxe)',
+    artworkUrl: '/artwork/abgos-black-artwork.jpg',
+    songs: [
+      {
+        title: 'dead seeds',
+        url: '/releases/a-brief-glimpse-of-solace-deluxe/dead-seeds',
+        unreleased: true,
+      },
+      {
+        title: 'as angels fall',
+        url: '/releases/a-brief-glimpse-of-solace-deluxe/as-angels-fall',
+      },
+      {
+        title: 'flowers in february (Star Trash remix)',
+        url: '/releases/a-brief-glimpse-of-solace-deluxe/flowers-in-february-remix',
+        unreleased: true,
+      },
+    ],
+  },
+  {
     title: 'A Brief Glimpse of Solace',
     artworkUrl: '/artwork/abgos-artwork.jpg',
     songs: [

@@ -1,6 +1,20 @@
 import { getDate } from '@/app/shows/visible-shows';
 
 export const ALL_SHOWS = {
+  '2026-10-05': {
+    title: 'Houses We Die In, Zashed, Acedya, Hearth, Kitetsu',
+    date: getDate('2026-10-05'),
+    flyerUrl: '/flyers/2026-10-04-05.png',
+    venueName: 'Denton (Rubber Gloves)',
+    venueLink: 'https://rubberglovesdenton.com/',
+  },
+  '2026-10-04': {
+    title: 'Houses We Die In, Zashed, Acedya, Postal, ShutUpCicada',
+    date: getDate('2026-10-04'),
+    flyerUrl: '/flyers/2026-10-04-05.png',
+    venueName: 'San Antonio (Paper Tiger)',
+    venueLink: 'https://papertigersatx.com/',
+  },
   '2026-08-15': {
     title: 'Current Comfort EP Release Show w/ Houses We Die In and Fevered',
     date: getDate('2026-08-15'),
